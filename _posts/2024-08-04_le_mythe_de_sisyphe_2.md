@@ -1,5 +1,5 @@
 ---
-title: 『시지프 신화』 中
+title: 『시지프 신화』 (2)
 date: 2024-08-04
 categories: [LIFE, Books]
 tags: [책]
