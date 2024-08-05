@@ -6,18 +6,6 @@ tags: [책]
 ---
 
 
-『시지프 신화』(원제: Le Mythe de Sisyphe)
-- 글: 알베르 카뮈
-- 옮김: 김화영
-- 출판사: 민음사
-- 발행일: 2016년 6월 17일
-- ISBN: 978-89-374-6343-3
-
-
-![Punishment_sisyph](https://upload.wikimedia.org/wikipedia/commons/4/43/Punishment_sisyph.jpg)
-
-
-
 ## 부조리한 인간
 
 
