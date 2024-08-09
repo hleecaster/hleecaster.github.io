@@ -166,7 +166,7 @@ pipeline = Pipeline([('vect', vectorizer),('clf', clf)])
 pipeline.fit(df["문서"], df["레이블"])
 ```
 
-### 분류 모델 저장하기/불러오기
+### 5) 분류 모델 저장하기/불러오기
 
 위에서 생성한 분류기는 `joblib`을 통해 저장하거나 불러와서 바로 써먹을 수 있다. 
 
