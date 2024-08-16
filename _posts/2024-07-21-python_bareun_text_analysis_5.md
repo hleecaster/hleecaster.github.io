@@ -79,7 +79,9 @@ vectorizer = TfidfVectorizer(tokenizer=str.split,
 
 ```python
 # 각 단어의 등장 빈도 확인
-vectorizer.vocabulary_
+vocabulary = vectorizer.vocabulary_
+vocabulary = {k: int(v) for k, v in vocabulary.items()}
+print(vocabulary)
 ```
 
 벡터화에 사용된 단어들은 따로 리스트로 저장하자. (추후 군집화 결과를 출력할 때 활용한다.)
