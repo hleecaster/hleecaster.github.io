@@ -187,3 +187,60 @@ print(pipeline.predict([문서]))
 
 ```
 
+### 6) 혼동 행렬 (Confusion Matrix)
+
+분류기가 실제로 잘 작동하는지, 특정 레이블만 혹시 이상하게 분류하는 건 아닌지 확인해보려면 혼동행렬을 그려 확인하는 게 좋다.
+
+학습세트와 평가세트를 나눠서 모델을 학습시키자.
+
+```python
+from sklearn.model_selection import train_test_split
+
+# 학습 데이터 분리
+train_documents, test_documents, train_labels, test_labels = train_test_split(df["문서"], df["레이블"])
+
+# 모델 학습
+pipeline.fit(train_documents, train_labels)
+
+# 예측
+pred_labels = pipeline.predict(test_documents)
+
+```
+
+이후에 `sklearn.metrics` 의 `confusion_matrix` 모듈을 활용하면 쉽게 혼동 행렬 생성이 가능하다.
+
+```python
+from sklearn.metrics import confusion_matrix
+
+
+# 혼동 행렬 생성 (normalize 가능)
+cm = confusion_matrix(test_labels, pred_labels, labels=pipeline.classes_)
+
+# 혼동 행렬을 데이터프레임으로 변환, 레이블 추가
+cm_df = pd.DataFrame(cm, index=pipeline.classes_, columns=pipeline.classes_)
+
+# 엑셀 파일로 저장
+cm_df.to_excel('./output/confusion_matrix 유지,증가.xlsx', index=True)
+```
+
+시각화 해보면 더 그럴싸하게 확인할 수 있다.
+
+```python
+from sklearn.metrics import ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+plt.rcParams['font.family'] = 'Malgun Gothic'
+
+# 혼동 행렬 시각화
+disp = ConfusionMatrixDisplay.from_predictions(test_labels, pred_labels, 
+                                               labels=pipeline.classes_,
+                                               cmap=plt.cm.Blues, 
+                                               normalize='true', 
+                                               include_values=None
+                                               )
+
+plt.xticks(fontsize=8, rotation=90) 
+plt.yticks(fontsize=8)  # x축 레이블 90도 회전
+plt.show()
+```
+
+
