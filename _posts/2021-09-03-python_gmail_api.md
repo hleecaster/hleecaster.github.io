@@ -70,7 +70,7 @@ def gmail_authenticate():
 """2. 메시지 생성"""
 def create_message(받는사람이메일, 제목, 본문, 첨부파일리스트=None):
 	message = EmailMessage()
-	message["From"] = "pbcg@pbcgresearch.com"
+	message["From"] = 보내는사람이메일
 	message["To"] = 받는사람이메일.split(",")
 	message["Subject"] = 제목
 	message.set_content(본문)
