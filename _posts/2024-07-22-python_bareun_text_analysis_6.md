@@ -178,7 +178,12 @@ joblib.dump(pipeline, "./output/나이브베이즈 문서 분류기.model")
 
 # 모델 불러오기/사용하기
 pipeline = joblib.load("./output/나이브베이즈 문서 분류기.model")
-print(pipeline.predict(["회의 시간 비효율 보고 업무"]))
+
+원문 = "감정 조절 좀 해주세요"
+형태소분석결과 = morph_analysis(원문)
+문서 = to_document_format(형태소분석결과)
+
+print(pipeline.predict([문서]))
 
 ```
 
