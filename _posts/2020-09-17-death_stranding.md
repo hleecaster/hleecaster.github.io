@@ -1,5 +1,5 @@
 ---
-title: 게임 리뷰 〈DEATH STRANDING〉
+title: 게임 리뷰 《DEATH STRANDING》
 date: 2020-09-17
 categories: [LIFE, Game]
 tags: [게임]

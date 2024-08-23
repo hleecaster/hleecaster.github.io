@@ -1,11 +1,11 @@
 ---
-title: 게임 리뷰 〈What Remains of Edith Finch〉
+title: 게임 리뷰 《What Remains of Edith Finch》
 date: 2021-05-02
 categories: [LIFE, Game]
 tags: [게임]
 ---
 
-국내에는 “에디스 핀치의 유산”이라는 이름으로 알려진 게임 〈What Remains of Edith Finch〉를 플레이하고 여운이 가시지 않아 남기는 리뷰.
+국내에는 “에디스 핀치의 유산”이라는 이름으로 알려진 게임 《What Remains of Edith Finch》를 플레이하고 여운이 가시지 않아 남기는 리뷰.
 
 플레이타임 짧으면서도 많은 집중력과 피지컬을 요구하지 않는, 즉 편안하게 즐길 수 있는 명작 게임을 뒤적거리다가 알게 된 작품이고, 한동안 구매를 미루다가 이제서야 사서 플레이 했는데, 좀 후회했다. 이런 명작을 이제야 하다니… 진작 할 걸.
 

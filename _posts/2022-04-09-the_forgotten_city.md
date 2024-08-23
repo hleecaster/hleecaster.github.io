@@ -1,5 +1,5 @@
 ---
-title: 게임 리뷰 〈The Forgotten City〉
+title: 게임 리뷰 《The Forgotten City》
 date: 2022-04-09
 categories: [LIFE, Game]
 tags: [게임]
