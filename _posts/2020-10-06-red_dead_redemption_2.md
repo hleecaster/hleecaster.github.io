@@ -1,11 +1,11 @@
 ---
-title: 게임 리뷰 〈Red Dead Redemption 2〉
+title: 게임 리뷰 《Red Dead Redemption 2》
 date: 2020-10-06
 categories: [LIFE, Game]
 tags: [게임]
 ---
 
-요즘 스팀에서 GOTY(Game of the Year) 수상작 위주로 게임을 골라서 해보고 있다. 이번에 플레이한 게임은 2018년도에 두 번째로 GOTY 수상을 많이 받은 〈Red Dead Redemption 2〉(일명 레데리2)다.
+요즘 스팀에서 GOTY(Game of the Year) 수상작 위주로 게임을 골라서 해보고 있다. 이번에 플레이한 게임은 2018년도에 두 번째로 GOTY 수상을 많이 받은 《Red Dead Redemption 2》(일명 레데리2)다.
 
 레데리2는 GTA(Grand Theft Auto) 시리즈의 개발사로 유명한 락스타게임즈의 작품이다. GTA의 유명세에서 알 수 있듯 레데리2도 광활한 오픈월드를 여기저기 탐험하고, 사람들과 상호작용하면서 자유롭게 스토리를 진행할 수 있다는 게 이 게임의 장점.
 
