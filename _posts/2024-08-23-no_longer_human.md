@@ -13,15 +13,9 @@ tags: [책]
 - 발행일: 2004년 05월 15일
 
 
-## 차례
-
-- 인간 실격 ⭐
-- 직소 ⭐
-
-
 ![Egon Schiele - Self-Portrait with Physalis](https://upload.wikimedia.org/wikipedia/commons/3/3f/Egon_Schiele_079.jpg)
 
-⬆️ 이 책의 표지 그림, 에곤 실레의 자화상
+⬆️ [Egon Schiele](https://en.wikipedia.org/wiki/Egon_Schiele)
 
 
 > 부끄럼 많은 생애를 보냈습니다.   
