@@ -14,7 +14,6 @@ tags: [책]
 
 
 ![Marc Chagall - Birthday](https://upload.wikimedia.org/wikipedia/commons/4/46/Marc_Chagall_The_Birthday_1915.png)
-
 ⬆️ [Marc Chagall](https://en.wikipedia.org/wiki/Marc_Chagall)
 
 
