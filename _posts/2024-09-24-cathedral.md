@@ -33,10 +33,10 @@ tags: [책]
 
 > 이거 진짜 대단하군요. It's really something.  
 > 말하자면 『대성당』은  
-> 낙원에서 추방된 뒤 자신만의 공간에서 고립된 책  
+> 낙원에서 추방된 뒤 자신만의 공간에서 고립된 채  
 > 눈멀고 귀먹은 채로 살아가던 한 남자가  
 > 자신의 언어로는 표현할 길이 없는 충만한 '뭔가'를 보는 것으로 끝나는 단편집이다.  
-> 그게 과연 무엇인지는 독자들의 몫으로 남는다.
+> 그게 과연 무엇인지는 독자들의 몫으로 남는다.  
 
 
 ![Edward Hopper - Nighthawks](https://upload.wikimedia.org/wikipedia/commons/7/7b/Hopper_Nighthawks.jpg)
