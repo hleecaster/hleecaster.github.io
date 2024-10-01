@@ -40,6 +40,7 @@ tags: [책]
 
 
 ![Edward Hopper - Nighthawks](https://upload.wikimedia.org/wikipedia/commons/7/7b/Hopper_Nighthawks.jpg)
+
 ⬆️ [Edward Hopper](https://en.wikipedia.org/wiki/Edward_Hopper)
 
 이 책을 읽는 내내 에드워드 호퍼의 그림들이 머리에서 떠올랐다.
