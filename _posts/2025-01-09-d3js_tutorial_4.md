@@ -1,5 +1,5 @@
 ---
-title: D3.js로 시뮬레이션 구현하기
+title: D3.js로 노드 시뮬레이션 구현하기
 date: 2025-01-09
 categories: [WORK,  HTML & JavaScript]
 tags: [데이터시각화, JavaScript, D3.js]
@@ -8,7 +8,8 @@ tags: [데이터시각화, JavaScript, D3.js]
 
 ## Force Simulation 이해하기
 
-Force Simulation은 입자들 간의 힘과 운동을 시뮬레이션하는 D3.js의 기능이다. 노드와 링크로 구성된 네트워크 데이터를 자동으로 레이아웃하는 데 주로 사용된다.
+Force Simulation은 입자들 간의 힘과 운동을 시뮬레이션하는 D3.js의 기능이다. 
+노드와 링크로 구성된 네트워크 데이터를 자동으로 레이아웃하는 데 주로 사용된다.
 
 ### 기본 개념
 
