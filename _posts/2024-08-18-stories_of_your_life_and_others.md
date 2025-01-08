@@ -25,9 +25,7 @@ tags: [책]
 - 외모 지상주의에 관한 소고 : 다큐멘터리 ⭐
 
 
-![Arrival](https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg)
+---
 
-⬆️   
-영화 《컨택트》(원제: Arrival)는 2016년에 개봉한 미국의 SF 영화이다.   
-드니 빌뇌브가 감독을 맡았으며,   
-테드 창의 단편 소설 『당신 인생의 이야기』가 영화의 원작이다.   
+테드 창... 당신의 이야기... 
+테드 창... 당신은 천재야... 🥹
