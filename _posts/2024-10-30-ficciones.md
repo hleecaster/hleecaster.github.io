@@ -1,7 +1,7 @@
 ---
 title: 『픽션들』
 date: 2024-10-30
-categories: [LIFE, Books]
+categories: [LIFE, 📖 Books]
 tags: [책]
 ---
 

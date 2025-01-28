@@ -1,7 +1,7 @@
 ---
 title: 『인간 실격』
 date: 2024-08-23
-categories: [LIFE, Books]
+categories: [LIFE, 📖 Books]
 tags: [책]
 ---
 

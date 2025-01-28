@@ -1,7 +1,7 @@
 ---
 title: D3.js로 차트 그리기
 date: 2025-01-09
-categories: [WORK,  HTML & JavaScript]
+categories: [WORK,  🌐 HTML & JavaScript]
 tags: [데이터시각화, JavaScript, D3.js]
 ---
 

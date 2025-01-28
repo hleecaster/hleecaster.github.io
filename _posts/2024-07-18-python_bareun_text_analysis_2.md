@@ -1,7 +1,7 @@
 ---
 title: 파이썬 형태소분석기 '바른'을 활용한 텍스트 분석 – (2) 동시출현 단어 & 네트워크 시각화
 date: 2024-07-18
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [Python, 데이터분석, 데이터시각화]
 ---
 
