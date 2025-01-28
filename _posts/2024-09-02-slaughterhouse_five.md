@@ -1,7 +1,7 @@
 ---
 title: 『제5도살장』
 date: 2024-09-02
-categories: [LIFE, Books]
+categories: [LIFE, 📖 Books]
 tags: [책]
 ---
 

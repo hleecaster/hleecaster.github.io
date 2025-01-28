@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《Before Your Eyes》
 date: 2023-05-20
-categories: [LIFE, Game]
+categories: [LIFE, 🎮 Game]
 tags: [게임]
 ---
 

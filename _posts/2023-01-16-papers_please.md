@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《Papers, Please》
 date: 2023-01-16
-categories: [LIFE, Game]
+categories: [LIFE, 🎮 Game]
 tags: [게임]
 ---
 
