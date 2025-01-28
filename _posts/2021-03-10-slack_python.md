@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 슬랙 메시지 보내기
 date: 2021-03-10
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, 업무자동화]
 ---
 

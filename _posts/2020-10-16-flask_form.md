@@ -1,7 +1,7 @@
 ---
 title: 파이썬 Flask 사용법 3 (form)
 date: 2020-10-16
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python]
 ---
 

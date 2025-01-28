@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - 나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기
 date: 2020-01-18
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, MachineLearning, Python]
 math: true
 ---

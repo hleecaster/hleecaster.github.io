@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《Return to Monkey Island》
 date: 2022-11-23
-categories: [LIFE, Game]
+categories: [LIFE, 🎮 Game]
 tags: [게임]
 ---
 

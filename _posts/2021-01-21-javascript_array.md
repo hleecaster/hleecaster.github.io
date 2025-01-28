@@ -1,7 +1,7 @@
 ---
 title: 자바스크립트 공부 - 배열(Array)
 date: 2021-01-21
-categories: [WORK, HTML & JavaScript]
+categories: [WORK, 🌐 HTML & JavaScript]
 tags: [JavaScript]
 ---
 

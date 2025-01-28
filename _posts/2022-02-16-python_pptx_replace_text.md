@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 파워포인트 자동화 – 텍스트 찾아 바꾸기
 date: 2022-02-16
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, PowerPoint]
 ---
 

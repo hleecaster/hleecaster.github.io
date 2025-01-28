@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 탐색적 요인분석, 신뢰도 분석하기
 date: 2020-01-21
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, Python, 심리학]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《The Witness》
 date: 2021-08-28
-categories: [LIFE, Game]
+categories: [LIFE, 🎮 Game]
 tags: [게임]
 ---
 

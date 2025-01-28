@@ -1,7 +1,7 @@
 ---
 title: 〈파이썬으로 업무 자동화하기〉 온라인 강의 촬영 후기
 date: 2021-07-13
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, 업무자동화]
 ---
 

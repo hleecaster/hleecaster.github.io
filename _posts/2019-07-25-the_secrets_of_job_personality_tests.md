@@ -1,7 +1,7 @@
 ---
 title: 채용 인적성 검사의 비밀
 date: 2019-07-25
-categories: [WORK, Psychology]
+categories: [WORK, 💭 Psychology]
 tags: [심리학]
 ---
 

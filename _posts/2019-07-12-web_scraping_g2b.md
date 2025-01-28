@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 나라장터 입찰공고 크롤링
 date: 2019-07-12
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, 업무자동화]
 ---
 

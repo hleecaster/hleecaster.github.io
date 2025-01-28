@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - 랜덤 포레스트(Random Forest) 쉽게 이해하기
 date: 2020-01-16
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, MachineLearning, Python]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 유튜브 동영상 다운로드 받기
 date: 2022-01-13
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, 업무자동화]
 ---
 

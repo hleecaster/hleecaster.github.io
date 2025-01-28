@@ -1,7 +1,7 @@
 ---
 title: 데이터 과학에서 흔히 일어나는 통계적 역설 Top 3
 date: 2021-03-05
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석]
 ---
 

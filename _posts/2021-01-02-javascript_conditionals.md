@@ -1,7 +1,7 @@
 ---
 title: 자바스크립트 공부 - 조건문
 date: 2021-01-02
-categories: [WORK, HTML & JavaScript]
+categories: [WORK, 🌐 HTML & JavaScript]
 tags: [JavaScript]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 윈도우 설치 후 반드시 설정할 것들 & 기본 프로그램 추천
 date: 2021-02-17
-categories: [LIFE, Etc.]
+categories: [LIFE, 💫 Etc.]
 tags: [PC]
 ---
 

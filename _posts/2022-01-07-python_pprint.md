@@ -1,7 +1,7 @@
 ---
 title: 파이썬 pprint를 사용해서 데이터 출력하기
 date: 2022-01-07
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python]
 ---
 

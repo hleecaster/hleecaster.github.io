@@ -1,7 +1,7 @@
 ---
 title: 구글 계정에서 예전 비밀번호 재사용하는 방법 ('최근에 사용한 비밀번호입니다.' 해결하기)
 date: 2020-09-15
-categories: [LIFE, Etc.]
+categories: [LIFE, 💫 Etc.]
 tags: [PC]
 ---
 
