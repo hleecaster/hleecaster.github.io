@@ -1,7 +1,7 @@
 ---
 title: 구글 스프레드시트에서 조건 필터링 참조하기 (IMPORTRANGE, QUERY, FILTER)
 date: 2022-07-05
-categories: [WORK, Excel]
+categories: [WORK, MS Office]
 tags: [Excel]
 ---
 
