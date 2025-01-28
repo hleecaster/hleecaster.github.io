@@ -1,7 +1,7 @@
 ---
 title: 엑셀 VLOOKUP 함수의 완벽한 대체자 XLOOKUP 함수
 date: 2019-10-04
-categories: [WORK, Excel]
+categories: [WORK, MS Office]
 tags: [Excel]
 ---
 
