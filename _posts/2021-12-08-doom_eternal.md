@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《DOOM Eternal》
 date: 2021-12-08
-categories: [LIFE, Game]
+categories: [LIFE, 🎮 Game]
 tags: [게임]
 ---
 

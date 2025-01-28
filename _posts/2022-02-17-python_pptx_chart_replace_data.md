@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 파워포인트 자동화 – 차트 데이터 업데이트
 date: 2022-02-17
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, PowerPoint]
 ---
 

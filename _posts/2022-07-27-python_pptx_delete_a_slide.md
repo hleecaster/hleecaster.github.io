@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 파워포인트 자동화 – 슬라이드 삭제
 date: 2022-07-27
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, PowerPoint]
 ---
 

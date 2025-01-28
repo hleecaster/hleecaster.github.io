@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 UUID (고유 식별자) 생성하는 방법
 date: 2022-05-24
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, 업무자동화]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 조립 PC 구매 후기 & 초보자 견적 가이드
 date: 2020-10-06
-categories: [LIFE, Etc.]
+categories: [LIFE, 💫 Etc.]
 tags: [PC]
 ---
 

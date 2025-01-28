@@ -1,8 +1,8 @@
 ---
 title: 로컬 PC 웹 서버 만들기 (ngrok)
 date: 2020-08-05
-categories: [WORK, Python]
-tags: [Python, 업무자동화]
+categories: [WORK, 💻 Etc.]
+tags: [업무자동화]
 ---
 
 최근에 내 로컬 PC가 웹 서버 역할을 하도록 할 일이 생겼다. 추후에 외부에서 제공하는 웹훅(webhook) 서비스를 사용해서 특정 이벤트가 있을 때마다 내 PC에서 파이썬 스크립트를 실행하도록 하는 게 목표다.

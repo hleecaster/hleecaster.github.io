@@ -1,7 +1,7 @@
 ---
 title: 파이썬 예외 처리 이해하기
 date: 2020-06-30
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python]
 ---
 

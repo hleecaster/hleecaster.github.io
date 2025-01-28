@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - 학습세트, 평가세트를 나누는 이유와 방법
 date: 2019-12-14
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, MachineLearning, Python]
 ---
 

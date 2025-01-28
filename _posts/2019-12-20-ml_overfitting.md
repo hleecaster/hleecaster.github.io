@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - 오버피팅(Overfitting)의 개념과 해결 방법
 date: 2019-12-20
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, MachineLearning, Python]
 ---
 

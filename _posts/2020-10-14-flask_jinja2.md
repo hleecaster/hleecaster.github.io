@@ -1,7 +1,7 @@
 ---
 title: 파이썬 Flask 사용법 2 (Jinja2 템플릿)
 date: 2020-10-14
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python]
 ---
 

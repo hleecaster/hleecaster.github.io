@@ -1,7 +1,7 @@
 ---
 title: 기타 이펙터 연결 순서와 조합
 date: 2019-03-30
-categories: [LIFE, Etc.]
+categories: [LIFE, 💫 Etc.]
 tags: [기타]
 ---
 

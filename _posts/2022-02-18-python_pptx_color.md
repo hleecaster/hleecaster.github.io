@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 파워포인트 자동화 – 개체 배경, 글꼴 색상 바꾸기
 date: 2022-02-18
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, PowerPoint]
 ---
 

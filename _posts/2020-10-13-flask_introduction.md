@@ -1,7 +1,7 @@
 ---
 title: 파이썬 Flask 사용법 1 (기초)
 date: 2020-10-13
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python]
 ---
 

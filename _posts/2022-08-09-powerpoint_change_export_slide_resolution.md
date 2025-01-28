@@ -1,7 +1,7 @@
 ---
 title: 파워포인트 슬라이드 고화질 이미지로 저장/내보내기
 date: 2022-08-09
-categories: [WORK, MS Office]
+categories: [WORK, 💻 Etc.]
 tags: [PowerPoint]
 ---
 

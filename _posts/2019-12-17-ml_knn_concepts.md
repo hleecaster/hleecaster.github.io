@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기
 date: 2019-12-17
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, MachineLearning, Python]
 ---
 

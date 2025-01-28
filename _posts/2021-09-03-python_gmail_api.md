@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 Gmail(지메일) API 사용하기
 date: 2021-09-03
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python, 업무자동화]
 ---
 

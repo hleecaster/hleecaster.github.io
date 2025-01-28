@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - 로지스틱 회귀(Logistic Regression) 쉽게 이해하기
 date: 2019-12-23
-categories: [WORK, Data]
+categories: [WORK, 📊 Data]
 tags: [데이터분석, MachineLearning, Python]
 math: true
 ---

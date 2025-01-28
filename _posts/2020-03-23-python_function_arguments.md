@@ -1,7 +1,7 @@
 ---
 title: 파이썬 함수 이해하기 (parameter, keyword arguments 다루기)
 date: 2020-03-23
-categories: [WORK, Python]
+categories: [WORK, 🐍 Python]
 tags: [Python]
 ---
 
