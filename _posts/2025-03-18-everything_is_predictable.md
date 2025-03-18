@@ -27,11 +27,11 @@ tags: [책, 데이터분석]
 
 $$P(A|B) = \frac { P(B|A) * P(A) } {P(B)} $$
 
-$$Posterior Probability = \frac{Likelihood * Prior Probability} {Evidence}$$
+$$Posterior \ Probability = \frac{Likelihood * Prior \ Probability} {Evidence}$$
 
 $$사후확률 = \frac { 가능도 * 사전확률 } {증거}$$
 
-$$증거\;B가\;주어졌을\;때\;A의\;확률 = \frac{A가\;참일\;때\;B가\;관찰될\;확률 * 증거를\;보기\;전\;A의\;초기\;확률} {증거\;B가\;관찰될\;전체\;확률}$$`
+$$증거 \ B가 \ 주어졌을 \ 때 \ A의 \ 확률 = \frac{A가 \ 참일 \ 때 \ B가 \ 관찰될 \ 확률 * 증거를 \ 보기 \ 전 \ A의 \ 초기 \ 확률} {증거 \ B가 \ 관찰될 \ 전체 \ 확률}$$
 
 
 ### 예시 1
