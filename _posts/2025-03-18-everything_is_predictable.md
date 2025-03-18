@@ -16,11 +16,8 @@ tags: [책, 데이터분석]
 베이지안 통계 공부도 할 겸, 책 내용을 요약했다. 특히 앞 부분.
 
 일단 그 전에 베이즈 정리를 이해하는 데 도움이 되는 영상 시청하기.
-
-https://youtu.be/HZGCoVF3YvM?si=-_9FpwO2lx5AfbXl
-
-https://youtu.be/8vHKCrNGPhY?si=43fAR4lDsWCDERXY
-
+- [Think more rationally with Bayes’ rule | Steven Pinker](https://youtu.be/8vHKCrNGPhY?si=43fAR4lDsWCDERXY)
+- [Bayes theorem, the geometry of changing beliefs](https://youtu.be/HZGCoVF3YvM?si=-_9FpwO2lx5AfbXl)
 
 
 
@@ -89,7 +86,7 @@ $$증거\;B가\;주어졌을\;때\;A의\;확률 = \frac{A가\;참일\;때\;B가\
 
 표집 확률(빈도주의)과 추론 확률(베이지안)을 구별하자.
 
-> [!NOTE] 표집 확률 vs 추론 확률
+> [!IMPORTANT]
 > - 표집 확률(sampling probability)
 > 	- 가설이 옳다고 할 때 이런 데이터가 나올 가능성이 얼마인가
 > - 추론 확률(inferential probability) ⭐
@@ -144,7 +141,7 @@ $$증거\;B가\;주어졌을\;때\;A의\;확률 = \frac{A가\;참일\;때\;B가\
 
 참고로 '베이지안 vs 빈도주의'는 꽤나 치열한 논쟁거리다.
 
-> [!NOTE] 베이지안 vs 빈도주의
+> [!IMPORTANT]
 > - 베이지안 (bayesian) 
 > 	- 데이터에서 가설로...
 > 	- 이런 데이터가 나왔을 때 가설이 옳을 가능성이 얼마인가 (추론 확률)
@@ -218,7 +215,7 @@ p값이 0.05이하로 나왔다는 말은, '이 정도로 극단적인 결과가
 p값은 어떤 가설이 옳다고 할 때 이러한 데이터가 나올 가능성을 말해주는 척도일 뿐, 현재 데이터에 비추어 가설이 옳을 가능성을 말해주는 척도가 아니기 때문이다. 가설이 옳을 가능성을 측정하려면 사전 확률을 피할 수 없고, 베이즈 정리가 필요하다.
 
 
-> [!NOTE] 
+> [!TIP] 
 > 확률을 0과 1사이의 수 대신 '확률비(odds)'로 나타내보자. 확률비가 실제 차이를 더 직관적으로 보여주기 때문이다. 예를 들어, `0.99`와 `0.999`는 언뜻 비슷해보인다. 그러나 실제로는 `99:1`과 `999:1`의 차이다.
 
 
