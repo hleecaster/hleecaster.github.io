@@ -16,7 +16,7 @@ tags: [책, 데이터분석]
 베이지안 통계 공부도 할 겸, 책 내용을 요약했다. 특히 앞 부분.
 
 일단 그 전에 베이즈 정리를 이해하는 데 도움이 되는 영상 시청하기.
-- [Think more rationally with Bayes’ rule | Steven Pinker](https://youtu.be/8vHKCrNGPhY?si=43fAR4lDsWCDERXY)
+- [Think more rationally with Bayes’ rule｜Steven Pinker](https://youtu.be/8vHKCrNGPhY?si=43fAR4lDsWCDERXY)
 - [Bayes theorem, the geometry of changing beliefs](https://youtu.be/HZGCoVF3YvM?si=-_9FpwO2lx5AfbXl)
 
 
