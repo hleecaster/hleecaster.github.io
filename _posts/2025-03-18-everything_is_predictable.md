@@ -6,8 +6,6 @@ tags: [책, 데이터분석]
 math: true
 ---
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
 
 『모든 것은 예측 가능하다』(원제: Everything is predictable: How Bayes' Remarkable Theorem Explains the World)
 - 글: 톰 치버스
