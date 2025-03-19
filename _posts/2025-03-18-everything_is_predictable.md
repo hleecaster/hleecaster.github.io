@@ -6,6 +6,8 @@ tags: [책, 데이터분석]
 math: true
 ---
 
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
 
 『모든 것은 예측 가능하다』(원제: Everything is predictable: How Bayes' Remarkable Theorem Explains the World)
 - 글: 톰 치버스
@@ -92,7 +94,7 @@ $$증거 \ B가 \ 주어졌을 \ 때 \ A의 \ 확률 = \frac{A가 \ 참일 \ 때
 > 	- 가설이 옳다고 할 때 이런 데이터가 나올 가능성이 얼마인가
 > - 추론 확률(inferential probability) ⭐
 > 	- 이런 데이터가 나왔을 때 가설이 옳을 가능성이 얼마인가
-> 	
+
 
 ### 큰 수의 법칙
 
