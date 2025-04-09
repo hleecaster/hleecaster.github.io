@@ -16,10 +16,10 @@ tags: [책]
 ![눈물을 마시는 새](https://kraftonmontreal.com/wp-content/uploads/2023/02/26-w.jpg)
 
 
-![『눈물을 마시는 새』비주얼 컨셉 트레일러- '나가살육자'](https://youtu.be/tXCO6wSrZRw)
+[『눈물을 마시는 새』비주얼 컨셉 트레일러- '나가살육자'](https://youtu.be/tXCO6wSrZRw)
 
 
-책 곳곳에 삶을 관통하는 명문장이 많았지만,  
+책 곳곳에 삶을 관통하는 명문장이 많았지만  
 결국 가장 기억에 남는 건  
 도깨비들의 해학과  
 천방지축 달려라 나늬 (데오니 달비)  
