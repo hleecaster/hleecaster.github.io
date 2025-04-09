@@ -13,10 +13,10 @@ tags: [책]
 - 발행일: 2023년 05월 17일 (출판 20주년 일러스트 특별판)
 
 
-![눈물을 마시는 새](https://kraftonmontreal.com/wp-content/uploads/2023/02/26-w.jpg)
-
-
 [『눈물을 마시는 새』비주얼 컨셉 트레일러- '나가살육자'](https://youtu.be/tXCO6wSrZRw)
+
+
+![눈물을 마시는 새](https://kraftonmontreal.com/wp-content/uploads/2023/02/26-w.jpg)
 
 
 책 곳곳에 삶을 관통하는 명문장이 많았지만  
