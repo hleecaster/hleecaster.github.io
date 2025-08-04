@@ -1,7 +1,7 @@
 ---
 title: D3.js 시작하기 (기초)
 date: 2025-01-09
-categories: [WORK,  🌐 HTML & JavaScript]
+categories: [WORK,  Web]
 tags: [데이터시각화, JavaScript, D3.js]
 ---
 

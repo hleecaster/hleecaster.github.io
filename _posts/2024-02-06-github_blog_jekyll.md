@@ -1,7 +1,7 @@
 ---
 title: GitHub 블로그 쉽게 만들기
 date: 2024-02-06
-categories: [LIFE, 📝 Blog]
+categories: [LIFE, Blog]
 tags: [블로그, GitHub]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 『안드로이드는 전기 양의 꿈을 꾸는가?』
 date: 2025-02-16
-categories: [LIFE, 📖 Books]
+categories: [LIFE, Books]
 tags: [책]
 ---
 

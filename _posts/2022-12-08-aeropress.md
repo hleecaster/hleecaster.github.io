@@ -1,7 +1,7 @@
 ---
 title: 에어로프레스, 데일리 커피 머신 끝판왕
 date: 2022-12-08
-categories: [LIFE, 💫 Etc.]
+categories: [LIFE, Etc.]
 tags: [커피]
 ---
 
