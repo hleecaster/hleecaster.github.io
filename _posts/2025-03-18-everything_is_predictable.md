@@ -1,7 +1,7 @@
 ---
 title: 『모든 것은 예측 가능하다』
 date: 2025-03-18
-categories: [LIFE, 📖 Books]
+categories: [LIFE, Books]
 tags: [책, 데이터분석]
 math: true
 ---

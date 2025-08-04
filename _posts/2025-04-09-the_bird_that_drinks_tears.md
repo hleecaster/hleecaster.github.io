@@ -1,7 +1,7 @@
 ---
 title: 『눈물을 마시는 새』
 date: 2025-04-09
-categories: [LIFE, 📖 Books]
+categories: [LIFE, Books]
 tags: [책]
 ---
 

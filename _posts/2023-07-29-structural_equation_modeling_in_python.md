@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 구조방정식 통계 분석하기
 date: 2023-07-29
-categories: [WORK, 📊 Data]
+categories: [WORK, Data]
 tags: [데이터분석, Python, 심리학]
 ---
 

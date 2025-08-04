@@ -1,7 +1,7 @@
 ---
 title: 『디디의 우산』
 date: 2025-05-19
-categories: [LIFE, 📖 Books]
+categories: [LIFE, Books]
 tags: [책]
 ---
 
