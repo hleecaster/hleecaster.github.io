@@ -1,7 +1,7 @@
 ---
 title: 사람들이 추구하는 가치에 대해 – Schwartz의 보편적 가치 이론(Basic Human Values)을 중심으로
 date: 2019-10-24
-categories: [WORK, 💭 Psychology]
+categories: [WORK, Psychology]
 tags: [심리학]
 ---
 

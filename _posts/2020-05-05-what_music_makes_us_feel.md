@@ -1,7 +1,7 @@
 ---
 title: 음악이 일으키는 인간의 13가지 감정 (데이터 시각화)
 date: 2020-05-05
-categories: [WORK, 💭 Psychology]
+categories: [WORK, Psychology]
 tags: [심리학, 데이터분석, 데이터시각화]
 ---
 

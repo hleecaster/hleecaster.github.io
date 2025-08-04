@@ -1,7 +1,7 @@
 ---
 title: 음악 취향으로 그 사람의 성격을 알 수 있을까
 date: 2019-07-09
-categories: [WORK, 💭 Psychology]
+categories: [WORK, Psychology]
 tags: [심리학]
 ---
 

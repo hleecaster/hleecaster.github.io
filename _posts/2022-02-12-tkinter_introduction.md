@@ -1,7 +1,7 @@
 ---
 title: 파이썬 GUI - tkinter 사용법 (기초)
 date: 2022-02-12
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

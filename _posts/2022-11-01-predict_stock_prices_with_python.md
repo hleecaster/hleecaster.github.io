@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 주가 예측하기 (시계열 예측 라이브러리 prophet)
 date: 2022-11-01
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 데이터분석, 데이터시각화]
 ---
 

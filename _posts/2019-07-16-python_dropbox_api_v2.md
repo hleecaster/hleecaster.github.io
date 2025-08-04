@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 드롭박스 API를 활용해 파일 업로드하기
 date: 2019-07-16
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

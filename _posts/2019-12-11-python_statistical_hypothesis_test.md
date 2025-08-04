@@ -1,7 +1,7 @@
 ---
 title: 통계, SPSS 대신 파이썬으로 해결하기 (T-검정, ANOVA, 카이제곱 등)
 date: 2019-12-11
-categories: [WORK, 📊 Data]
+categories: [WORK, Data]
 tags: [데이터분석, Python, 심리학]
 ---
 

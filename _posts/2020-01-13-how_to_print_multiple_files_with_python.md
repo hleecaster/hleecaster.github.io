@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 파일 여러개 한 번에 인쇄하는 방법
 date: 2020-01-13
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

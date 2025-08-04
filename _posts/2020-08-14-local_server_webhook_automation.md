@@ -1,7 +1,7 @@
 ---
 title: 로컬 PC로 웹훅 받아서 파이썬 스크립트 실행하기 (Flask)
 date: 2020-08-14
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

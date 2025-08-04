@@ -1,7 +1,7 @@
 ---
 title: 엑셀 XLOOKUP 함수가 빈 셀을 0으로 가져오는 문제 해결 방법
 date: 2022-10-05
-categories: [WORK, 💻 Etc.]
+categories: [WORK, MS Office]
 tags: [Excel]
 ---
 

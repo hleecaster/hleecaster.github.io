@@ -1,7 +1,7 @@
 ---
 title: 자바스크립트 공부 - 반복문(Loop)
 date: 2021-01-29
-categories: [WORK, 🌐 HTML & JavaScript]
+categories: [WORK, Web]
 tags: [JavaScript]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《Outer Wilds》
 date: 2021-05-16
-categories: [LIFE, 🎮 Game]
+categories: [LIFE, Game]
 tags: [게임]
 ---
 

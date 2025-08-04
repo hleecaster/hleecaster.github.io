@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《Red Dead Redemption 2》
 date: 2020-10-06
-categories: [LIFE, 🎮 Game]
+categories: [LIFE, Game]
 tags: [게임]
 ---
 

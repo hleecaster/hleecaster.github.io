@@ -1,7 +1,7 @@
 ---
 title: 파이썬 클래스(Class) 이해하기
 date: 2020-03-09
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 자바스크립트 공부 - 스코프(Scope)
 date: 2021-01-20
-categories: [WORK, 🌐 HTML & JavaScript]
+categories: [WORK, Web]
 tags: [JavaScript]
 ---
 
