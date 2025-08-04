@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 부산대학교 한국어 맞춤법 검사기 사용하기
 date: 2022-07-20
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

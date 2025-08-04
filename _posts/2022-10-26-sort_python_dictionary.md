@@ -1,7 +1,7 @@
 ---
 title: 파이썬 딕셔너리 key 또는 value 기준으로 정렬하기
 date: 2022-10-26
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

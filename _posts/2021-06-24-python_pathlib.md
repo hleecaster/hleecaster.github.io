@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 파일/폴더 경로 다루기 (os.path 대신 pathlib 사용하기)
 date: 2021-06-24
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

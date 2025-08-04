@@ -1,7 +1,7 @@
 ---
 title: 파이썬 퀀트 기초 – 단기 투자 지표 계산하기
 date: 2022-02-17
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [데이터분석, Python]
 ---
 

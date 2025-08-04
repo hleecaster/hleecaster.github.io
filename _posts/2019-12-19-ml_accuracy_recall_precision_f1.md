@@ -1,7 +1,7 @@
 ---
 title: 머신러닝 공부 - 분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)
 date: 2019-12-19
-categories: [WORK, 📊 Data]
+categories: [WORK, Data]
 tags: [데이터분석, MachineLearning, Python]
 ---
 

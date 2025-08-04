@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《Outer Wilds – Echoes of the Eye》
 date: 2021-10-27
-categories: [LIFE, 🎮 Game]
+categories: [LIFE, Game]
 tags: [게임]
 ---
 

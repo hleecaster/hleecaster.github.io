@@ -1,7 +1,7 @@
 ---
 title: 파이썬에서 사사오입으로 반올림 처리하기 (엑셀처럼 반올림)
 date: 2022-05-30
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [데이터분석, Python, Excel]
 ---
 

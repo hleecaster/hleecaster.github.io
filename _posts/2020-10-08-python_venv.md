@@ -1,7 +1,7 @@
 ---
 title: 파이썬 가상환경 venv 사용하기
 date: 2020-10-08
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

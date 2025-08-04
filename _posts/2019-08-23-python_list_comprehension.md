@@ -1,7 +1,7 @@
 ---
 title: 파이썬 리스트 컴프리헨션(List Comprehension) 이해하기
 date: 2019-08-23
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 자바스크립트 공부 - 함수
 date: 2021-01-11
-categories: [WORK, 🌐 HTML & JavaScript]
+categories: [WORK, Web]
 tags: [JavaScript]
 ---
 

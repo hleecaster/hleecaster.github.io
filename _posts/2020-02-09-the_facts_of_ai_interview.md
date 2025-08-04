@@ -1,7 +1,7 @@
 ---
 title: 요즘 유행하는 AI 면접의 실체 (feat. 마이다스아이티)
 date: 2020-02-09
-categories: [WORK, 💭 Psychology]
+categories: [WORK, Psychology]
 tags: [심리학]
 ---
 

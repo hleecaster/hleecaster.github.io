@@ -1,7 +1,7 @@
 ---
 title: 로컬 PC 웹 서버 만들기 (ngrok)
 date: 2020-08-05
-categories: [WORK, 💻 Etc.]
+categories: [WORK, Web]
 tags: [업무자동화]
 ---
 

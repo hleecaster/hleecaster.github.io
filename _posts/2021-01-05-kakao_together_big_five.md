@@ -1,7 +1,7 @@
 ---
 title: 카카오 Big 5 성격검사, 작정하고 풀었더니… (성격검사의 채점 원리)
 date: 2021-01-05
-categories: [WORK, 💭 Psychology]
+categories: [WORK, Psychology]
 tags: [심리학]
 ---
 

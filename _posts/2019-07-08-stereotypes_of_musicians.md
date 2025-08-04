@@ -1,7 +1,7 @@
 ---
 title: 밴드에서 맡고 있는 악기에 따른 성격 차이
 date: 2019-07-08
-categories: [WORK, 💭 Psychology]
+categories: [WORK, Psychology]
 tags: [심리학]
 ---
 

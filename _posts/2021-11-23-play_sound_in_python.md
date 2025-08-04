@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 사운드 재생하기
 date: 2021-11-23
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

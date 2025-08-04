@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 여러 개의 엑셀 파일에서 필요한 값들만 한 번에 가져오기
 date: 2019-06-25
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, Excel, 업무자동화]
 ---
 

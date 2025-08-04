@@ -1,7 +1,7 @@
 ---
 title: 자바스크립트 공부 - 변수
 date: 2021-01-01
-categories: [WORK, 🌐 HTML & JavaScript]
+categories: [WORK, Web]
 tags: [JavaScript]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 파이썬으로 DB 다루기 (sqlite3 사용법)
 date: 2020-07-09
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

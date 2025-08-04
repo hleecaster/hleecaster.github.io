@@ -1,7 +1,7 @@
 ---
 title: 파이썬 문법 꿀팁 100선
 date: 2022-11-03
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python]
 ---
 

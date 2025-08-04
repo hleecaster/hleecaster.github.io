@@ -1,7 +1,7 @@
 ---
 title: 파이썬 웹 크롤링 기초 (BeautifulSoup 사용 방법)
 date: 2019-12-13
-categories: [WORK, 🐍 Python]
+categories: [WORK, Python]
 tags: [Python, 업무자동화]
 ---
 

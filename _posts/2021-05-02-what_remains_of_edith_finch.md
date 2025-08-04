@@ -1,7 +1,7 @@
 ---
 title: 게임 리뷰 《What Remains of Edith Finch》
 date: 2021-05-02
-categories: [LIFE, 🎮 Game]
+categories: [LIFE, Game]
 tags: [게임]
 ---
 
