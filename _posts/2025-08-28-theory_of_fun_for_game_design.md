@@ -30,11 +30,18 @@ p. 60
 
 
 p. 167  
-| | 협력적 | 경쟁적 | 단독 |
-|---|---|---|---|
+|  | 협력적 | 경쟁적 | 단독 |
+| --- | --- | --- | --- |
 | **건설적** | 커뮤니티 | 직업 | 취미 |
 | **경험적** | 공연 | 스포츠 | 관객 |
 | **해체적** | 강의 | 비평 | 분석 |
+
+| Company                      | Contact          | Country |
+| :--------------------------- | :--------------- | ------: |
+| Alfreds Futterkiste          | Maria Anders     | Germany |
+| Island Trading               | Helen Bennett    |      UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
+
 
 
 p. 172
