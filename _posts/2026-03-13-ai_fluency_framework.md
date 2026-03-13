@@ -1,5 +1,5 @@
 ---
-title: 『AI와 효과적으로 협업하는 법 (Anthropic의 AI Fluency)』
+title: AI와 효과적으로 협업하는 법 (Anthropic의 AI Fluency)
 date: 2026-03-13
 categories: [Work, AI]
 tags: [AI]
