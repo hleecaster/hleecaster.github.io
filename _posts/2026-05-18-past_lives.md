@@ -2,7 +2,7 @@
 title: 《패스트 라이브즈》와 피천득의 「인연」
 date: 2026-05-18
 categories: [LIFE, Film]
-tags: [영화]
+tags: [영화, 책]
 ---
 
 
