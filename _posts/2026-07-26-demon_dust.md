@@ -1,5 +1,5 @@
 ---
-title: 《DEMON DUST》 스토리 해석 — 총을 버려야만 들리는 목소리
+title: 《DEMON DUST》 — 총을 버려야만 들리는 목소리
 date: 2026-07-26
 categories: [LIFE, Game]
 tags: [게임]
