@@ -10,7 +10,7 @@ K-최근접 이웃(K-Nearest Neighbor)은 머신러닝에서 사용되는 분류
 
 원리를 쉽게 이해하기 위해 아래 그림을 보자. 녹색 점을 파란 사각형으로 혹은 빨간 삼각형으로 분류할지 결정하는 문제다. 
 
-![k-nearest neighbors algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/KnnClassification.svg/1920px-KnnClassification.svg.png)
+![k-nearest neighbors algorithm](/assets/img/posts/ml_knn_concepts/KnnClassification.svg)
 
 - 가장 가까운 이웃의 수 k를 3으로 설정하면 실선 원의 범위를 고려하게 되는데, 이 때 빨간색 삼각형이 우세하므로 초록점은 빨간 삼각형으로 분류된다. 
 - 가장 가까운 이웃의 수 k를 5로 설정하면 점선 원의 범위를 고려하게 되고, 이 경우에는 파란색 사각형이 많으므로 초록점은 파란 사각형으로 분류된다.

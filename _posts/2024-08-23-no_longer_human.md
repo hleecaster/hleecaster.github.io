@@ -12,7 +12,7 @@ categories: [LIFE, Books]
 - 발행일: 2004년 05월 15일
 
 
-![Egon Schiele - Self-Portrait with Physalis](https://upload.wikimedia.org/wikipedia/commons/3/3f/Egon_Schiele_079.jpg)
+![Egon Schiele - Self-Portrait with Physalis](/assets/img/posts/no_longer_human/960px-Egon_Schiele_079.jpg)
 
 ⬆️ [Egon Schiele](https://en.wikipedia.org/wiki/Egon_Schiele)
 

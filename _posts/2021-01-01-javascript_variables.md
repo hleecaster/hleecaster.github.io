@@ -23,7 +23,7 @@ console.log(myName);
 
 
 낙타 모양과 유사하여 이름 붙여진 카멜 케이스
-![카멜 케이스](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CamelCase_new.svg/330px-CamelCase_new.svg.png)
+![카멜 케이스](/assets/img/posts/javascript_variables/CamelCase_new.svg)
 
 >참고로 카멜 케이스 이외에 각 단어 첫글자를 대문자로 사용하는 파스칼 케이스(Pascal case), 각 단어를 언더바(`_`)로 연결하는 스네이크 케이스(Snake case) 등의 방식도 있다.
 

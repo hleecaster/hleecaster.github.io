@@ -12,7 +12,7 @@ categories: [LIFE, Books]
 - 발행일: 2011년 10월 21일
 
 
-![M. C. Escher - Drawing Hands](https://upload.wikimedia.org/wikipedia/en/b/ba/DrawingHands.jpg)
+![M. C. Escher - Drawing Hands](/assets/img/posts/ficciones/960px-DrawingHands.jpg)
 
 ⬆️ [M. C. Escher](https://en.wikipedia.org/wiki/M._C._Escher)
 

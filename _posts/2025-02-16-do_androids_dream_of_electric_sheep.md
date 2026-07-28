@@ -12,7 +12,7 @@ categories: [LIFE, Books]
 - 발행일: 2013년 09월 27일
 
 
-![Do Androids Dream of Electric Sheep?](https://upload.wikimedia.org/wikipedia/commons/e/ee/DoAndroidsDream.png)
+![Do Androids Dream of Electric Sheep?](/assets/img/posts/do_androids_dream_of_electric_sheep/960px-DoAndroidsDream.png)
 
 
 역자 후기 中  

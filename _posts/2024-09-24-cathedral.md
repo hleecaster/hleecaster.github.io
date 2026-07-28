@@ -41,7 +41,7 @@ categories: [LIFE, Books]
 ---
 
 
-![Edward Hopper - Nighthawks](https://upload.wikimedia.org/wikipedia/commons/7/7b/Hopper_Nighthawks.jpg)
+![Edward Hopper - Nighthawks](/assets/img/posts/cathedral/960px-Hopper_Nighthawks.jpg)
 
 ⬆️ [Edward Hopper](https://en.wikipedia.org/wiki/Edward_Hopper)
 

@@ -13,7 +13,7 @@ categories: [LIFE, Books]
 
 
 
-![Pietà](https://upload.wikimedia.org/wikipedia/commons/6/65/Pieta_de_Michelangelo_-_Vaticano.jpg)
+![Pietà](/assets/img/posts/all_the_beauty_in_the_world/960px-Pieta_de_Michelangelo_-_Vaticano.jpg)
 [Pietà](https://en.wikipedia.org/wiki/Hiroshi_Nagai) by Michelangelo
 
 

@@ -14,7 +14,7 @@ categories: [WORK, Data]
 
 아래 그림처럼.
 
-![random forest](https://upload.wikimedia.org/wikipedia/commons/4/4e/Random_forest_explain.png)
+![random forest](/assets/img/posts/ml_random_forest_concepts/960px-Random_forest_explain.png)
 
 물론 몇몇의 나무들이 오버피팅을 보일 순 있지만 다수의 나무를 기반으로 예측하기 때문에 그 영향력이 줄어들게 된어 좋은 일반화 성능을 보인다.
 

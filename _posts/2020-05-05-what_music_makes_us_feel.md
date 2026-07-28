@@ -56,7 +56,7 @@ categories: [WORK, Psychology]
 
 물론 정서를 분류하지 않고 차원적으로 접근하는 관점도 있다. 예를 들어 쾌-불쾌, 활성-차분함(?)이라는 두 개의 축으로 놓고 정서를 분류하면 2차원에 나타낼 수도 있다.
 
-![Geneva_Emotion_Wheel](https://upload.wikimedia.org/wikipedia/commons/c/c4/Geneva_Emotion_Wheel_-_English.png)
+![Geneva_Emotion_Wheel](/assets/img/posts/what_music_makes_us_feel/960px-Geneva_Emotion_Wheel_-_English.png)
 
 나 개인적으로는 내가 느끼는 감정이나 정서를 분류하려는 시도를 하기보다는 해상도를 높이는 쪽을 택하는 편이다. 어차피 우리 인간사는 그렇게 단순하지 않기 때문에, 어떤 일이 있을 때 내 감정도 그렇게 단순할리 없기 때문이다. 누군가를 축하하면서 동시에 부러워하기도 하고, 누군가를 너무 사랑하면서 동시에 미워하기도 하고…
 

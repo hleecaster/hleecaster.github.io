@@ -41,7 +41,7 @@ K-Means에서는 이걸 구현하기 위해 반복적인(iterative) 접근을 �
 
 그림으로 보면 아래와 같다.
 
-![K-means_convergence](https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif)
+![K-means_convergence](/assets/img/posts/ml_kmeans_clustering_concepts/960px-K-means_convergence.gif)
 
 여기서 일단 k 값은 3이다. 그래서 일단 중심점 3개를 아무 데나 찍고, 각 데이터들을 3개의  중 가까운 곳으로 할당한다. 그리고 그렇게 군집이 지정된 상태로 중심점을 업데이트 한다. 그리고 업데이트 된 중심점과 각 데이터들의 거리를 구해서 군집을 다시 할당하는 거다. 이 과정을 계속 반복하는 것.
 

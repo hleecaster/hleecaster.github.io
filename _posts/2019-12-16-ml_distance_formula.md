@@ -37,7 +37,7 @@ distance([1, 2, 3], [5, 8, 9])
 
 예를 들어 아래와 같이 2차원에 있는 점 p와 q의 거리를 구한다면 
 
-![Euclidean Distance](https://upload.wikimedia.org/wikipedia/commons/5/55/Euclidean_distance_2d.svg)
+![Euclidean Distance](/assets/img/posts/ml_distance_formula/Euclidean_distance_2d.svg)
 
 이렇게 나타낼 수 있다. 피타고라스의 정리가 떠오를 거다. 중학교 때 다 배웠던 거다.
 
@@ -65,7 +65,7 @@ def euclidean_distance(pt1, pt2):
 
 아래 그림과 같은 개념으로 이해하면 쉽다. 실제로 맨하탄 거리라는 이름도 도시의 골목길을 걸을 때의 모습과 유사하기 때문에 붙은 거라고 한다. (몇 블록 이동하는지 상상해보자.)
 
-![Manhattan Distance](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Manhattan_distance.svg/1920px-Manhattan_distance.svg.png)
+![Manhattan Distance](/assets/img/posts/ml_distance_formula/Manhattan_distance.svg)
 
 그림에서도 알 수 있듯이 맨하탄 거리는 항상 유클리드 거리보다 크거나 같다.
 

@@ -14,7 +14,7 @@ categories: [WORK, Data]
 
 예를 들어 키와 몸무게 데이터를 펼쳐 놓고 그것들을 가장 잘 설명할 수 있는 선을 하나 잘 그어놓게 되면, 특정 인의 키를 바탕으로 몸무게를 예측할 수 있다.
 
-![선형회귀](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Linear_least_squares_example2.svg/1920px-Linear_least_squares_example2.svg.png)
+![선형회귀](/assets/img/posts/ml_linear_regression_concepts/Linear_least_squares_example2.svg)
 
 이 선은 당연히 근사치다. 정확하지 않을 거다. 그래도 어쨌든 최대한 가깝게 추정할 수 있다는 데에 의의가 있는 거 아닌가. 세상에 완벽하고 정확한 건 없다. 데이터 분석이고 통계고 다 최선을 다해 뭔가를 해보려는 노력의 일환이니까. 아무튼.
 
@@ -30,7 +30,7 @@ categories: [WORK, Data]
 
 아래 그림을 보면 초록색 선의 길이가 손실이 된다.
 
-![선형회귀](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Linear_least_squares_example2.svg/1920px-Linear_least_squares_example2.svg.png)
+![선형회귀](/assets/img/posts/ml_linear_regression_concepts/Linear_least_squares_example2.svg)
 
 그런데 엄밀히 보면 + 혹은 – 방향을 고려하지 않고 얘기한 거다. 선과 실제 데이터 사이에 얼마나 오차가 있는지 구하려면 양수, 음수 관계 없이 동일하게 반영되도록 모든 손실에 제곱을 해주는 게 좋다.
 

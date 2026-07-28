@@ -5,7 +5,7 @@ categories: [LIFE, Books]
 ---
 
 
-![Punishment_sisyph](https://upload.wikimedia.org/wikipedia/commons/4/43/Punishment_sisyph.jpg)
+![Punishment_sisyph](/assets/img/posts/le_mythe_de_sisyphe_3/960px-Punishment_sisyph.jpg)
 
 
 ## 시지프 신화

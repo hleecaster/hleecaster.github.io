@@ -12,7 +12,7 @@ categories: [LIFE, Books]
 - 발행일: 2019년 05월 20일
 
 
-![Exhalation: Stories](https://upload.wikimedia.org/wikipedia/en/2/22/Exhalation_-_Stories.jpg)
+![Exhalation: Stories](/assets/img/posts/exhalation/960px-Exhalation_-_Stories.jpg)
 
 
 ## 차례
