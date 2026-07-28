@@ -16,6 +16,8 @@ categories: [WORK, Psychology]
 
 2014년에 발표된 이 논문의 제목은 [〈Singers take center stage! Personality traits and stereotypes of popular musicians〉](https://journals.sagepub.com/doi/abs/10.1177/0305735614543217)다. (‘보컬이 항상 중심이지!’ 제목 참 잘 지었다.)
 
+> Cameron, J. E., Duffy, M., & Glenwright, B. (2015). Singers take center stage! Personality traits and stereotypes of popular musicians. *Psychology of Music, 43*(6), 818-830.
+
 어쨌든 요약을 읽어보면 아래와 같은 내용이다.
 
 > - 밴드에서 어떤 악기를 연주하는지에 따라 어떤 성격적 특징을 보이는지에 대해서는 제대로 이해하기 어렵다. 오히려 고정 관념이나 사회적 인식을 통해 과장될 가능성이 있다. 
@@ -34,12 +36,7 @@ categories: [WORK, Psychology]
 
 어쨌거나 별 차이 없는 것 같은데 자기가 맡은 파트에 따라 자신의 파트, 혹은 다른 파트를 그런 시선으로 본다는 뜻이다.
 
-논문 내용을 자세히 살펴보았으나 통계적인 내용이 많아 그 부분은 생략하고 그나마 차트로 제시된 부분을 가져왔다.
-
-![Mean ratings of each target instrument on agreeableness, by participant's instrument](https://journals.sagepub.com/cms/10.1177/0305735614543217/asset/images/large/10.1177_0305735614543217-fig1.jpeg)
-_Mean ratings of each target instrument on agreeableness, by participant's instrument_
-
-위 차트는 논문 요약에서 언급한 내용을 보여주는, 친화성(Agreeableness)에 대한 인식 차이를 보여준다. 각 파트의 응답을 보면 모두 베이시스트가 제일 친화적이라는, 그니까 무슨 얘기를 해도 잘 받아주는 수용적인 성격이라는 인식이 있는 것 같다. 그런데 그런 패턴은 유난히 베이시스트들의 응답에서 가장 크게 나타난다.
+논문의 Figure 1 〈Mean ratings of each target instrument on agreeableness, by participant's instrument〉이 요약에서 언급한 내용을 보여준다. 친화성(Agreeableness)에 대한 인식 차이다. 각 파트의 응답을 보면 모두 베이시스트가 제일 친화적이라는, 그니까 무슨 얘기를 해도 잘 받아주는 수용적인 성격이라는 인식이 있는 것 같다. 그런데 그런 패턴은 유난히 베이시스트들의 응답에서 가장 크게 나타난다.
 
 > 베이시스트 본인들 스스로 ‘베이시스트들은 친화적이지’라고 생각한다는 뜻이다.
 

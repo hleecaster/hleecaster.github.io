@@ -16,8 +16,6 @@ categories: [WORK, Data]
 
 아무튼 BoW는 어휘의 빈도(개수)에 대해 통계적 언어 모델을 적용해서 나타낸 것이라 이해하면 된다. 대단한 게 아니다. 그냥 등장하는 단어들의 숫자를 세서 그걸 가지고 뭔가를 하는 거다.
 
-![bag-of-words](https://dudeperf3ct.github.io/images/lstm_and_gru/bag-of-words.png))
-
 그래서 이름도 Bag-of-Words인 거다. 단어 주머니.
 
 그래서 실제로 분석이나 활용을 할 때 단어 사전을 만들어놓은 후에 문서(텍스트)가 있으면 그걸 벡터로 바꿔준다.(vectorization)

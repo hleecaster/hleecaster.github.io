@@ -20,8 +20,6 @@ DB Browser for SQLite 라는 프로그램이고, 아래 사이트 들어가면 �
 
 아무튼 이 데이터베이스 브라우저를 통해 직접 코딩을 통해 DB를 다루면서 그 내용들이 잘 반영이 되었는지 계속 확인하면서 작업을 하면 편하니 반드시 미리 설치를 해놓자. (심지어 언어 설정이 한국어로도 가능한 프로그램이다.)
 
-![DB Browser for SQLite](https://wikidocs.net/images/page/12453/DB_Browser_for_SQLite.png)
-
 이제 파이썬으로 DB를 다뤄보면서 이 브라우저를 통해 그 결과를 확인하자.
 
 ## 파이썬 SQLite 라이브러리 불러오기 및 버전 확인
