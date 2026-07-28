@@ -2,7 +2,6 @@
 title: AI의 능력과 한계 (AI Capabilities and Limitations by Anthropic)
 date: 2026-04-02
 categories: [WORK, AI]
-tags: [AI]
 ---
 
 

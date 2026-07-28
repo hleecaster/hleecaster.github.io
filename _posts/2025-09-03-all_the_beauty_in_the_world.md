@@ -2,7 +2,6 @@
 title: 『나는 메트로폴리탄 미술관의 경비원입니다』
 date: 2025-09-03
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

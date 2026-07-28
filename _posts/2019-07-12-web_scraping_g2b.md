@@ -2,7 +2,6 @@
 title: 파이썬으로 나라장터 입찰공고 크롤링
 date: 2019-07-12
 categories: [WORK, Python]
-tags: [Python, 업무자동화]
 ---
 
 회사에서 조달청 [나라장터](https://www.g2b.go.kr)에 올라오는 입찰공고를 주기적으로 확인하고 싶다는 요구가 있어서 파이썬 selenium으로 크롤링하는 코드를 직접 짜봤다.

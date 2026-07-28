@@ -2,7 +2,6 @@
 title: 파이썬으로 파워포인트 자동화 – 차트 데이터 업데이트
 date: 2022-02-17
 categories: [WORK, Python]
-tags: [Python, PowerPoint]
 ---
 
 파워포인트로 미리 보고서 템플릿을 작성한 후, 이 안에 있는 차트 데이터만 업데이트 하는 방법을 파이썬으로 구현했다.

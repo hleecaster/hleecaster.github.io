@@ -2,7 +2,6 @@
 title: 『이어령의 말』
 date: 2025-10-05
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

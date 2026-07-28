@@ -2,7 +2,6 @@
 title: 파이썬 GUI - tkinter 사용법 (기초)
 date: 2022-02-12
 categories: [WORK, Python]
-tags: [Python, 업무자동화]
 ---
 
 파이썬으로 GUI 프로그램 만들 때 사용하는 대표적인 라이브러리로 tkinter, PyQt5 등이 있는데, 일단 간단한 수준에서 기능만 구현하기 위해서 가장 먼저 시도해볼만한 건 역시 tkinter다. 파이썬 설치하면 기본으로 딸려오는 내장 라이브러리이기 때문에.

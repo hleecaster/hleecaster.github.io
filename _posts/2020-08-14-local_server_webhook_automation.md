@@ -2,7 +2,6 @@
 title: 로컬 PC로 웹훅 받아서 파이썬 스크립트 실행하기 (Flask)
 date: 2020-08-14
 categories: [WORK, Python]
-tags: [Python, 업무자동화]
 ---
 
 요즘 이런저런 API 서비스를 사용하다 보면 [웹훅(webhook)](https://en.wikipedia.org/wiki/Webhook)이라는 걸 볼 수 있다. 특정 이벤트가 발생했을 때(trigger) 지정된 URL로 HTTP 요청을 보내주는 거다. 이렇게 되면 웹훅을 보내준 그 녀석이 클라이언트, 그 웹훅을 받는 곳이 서버가 되는 셈이다.

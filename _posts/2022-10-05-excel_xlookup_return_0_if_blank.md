@@ -2,7 +2,6 @@
 title: 엑셀 XLOOKUP 함수가 빈 셀을 0으로 가져오는 문제 해결 방법
 date: 2022-10-05
 categories: [WORK, MS Office]
-tags: [Excel]
 ---
 
  엑셀 좀 써본 사람들은 `VLOOKUP` 함수를 대부분 알 거다. 그런데 이제 더이상 `VLOOKUP`을 사용할 이유가 없어졌다. 

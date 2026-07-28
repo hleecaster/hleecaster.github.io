@@ -2,7 +2,6 @@
 title: 파이썬으로 DB 다루기 (sqlite3 사용법)
 date: 2020-07-09
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 데이터베이스를 관리하는 시스템을 DBMS(DataBase Management System)이라고 하며, 시중에 나와 있는 DBMS의 종류로는 SQLite, Oracle, MS-SQL, MySQL, MariaDB, PostgreSQL 등 다양한 것들이 있다. 그리고 이 DB를 관리하기 위해서는 SQL(Structured Query Language), 즉 구조화된 쿼리(질의) 언어의 기본적인 문법을 알면 된다.

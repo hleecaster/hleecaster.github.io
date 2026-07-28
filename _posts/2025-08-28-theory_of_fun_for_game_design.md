@@ -2,7 +2,6 @@
 title: 『라프 코스터의 재미 이론』
 date: 2025-08-28
 categories: [LIFE, Books]
-tags: [책, 게임]
 ---
 
 

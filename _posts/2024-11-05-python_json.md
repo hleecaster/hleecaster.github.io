@@ -2,7 +2,6 @@
 title: 파이썬으로 JSON 데이터 다루기
 date: 2024-11-05
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 JSON은 정보 교환의 주요 표준으로 빠르게 부상했다. 

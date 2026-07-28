@@ -2,7 +2,6 @@
 title: GitHub 블로그에 댓글 기능 추가하기 (giscus)
 date: 2024-02-07
 categories: [LIFE, Blog]
-tags: [블로그, GitHub]
 ---
 
 깃허브 블로그에 댓글 기능을 추가해보기로 했다. 

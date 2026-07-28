@@ -2,7 +2,6 @@
 title: 《The Forgotten City》 — 한 사람이 죄를 지으면 모두가 벌을 받는다
 date: 2022-04-09
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 지하에 봉인된 고대 도시

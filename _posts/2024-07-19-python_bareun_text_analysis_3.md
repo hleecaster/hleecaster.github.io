@@ -2,7 +2,6 @@
 title: 파이썬 형태소분석기 '바른'을 활용한 텍스트 분석 – (3) 차별어 분석
 date: 2024-07-19
 categories: [WORK, Data]
-tags: [Python, 데이터분석]
 ---
 
 ## 차별어 분석이란

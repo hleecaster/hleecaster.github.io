@@ -2,7 +2,6 @@
 title: 자바스크립트 공부 - 조건문
 date: 2021-01-02
 categories: [WORK, Web]
-tags: [JavaScript]
 ---
 
 프로그래밍 언어를 배울 때 가장 기초가 되는 건 자료형, 조건문, 반복문이 아닐까.

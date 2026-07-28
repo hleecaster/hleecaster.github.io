@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 의사결정 나무(Decision Tree) 쉽게 이해하기
 date: 2020-01-15
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 math: true
 ---
 

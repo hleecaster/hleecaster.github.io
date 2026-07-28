@@ -2,7 +2,6 @@
 title: 사람들이 추구하는 가치에 대해 – Schwartz의 보편적 가치 이론(Basic Human Values)을 중심으로
 date: 2019-10-24
 categories: [WORK, Psychology]
-tags: [심리학]
 ---
 
  회사에서 사람들의 가치관(value)에 대한 심리 검사를 개발한 적이 있다. 그 때 관련 연구들을 꽤나 많이 찾아봤는데 중요한 것들만 요약해서 남겨보기로 한다.

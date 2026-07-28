@@ -2,7 +2,6 @@
 title: 《DOOM Eternal》 — 생각이 멈춘 자리에서 시작되는 카타르시스
 date: 2021-12-08
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 1993년의 둠, 그리고 지금의 둠

@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시
 date: 2020-01-19
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 [이전 포스팅](/posts/ml_naive_bayes_concepts/)에서 나이브 베이즈(Naive Bayes)를 사용해 텍스트를 어떻게 분류할 수 있는지 개념적으로 살펴보았다.

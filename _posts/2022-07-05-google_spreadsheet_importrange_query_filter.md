@@ -2,7 +2,6 @@
 title: 구글 스프레드시트에서 조건 필터링 참조하기 (IMPORTRANGE, QUERY, FILTER)
 date: 2022-07-05
 categories: [WORK, MS Office]
-tags: [Excel]
 ---
 
 최근에 다른 구글 스프레드시트에서 값을 필터링해서 참조할 일이 있었는데, 생각보다 까다롭더라. 어쨌든 구글링을 해서 어찌저찌 구현하게 됐다. `IMPORTRANGE`, `QUERY`, `FILTER` 이렇게 3개 함수를 조합하면 웬만한 값은 다 불러올 수 있더라.

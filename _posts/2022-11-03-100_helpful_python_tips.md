@@ -2,7 +2,6 @@
 title: 파이썬 문법 꿀팁 100선
 date: 2022-11-03
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 [100 Helpful Python Tips You Can Learn Before Finishing Your Morning Coffee](https://towardsdatascience.com/100-helpful-python-tips-you-can-learn-before-finishing-your-morning-coffee-eb9c39e68958)의 번역 글. (모닝 커피 마시는 동안 배울 수 있는 100개의 파이썬 팁…?)

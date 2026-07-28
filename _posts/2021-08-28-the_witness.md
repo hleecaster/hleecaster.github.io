@@ -2,7 +2,6 @@
 title: 《The Witness》 — 처음으로 돌아가야 보이는 답
 date: 2021-08-28
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 선 하나로 이루어진 섬

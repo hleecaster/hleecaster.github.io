@@ -2,7 +2,6 @@
 title: 파이썬으로 주가 예측하기 (시계열 예측 라이브러리 prophet)
 date: 2022-11-01
 categories: [WORK, Python]
-tags: [Python, 데이터분석, 데이터시각화]
 ---
 
 [Prophet](https://github.com/facebook/prophet)은 메타(페이스북)에서 공개한 시계열 예측 라이브러리인데, 정확도가 높은 편이고 각종 파라미터로 모델 수정하기 쉽다는 장점을 갖고 있다.

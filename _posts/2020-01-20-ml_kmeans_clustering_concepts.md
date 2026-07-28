@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - K-Means 클러스터링 쉽게 이해하기
 date: 2020-01-20
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 ## 군집화(Clustering)란 무엇인가

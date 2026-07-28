@@ -2,7 +2,6 @@
 title: 『채식주의자』
 date: 2025-06-06
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

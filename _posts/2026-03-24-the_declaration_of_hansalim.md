@@ -2,7 +2,6 @@
 title: 『한살림 선언』
 date: 2026-03-24
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

@@ -2,7 +2,6 @@
 title: 《Red Dead Redemption 2》 — 무법의 시대, 구원의 조건
 date: 2020-10-06
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 갱단의 몰락이라는 서사시

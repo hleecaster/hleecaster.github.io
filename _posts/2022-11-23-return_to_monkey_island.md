@@ -2,7 +2,6 @@
 title: 《Return to Monkey Island》 — 모험을 꿈꾸던 아이들의 회고록
 date: 2022-11-23
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 32년 만의 귀환

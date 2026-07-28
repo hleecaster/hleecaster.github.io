@@ -2,7 +2,6 @@
 title: D3.js로 노드 시뮬레이션 구현하기
 date: 2025-01-09
 categories: [WORK, Web]
-tags: [데이터시각화, JavaScript, D3.js]
 ---
 
 

@@ -2,7 +2,6 @@
 title: 『대성당』
 date: 2024-09-24
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

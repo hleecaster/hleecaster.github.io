@@ -2,7 +2,6 @@
 title: 《에브리씽 에브리웨어 올 앳 원스》 — 별의 먼지에서 모닥불까지
 date: 2026-05-09
 categories: [LIFE, Film]
-tags: [영화, 게임, 책]
 ---
 
 

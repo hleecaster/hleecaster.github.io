@@ -2,7 +2,6 @@
 title: 《Before Your Eyes》 — 붙잡을 수 없어서 소중한 순간들
 date: 2023-05-20
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 눈을 깜빡이면 시간이 흐른다

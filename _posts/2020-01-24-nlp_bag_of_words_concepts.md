@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - Bag-of-Words(BoW) 쉽게 이해하기
 date: 2020-01-24
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 자연어 처리(NLP: Natural Language Processing), 흔히 말하는 텍스트 마이닝을 할 때 Bag-of-Words(이하 BoW)는 정말 단순하지만 여전히 유효한 모델이다. 여러가지 장면에 쉽게 활용할 수 있기 때문이다. 예를 들면 글에서 키워드를 뽑아낸다거나 스팸 메일을 필터링 한다거나, 긍정 vs 부정과 같은 감성 분석을 하는 등.

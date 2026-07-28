@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 선형회귀(Linear Regression) 쉽게 이해하기
 date: 2019-12-15
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 본 포스팅에서는 머신러닝에서 사용할 선형 회귀 분석에 대한 개념 설명을 누구나 이해할 수 있을 정도의 수준으로 가볍게 소개한다.

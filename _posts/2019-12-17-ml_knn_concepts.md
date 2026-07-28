@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기
 date: 2019-12-17
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 K-최근접 이웃(K-Nearest Neighbor)은 머신러닝에서 사용되는 분류(Classification) 알고리즘이다. 유사한 특성을 가진 데이터는 유사한 범주에 속하는 경향이 있다는 가정하에 사용한다.

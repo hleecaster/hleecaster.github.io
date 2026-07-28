@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기
 date: 2020-01-24
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 math: true
 ---
 

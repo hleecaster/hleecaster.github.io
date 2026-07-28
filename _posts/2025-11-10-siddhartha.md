@@ -2,7 +2,6 @@
 title: 『싯다르타』
 date: 2025-11-10
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

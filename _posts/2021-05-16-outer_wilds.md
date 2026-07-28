@@ -2,7 +2,6 @@
 title: 《Outer Wilds》 — 죽음을 마중 나가는 법
 date: 2021-05-16
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 22분마다 끝나는 우주

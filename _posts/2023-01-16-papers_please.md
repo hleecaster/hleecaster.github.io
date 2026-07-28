@@ -2,7 +2,6 @@
 title: 《Papers, Please》 — 도장 하나에 실리는 양심의 무게
 date: 2023-01-16
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 출입국 심사관이 되는 게임

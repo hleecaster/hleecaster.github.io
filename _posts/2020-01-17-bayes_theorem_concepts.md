@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 베이즈 정리 (Bayes' Theorem) 쉽게 이해하기
 date: 2020-01-17
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 math: true
 ---
 

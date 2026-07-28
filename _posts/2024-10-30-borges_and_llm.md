@@ -2,7 +2,6 @@
 title: 보르헤스는 LLM을 미리 보았다
 date: 2024-10-30
 categories: [LIFE, Books]
-tags: [책, AI]
 ---
 
 

@@ -2,7 +2,6 @@
 title: 엑셀 VLOOKUP 함수의 완벽한 대체자 XLOOKUP 함수
 date: 2019-10-04
 categories: [WORK, MS Office]
-tags: [Excel]
 ---
 
  엑셀 좀 사용하는 사람이라면 `VLOOKUP` 함수에 대해 모를 수가 없다. 그런데 앞으로 `VLOOKUP`은 역사속으로 사라질지도 모른다.

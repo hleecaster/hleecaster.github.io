@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)
 date: 2019-12-19
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 분류를 수행할 수 있는 기계 학습 알고리즘을 만들고 나면, 그 분류기의 예측력을 검증/평가 해봐야 한다.

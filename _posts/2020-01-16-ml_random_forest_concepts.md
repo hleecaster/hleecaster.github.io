@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 랜덤 포레스트(Random Forest) 쉽게 이해하기
 date: 2020-01-16
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 의사결정 나무는 매우 훌륭한 모델이지만, 학습 데이터에 오버피팅 하는 경향이 있다. 가지치기(pruning) 같은 방법을 통해 그런 부작용을 최소하하는 전략이 있긴 하나 역시나 좀 부족하다.

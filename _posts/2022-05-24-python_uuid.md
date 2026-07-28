@@ -2,7 +2,6 @@
 title: 파이썬으로 UUID (고유 식별자) 생성하는 방법
 date: 2022-05-24
 categories: [WORK, Python]
-tags: [Python, 업무자동화]
 ---
 
 범용 고유 식별자 [UUID](https://ko.wikipedia.org/wiki/%EB%B2%94%EC%9A%A9_%EA%B3%A0%EC%9C%A0_%EC%8B%9D%EB%B3%84%EC%9E%90)는 Universally Unique Identifier의 약자로, 소프트웨어 개발에 쓰이는 식별자 표준이다.

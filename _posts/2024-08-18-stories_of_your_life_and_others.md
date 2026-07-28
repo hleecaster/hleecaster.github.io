@@ -2,7 +2,6 @@
 title: 『당신 인생의 이야기』
 date: 2024-08-18
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

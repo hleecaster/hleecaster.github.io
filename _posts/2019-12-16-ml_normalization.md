@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 정규화(Normalization) 쉽게 이해하기
 date: 2019-12-16
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 ## 왜 정규화를 해야 하는가

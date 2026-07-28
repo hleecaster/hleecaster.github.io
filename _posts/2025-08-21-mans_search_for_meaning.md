@@ -2,7 +2,6 @@
 title: 『빅터 프랭클의 죽음의 수용소에서』
 date: 2025-08-21
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

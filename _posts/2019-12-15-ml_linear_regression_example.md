@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 선형회귀(Linear Regression) 파이썬 코드 예시
 date: 2019-12-15
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 본 포스팅에서는 파이썬 라이브러리 scikit-learn을 통해 선형회귀(Linear Regression) 분석을 직접 수행하는 예시를 소개한다. 누구나 쉽게 따라할 수 있는 수준으로 작성했다.

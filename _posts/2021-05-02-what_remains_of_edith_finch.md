@@ -2,7 +2,6 @@
 title: 《What Remains of Edith Finch》 — 죽음을 이야기로 남긴다는 것
 date: 2021-05-02
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 잠긴 방들의 집

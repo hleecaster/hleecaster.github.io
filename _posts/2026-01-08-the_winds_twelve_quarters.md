@@ -2,7 +2,6 @@
 title: 『바람의 열두 방향』
 date: 2026-01-08
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

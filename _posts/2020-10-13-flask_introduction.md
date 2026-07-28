@@ -2,7 +2,6 @@
 title: 파이썬 Flask 사용법 1 (기초)
 date: 2020-10-13
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 [Flask](https://flask.palletsprojects.com/)는 웹 애플리케이션 개발을 위한 파이썬 프레임워크다.

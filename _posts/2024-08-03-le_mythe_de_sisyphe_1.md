@@ -2,7 +2,6 @@
 title: 『시지프 신화』 上
 date: 2024-08-03
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

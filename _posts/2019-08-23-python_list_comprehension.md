@@ -2,7 +2,6 @@
 title: 파이썬 리스트 컴프리헨션(List Comprehension) 이해하기
 date: 2019-08-23
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 파이썬을 공부하다가 리스트 컴프리헨션(List Comprehension)을 접하게 되었다. 처음 접할 땐 살짝 어색하지만 막상 익히고 나면 정말 유용하다. 이 기회에 복습할 겸 간략히 개념 설명을 남겨두려 한다.

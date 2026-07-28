@@ -2,7 +2,6 @@
 title: 『편의점 인간』
 date: 2025-04-21
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

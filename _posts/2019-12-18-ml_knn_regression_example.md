@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시
 date: 2019-12-18
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 K-최근접 이웃(K-Nearest Neighbors)은 일반적으로 분류(Classification)에 사용되는 지도학습 알고리즘이다. 그러나 이걸로 회귀(Regression)를 수행 할 수도 있다. Classification(분류)는 연속적이지 않은 레이블, 다시 말해 ‘무엇’인지를 예측하지만, 회귀(Regression)는 연속된 수치, 즉 ‘얼마나’를 예측하는 거다.

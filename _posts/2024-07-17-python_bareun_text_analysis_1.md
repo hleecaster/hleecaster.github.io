@@ -2,7 +2,6 @@
 title: 파이썬 형태소분석기 '바른'을 활용한 텍스트 분석 – (1) 어휘 빈도 분석 & 워드 클라우드 시각화
 date: 2024-07-17
 categories: [WORK, Data]
-tags: [Python, 데이터분석, 데이터시각화]
 ---
 
 그동안 파이썬 한국어 형태소 분석기로 [KoNLPy](https://konlpy.org/ko/latest/index.html) 이후에도 다양한 시도들이 있었다.

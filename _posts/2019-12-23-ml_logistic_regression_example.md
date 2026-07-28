@@ -2,7 +2,6 @@
 title: 머신러닝 공부 - 로지스틱 회귀(Logistic Regression) 파이썬 코드 예시
 date: 2019-12-23
 categories: [WORK, Data]
-tags: [데이터분석, MachineLearning, Python]
 ---
 
 본 포스팅에서는 파이썬 머신러닝 라이브러리 scikit-learn을 통해 로지스틱 회귀(Logistic Regression) 알고리즘을 통해 타이타닉 탑승객 생존 예측 예제를 소개한다.

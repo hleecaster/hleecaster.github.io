@@ -2,7 +2,6 @@
 title: 파이썬으로 파워포인트 자동화 – 개체 배경, 글꼴 색상 바꾸기
 date: 2022-02-18
 categories: [WORK, Python]
-tags: [Python, PowerPoint]
 ---
 
 파워포인트 ppt 파일에서 특정한 텍스트박스나 표의 셀을 지정해 배경이나 글꼴 색을 바꿔주는 파이썬 코드 예시.

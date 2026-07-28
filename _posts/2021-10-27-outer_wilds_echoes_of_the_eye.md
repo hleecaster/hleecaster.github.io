@@ -2,7 +2,6 @@
 title: 《Outer Wilds – Echoes of the Eye》 — 두려움은 어떻게 문명을 멈춰 세우는가
 date: 2021-10-27
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 태양을 가린 그림자

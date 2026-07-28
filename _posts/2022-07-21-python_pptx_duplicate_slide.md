@@ -2,7 +2,6 @@
 title: 파이썬으로 파워포인트 자동화 – 슬라이드 복제/복사
 date: 2022-07-21
 categories: [WORK, Python]
-tags: [Python, PowerPoint]
 ---
 
 파이썬으로 파워포인트 슬라이드 복제하는 방법 코드 예시. python-ppyx 라이브러리를 사용한다.

@@ -2,7 +2,6 @@
 title: 자바스크립트 공부 - 반복자(Iterator)
 date: 2021-02-02
 categories: [WORK, Web]
-tags: [JavaScript]
 ---
 
 자바스크립트 반복문(Loop)에 대해 다룬 바 있다. for 문, while 문 같은 걸 활용해서 특정 조건에 도달할 때까지 같은 동작을 반복하도록 하는 문법을 익힌 거다.

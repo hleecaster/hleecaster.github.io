@@ -2,7 +2,6 @@
 title: 파이썬 함수 이해하기 (parameter, keyword arguments 다루기)
 date: 2020-03-23
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 파이썬으로 코드를 짜다 보면 함수를 작성해서 사용할 일이 많아진다.

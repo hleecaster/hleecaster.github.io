@@ -2,7 +2,6 @@
 title: 『뉴로맨서』
 date: 2025-08-09
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

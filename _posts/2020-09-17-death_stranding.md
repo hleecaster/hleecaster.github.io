@@ -2,7 +2,6 @@
 title: 《DEATH STRANDING》 — 혼자 걷는 사람들이 연결되는 방식
 date: 2020-09-17
 categories: [LIFE, Game]
-tags: [게임]
 ---
 
 ## 택배를 나르며 세계를 잇는다는 것

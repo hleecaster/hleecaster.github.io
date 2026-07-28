@@ -2,7 +2,6 @@
 title: 파이썬 람다(Lambda) 이해하기
 date: 2019-08-25
 categories: [WORK, Python]
-tags: [Python]
 ---
 
 파이썬 스크립트를 짜다 보면 여러번 사용할 기능은 함수로 코드를 짜는 경우가 많은데, 잠깐 쓰고 버릴 것들은 람다(Lambda) 함수를 사용하는 게 훨씬 간편하다.

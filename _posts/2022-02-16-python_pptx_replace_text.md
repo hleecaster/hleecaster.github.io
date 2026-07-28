@@ -2,7 +2,6 @@
 title: 파이썬으로 파워포인트 자동화 – 텍스트 찾아 바꾸기
 date: 2022-02-16
 categories: [WORK, Python]
-tags: [Python, PowerPoint]
 ---
 
 파워포인트 pptx 파일에서 특정 텍스트를 찾아서 원하는 텍스트로 바꾸는 파이썬 코드 예시.

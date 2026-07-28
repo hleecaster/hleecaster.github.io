@@ -2,7 +2,6 @@
 title: 『너의 유토피아』
 date: 2025-08-26
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 

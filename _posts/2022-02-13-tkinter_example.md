@@ -2,7 +2,6 @@
 title: 파이썬 GUI - tkinter 사용법 (코드 예시)
 date: 2022-02-13
 categories: [WORK, Python]
-tags: [Python, 업무자동화]
 ---
 
 파이썬 내장 라이브러리 tkinter로 GUI 프로그램 만드는 코드 예제. 내가 나중에 다시 보려고 기초적인 수준만 작성해서 일단 기록해본다.

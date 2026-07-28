@@ -2,7 +2,6 @@
 title: 『대도시의 사랑법』
 date: 2025-07-22
 categories: [LIFE, Books]
-tags: [책]
 ---
 
 
