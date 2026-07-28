@@ -23,7 +23,8 @@ math: true
 
 만약 로지스틱 회귀를 사용하면 아래와 같이 나타난다.
 
-![Logistic Regression](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Exam_pass_logistic_curve.svg/800px-Exam_pass_logistic_curve.svg.png)
+![Logistic Regression](/assets/img/posts/ml_logistic_regression_concepts/exam_pass_logistic_curve.png)
+_Probability of passing exam versus hours of studying. Canley, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons_
 
 시험에 합격할 확률이 0과 1사이의 값으로 그려진다. 이제야 좀 납득이 된다.
 
