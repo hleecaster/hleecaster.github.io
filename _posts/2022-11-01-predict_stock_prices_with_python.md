@@ -4,6 +4,9 @@ date: 2022-11-01
 categories: [WORK, Python]
 ---
 
+> 2026년 7월 기준 이 예제는 그대로 돌아가지 않는다. `yfinance`가 기본으로 여러 겹의 컬럼(MultiIndex)을 돌려주도록 바뀌어 `df[['Date', 'Close']]` 부분에서 막히고, `auto_adjust` 기본값도 달라져 본문의 수정 종가 설명과 실제 동작이 어긋난다.
+{: .prompt-warning }
+
 [Prophet](https://github.com/facebook/prophet)은 메타(페이스북)에서 공개한 시계열 예측 라이브러리인데, 정확도가 높은 편이고 각종 파라미터로 모델 수정하기 쉽다는 장점을 갖고 있다.
 
 이 라이브러리를 활용해서 미래의 주가를 예측해보자. 파이썬 코드 20줄이 채 안 된다.

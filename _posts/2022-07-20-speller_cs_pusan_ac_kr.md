@@ -4,6 +4,8 @@ date: 2022-07-20
 categories: [WORK, Python]
 ---
 
+> 검사기 주소가 바뀌어 2026년 7월에 코드를 갱신했다. 예전 주소(`speller.cs.pusan.ac.kr`)는 접속되지 않고, 지금은 `nara-speller.co.kr`의 구버전 페이지를 쓴다. 아래 코드는 갱신 후 실제로 돌려서 동작을 확인했다.
+{: .prompt-info }
 웹에서 사용할 수 있는 한국어 맞춤법 검사기로 가장 대표적인 건 부산대학교 한국어 맞춤법/문법 검사기다. 맞춤법 교정에 신경을 써본 사람이라면 다 알고 있는, 현존하는 최고의 맞춤법 검사기다.
 
 참고로 예전에 카카오에서도 맞춤법 검사기를 개발해서 API까지 공개한 적이 있었는데, 부산대 맞춤법 검사기를 개발한 권혁철 교수가 직접 카카오의 검사기는 부산대학교 검사기를 리버스 엔지니어링해서 개발한 거라고 비판하면서 큰 논란이 되었고, 결국 카카오는 서비스를 중단했다. (참고: [카카오, 표절 논란된 한글 맞춤법 검사기 API 공개 중단](https://biz.chosun.com/site/data/html_dir/2016/08/18/2016081803326.html), [대형 포털들이 맞춤법 검사기를 공개했다, 그런데…](https://ppss.kr/archives/88502))
@@ -12,11 +14,11 @@ categories: [WORK, Python]
 
 직접 부산대 검사기를 사용하는 파이썬 스크립트를 작성하게 된 이유이기도 하다.
 
-아무튼 본 포스팅에서는 파이썬의 기본 라이브러리인 `requests`를 활용해서 맞춤법 검사기 돌리는 방법을 소개한다. 핵심 코드는 10줄이 채 안 된다.
+아무튼 본 포스팅에서는 `requests` 라이브러리를 활용해서 맞춤법 검사기 돌리는 방법을 소개한다. 핵심 코드는 10줄이 채 안 된다.
 
 ## 파이썬 코드 예시
 
-코드에서 사용하는 라이브러리는 `requests`, `json`뿐이다. 파이썬 기본 라이브러리라 별도의 설치도 필요 없음.
+코드에서 사용하는 라이브러리는 `requests`와 `json`뿐이다. `json`은 파이썬 표준 라이브러리라 그냥 쓸 수 있고, `requests`는 `pip install requests`로 설치해야 한다.
 
 ```python
 import requests
@@ -28,10 +30,15 @@ with open('text.txt', 'r', encoding='utf-8') as f:
 text = text.replace('\n', '\r\n')
 
 # 2. 맞춤법 검사 요청 (requests)
-response = requests.post('http://164.125.7.61/speller/results', data={'text1': text})
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                  '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+}
+response = requests.post('https://nara-speller.co.kr/old_speller/results',
+                         data={'text1': text}, headers=headers)
 
 # 3. 응답에서 필요한 내용 추출 (html 파싱)
-data = response.text.split('data = [', 1)[-1].rsplit('];', 1)[0]
+data = response.text.split('data = [', 1)[-1].split('];', 1)[0]
 
 # 4. 파이썬 딕셔너리 형식으로 변환
 data = json.loads(data)
@@ -51,6 +58,8 @@ print(data['errInfo'])
 ### 2) 맞춤법 검사 요청 (requests)
 
 이후 `requests.post()`를 사용해서 텍스트를 전달하여 맞춤법 검사 요청을 한다. data라는 파라미터 안에 `text1`의 값으로 준비한 텍스트를 넣어주면 된다.
+
+한 가지 주의할 게 있다. 이 서버는 요청 헤더의 User-Agent를 보고 걸러낸다. `requests`가 기본으로 보내는 값이나 짧은 `'Mozilla/5.0'` 정도로는 403이 떨어지니, 위 코드처럼 웹 브라우저의 User-Agent 문자열을 통째로 넣어줘야 한다.
 
 이를 통해 받은 response를 출력해보면, `<Response [200]>`이라고 뜰 거다. HTTP 요청이 성공했음을 나타내는 서버측 성공 응답 상태 코드다. 여기서 `response.text`를 확인하면 익숙한 html 문서를 확인할 수 있다. 아마 이런 식으로 되어 있을 거다.
 
@@ -74,7 +83,7 @@ print(data['errInfo'])
 
 ### 3. 응답에서 필요한 내용 추출 (html 파싱)
 
-우리에게 필요한 건 `<head>`에서 세 번째 `<script>` 태그 안에 있는 data다. 실제로 우리가 전달한 텍스트 원문과 모든 교정 내용은 이 안에 담겨 있다. 물론 이 html 문서를 분해하기 위해서는 파이썬 웹 크롤링에서 주로 활용하는 BeautifulSoup를 불러와도 되지만, 애초에 문서 구조가 워낙 단순하고 우리가 원하는 자료의 위치가 분명하기 때문에, 그냥 단순한 문자열이라 생각하고 `data = [`부터 `];`까지 슬라이스 해주면 그만이다.
+우리에게 필요한 건 `<head>`에서 세 번째 `<script>` 태그 안에 있는 data다. 실제로 우리가 전달한 텍스트 원문과 모든 교정 내용은 이 안에 담겨 있다. 물론 이 html 문서를 분해하기 위해서는 파이썬 웹 크롤링에서 주로 활용하는 BeautifulSoup를 불러와도 되지만, 애초에 문서 구조가 워낙 단순하고 우리가 원하는 자료의 위치가 분명하기 때문에, 그냥 단순한 문자열이라 생각하고 `data = [`부터 **첫 번째** `];`까지 슬라이스 해주면 그만이다. (페이지 하단에 구글 애널리틱스 스크립트가 붙으면서 `];`가 한 번 더 등장하기 때문에, 마지막 것을 기준으로 자르면 엉뚱한 데까지 딸려온다.)
 
 ### 4. 파이썬 딕셔너리 형식으로 변환
 
