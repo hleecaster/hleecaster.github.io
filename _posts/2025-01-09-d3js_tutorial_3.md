@@ -1,7 +1,7 @@
 ---
 title: D3.js로 인터랙티브 시각화 구현하기
 date: 2025-01-09
-categories: [WORK,  Web]
+categories: [WORK, Web]
 tags: [데이터시각화, JavaScript, D3.js]
 ---
 

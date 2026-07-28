@@ -14,7 +14,7 @@ tags: [PowerPoint]
 
 >참고로 dpi는 인치 당 도트 수(Dots per inch)로, 1 제곱인치 내에 포함되는 점의 개수를 말한다. 당연히 이 수치가 높을수록 화질이 선명해진다.
 
-마이크로소프트 공식 문서 [PowerPoint에서 고해상도(높은 dpi) 슬라이드를 내보내는 방법](https://docs.microsoft.com/ko-kr/office/troubleshoot/powerpoint/change-export-slide-resolution)에서는 레지스트리 변경을 통해 dpi 수치를 변경할 수 있다고 안내하고 있다.
+마이크로소프트 공식 문서 [PowerPoint에서 고해상도(높은 dpi) 슬라이드를 내보내는 방법](https://learn.microsoft.com/ko-kr/office/troubleshoot/powerpoint/change-export-slide-resolution)에서는 레지스트리 변경을 통해 dpi 수치를 변경할 수 있다고 안내하고 있다.
 
 ### 1. 레지스트리 편집기 실행
 

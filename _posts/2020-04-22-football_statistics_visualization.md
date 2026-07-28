@@ -43,7 +43,7 @@ xG 외에도  패킹(packing) ,  임팩트(impect)  개념도 주목을 받�
 
 축구계에서도 데이터를 가공해서 분석하는 곳이 정말 많아졌다. 대표적인 해외 사이트 몇개만 가져와봤다.
 
-- Opta: [https://www.optasports.com/sports/football/](https://www.optasports.com/sports/football/)
+- Opta: [https://www.statsperform.com/opta/](https://www.statsperform.com/opta/)
 - Statsbomb: [https://statsbomb.com/](https://statsbomb.com/)
 - Wyscout: [https://wyscout.com/](https://wyscout.com/)
 - Understat: [https://understat.com/](https://understat.com/)

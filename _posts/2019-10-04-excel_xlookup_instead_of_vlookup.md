@@ -11,7 +11,7 @@ tags: [Excel]
 
 그런데 2019년 8월 28일에 Microsoft 공식 블로그에서 `VLOOKUP`을 완벽히 대체할 수 있는 새로운 함수 `XLOOKUP`을 소개했다.
 
-링크: [https://techcommunity.microsoft.com/t5/Excel-Blog/Announcing-XLOOKUP/ba-p/811376](https://techcommunity.microsoft.com/t5/Excel-Blog/Announcing-XLOOKUP/ba-p/811376)
+링크: [https://techcommunity.microsoft.com/blog/excelblog/announcing-xlookup/811376](https://techcommunity.microsoft.com/blog/excelblog/announcing-xlookup/811376)
 
 ## `XLOOKUP` 함수의 기능
 
@@ -25,13 +25,11 @@ tags: [Excel]
 - `lookup_array`: 어디서 찾을지
 - `return_array`: 무엇을 가져올지
 
-범위만 잘 설정하면 끝이다. 감이 안 온다면 아래 영상을 참고하자.
-
-![158453_EXCEL_XLOOKUP_GIF_V08.gif](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/127917iF0B67B064B07CA2D/image-size/large?v=1.0&px=999)
+범위만 잘 설정하면 끝이다.
 
 여기에 추가로 `match_mode`와 `search_mode`를 인자로 넣어줄 수도 있다.
 
-더 자세한 사용법이 궁금하면 [도움말](https://support.office.com/ko-kr/article/xlookup-%ED%95%A8%EC%88%98-b7fd680e-6d10-43e6-84f9-88eae8bf5929)을 읽어보자.
+더 자세한 사용법이 궁금하면 [도움말](https://support.microsoft.com/ko-kr/excel/functions/xlookup-function)을 읽어보자.
 
 그렇다면 엑셀에서 `XLOOKUP`이라는 새로운 함수를 내놓은 이유가 뭘까? 당연히 `VLOOKUP`을 사용할 때 이런저런 문제, 사용자가 주의해야 할 점이 있었기 때문이다. (그래서 울며 겨자먹기 식으로 `INDEX`와 `MATCH`를 사용한 복잡한 함수를 써야 할 때도 있었다.)
 
@@ -48,6 +46,6 @@ tags: [Excel]
 
 이 외에도 `VLOOKUP`은 값을 찾을 때에도 몇 가지 제약사항이 있었는데(예를 들면 같은 값이 있으면 무조건 맨 위의 값으로 처리한다든가), `XLOOKUP`의 `match_mode`와 `search_mode`를 활용하면 다양한 옵션으로 값을 찾아 가져올 수 있다.
 
-참고로 `XLOOKUP`뿐만 아니라 `MATCH` 함수의 업그레이드 버전인 `XMATCH`도 나왔다. ([참고](https://support.office.com/ko-kr/article/xmatch-%ed%95%a8%ec%88%98-d966da31-7a6b-4a13-a1c6-5a33ed6a0312?ui=ko-KR&rs=ko-KR&ad=KR))
+참고로 `XLOOKUP`뿐만 아니라 `MATCH` 함수의 업그레이드 버전인 `XMATCH`도 나왔다. ([참고](https://support.microsoft.com/ko-kr/excel/functions/xmatch-function))
 
 > 이제 `VLOOKUP`은 그만 쓰고, `XLOOKUP`으로 광명 찾자.
