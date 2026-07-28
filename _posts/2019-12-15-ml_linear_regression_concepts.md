@@ -49,7 +49,6 @@ categories: [WORK, Data]
 그런데 그나마 단서가 있다면 위에서 설명한 손실(Loss)을 함수로 나타내면 이렇게 아래로 볼록한 모양이라는 거다.
 
 ![경사하강법](/assets/img/posts/ml_linear_regression_concepts/gradient_descent.png)
-_Gradient descent example. Роман Сузи, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons_
 
 그래서 일단 파라미터를 임의로 정한 다음에 조금씩 변화시켜가며 손실을 점점 줄여가는 방법으로 최적의 파라미터를 찾아간다. 그리고 이런 방법을 경사하강법(Gradient Descent)이라 부른다.
 
