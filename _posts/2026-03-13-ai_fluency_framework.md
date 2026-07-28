@@ -6,9 +6,7 @@ tags: [AI]
 ---
 
 
-Anthropic Academy에서 제공한
-[AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) 내용 정리 
-
+Anthropic Academy의 [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) 코스 내용을 정리한 글이다. AI와 효과적으로 협업하기 위해 인간에게 필요한 역량을 다룬다.
 
 ---
 

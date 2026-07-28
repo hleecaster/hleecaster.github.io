@@ -6,9 +6,7 @@ tags: [AI]
 ---
 
 
-Anthropic Academy에서 제공한
-[AI Capabilities and Limitations](https://anthropic.skilljar.com/ai-capabilities-and-limitations) 내용 정리
-
+Anthropic Academy의 [AI Capabilities and Limitations](https://anthropic.skilljar.com/ai-capabilities-and-limitations) 코스 내용을 정리한 글이다. AI 시스템 자체가 무엇을 할 수 있고 무엇을 할 수 없는지, 그 속성을 다룬다.
 
 ---
 

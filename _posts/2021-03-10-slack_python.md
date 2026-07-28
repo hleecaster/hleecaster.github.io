@@ -72,7 +72,7 @@ def reply_message_by_emoji(채널ID, 타임스탬프, 이모지):
 
 """특정 채널 최근 N개 메시지 중 조건을 만족하는 메시지의 타임스탬프(ts) 찾기"""
 # requests.post, 'application/x-www-form-urlencoded'를 사용해야 함
-def search_message(채널ID, 검색개수=100, 검색어리스트):
+def search_message(채널ID, 검색어리스트, 검색개수=100):
     headers = {
         'Authorization': f'Bearer {SLACK_BOT_TOKEN}',
         'Content-type': 'application/x-www-form-urlencoded',    # 이것만 이렇게
