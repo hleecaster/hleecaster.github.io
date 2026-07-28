@@ -90,7 +90,7 @@ categories: [WORK, Data]
 
 이 글에서 사용한 예시를 다이어그램으로 표현하면 다음과 같이 그릴 수 있다.
 
-![구조방정식](https://miro.medium.com/v2/resize:fit:1400/1*igAj-hVOC7fjUf8ez65n7g.png)
+![구조방정식](/assets/img/posts/structural_equation_modeling_in_python/1_igAj-hVOC7fjUf8ez65n7g.png)
 
 이렇게 다이어그램으로 구조방정식 모델링을 표현할 수 있다면 각 화살표의 계수(coefficients)와 표준오차(standard errors) 추정을 통해 변수 간의 관계를 정량화하는 것이 분석 목표가 된다.
 

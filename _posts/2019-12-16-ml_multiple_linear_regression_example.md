@@ -15,7 +15,7 @@ $$ Y_{i}=\beta _{0}+\beta _{1}X_{i1}+\beta _{2}X_{i2}+\ldots +\beta _{p}X_{ip}+\
 
 식으로 보면 쉽지만 변수가 많기 때문에 시각화를 해놓으면 인간의 인지 능력으로는 이해할 수 없어진다. x 변수를 두 개만 넣고 시각화 해도 이런 식으로 나오는데…
 
-![다중선형회귀](https://miro.medium.com/v2/resize:fit:560/1*HLN6FxlXrzDtYN0KAlom4A.png)
+![다중선형회귀](/assets/img/posts/ml_multiple_linear_regression_example/1_HLN6FxlXrzDtYN0KAlom4A.png)
 
 그러니 기계의 힘을 빌리자.
 

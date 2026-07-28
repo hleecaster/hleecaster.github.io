@@ -68,7 +68,7 @@ categories: [WORK, Data]
 
 아래 그림은 학습률이 너무 작을 때, 그리고 너무 클 때 생기는 문제를 표현하고 있다.
 
-![학습률](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*n79s9gvd0E8ALe9dLUEKAw.png)
+![학습률](/assets/img/posts/ml_linear_regression_concepts/1_n79s9gvd0E8ALe9dLUEKAw.png)
 
 학습률을 작게 설정하면 최적의 값으로 수렴할 때까지 시간이 오래 걸린다.
 

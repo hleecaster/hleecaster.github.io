@@ -14,7 +14,7 @@ COVID-19 심각도와 흡연 사이에 부적 상관이 발표된 사례([Wenzel
 
 차트를 보자.
 
-![벅슨의 역설 예시](https://miro.medium.com/max/875/1*uPdVDgW4c5P0PludF0cKOg.png)
+![벅슨의 역설 예시](/assets/img/posts/statistical_paradoxes_in_data_science/1_uPdVDgW4c5P0PludF0cKOg.png)
 
 왼쪽 그림은 전체 모집단의 관찰 결과를 담고 있지만, 오른쪽 그림에서는 입원한 사람들만 하이라이트를 해본 것.
 
@@ -22,7 +22,7 @@ COVID-19 심각도와 흡연 사이에 부적 상관이 발표된 사례([Wenzel
 
 흡연과 COVID-19 모두 “입원 여부”와 양의 상관이 있기 때문에 여기서 상충(collider)하여 왜곡, 역설이 발생하는 것.
 
-![벅슨의 역설 개념도](https://miro.medium.com/max/875/1*_YSCycwMY90nltgg-qMEWw.png)
+![벅슨의 역설 개념도](/assets/img/posts/statistical_paradoxes_in_data_science/1__YSCycwMY90nltgg-qMEWw.png)
 
 이러한 역설은 당뇨가 담낭염의 위험 인자임에도 불구하고 병원 환자에서 담낭염과 당뇨병 사이에서 음의 상관관계를 발견한 [Berkson 1946](https://www.jstor.org/stable/3002000?casa_token=EBVDrF0sqOQAAAAA%3ABvQ5XgFAxop9ZGhFWkgp2cm_Ck0I1jXy27dh8iK6UUaADuPFYJM7lndD9ti_XTTlA2qPawpK4ylyb-jc9F7rNB0bG5iqL6Z4ekwWRWwDDjN4TUEdMw&seq=1)의 발표와 유사하다.
 
@@ -36,13 +36,13 @@ COVID-19 심각도와 흡연 사이에 부적 상관이 발표된 사례([Wenzel
 
 차트로 보자.
 
-![잠재 변수 예시](https://miro.medium.com/max/875/1*w12C67qNMnea1CYgA8gpOA.png)
+![잠재 변수 예시](/assets/img/posts/statistical_paradoxes_in_data_science/1_w12C67qNMnea1CYgA8gpOA.png)
 
 왼쪽 그림은 모든 종류의 화재에 대한 관측 값을 집계한 반면, 오른쪽 그림은 화재 심각도가 관찰된 경우 이를 3단계로 나눠본 거다.
 
 이렇게 잠재 변수 “화재 심각도”를 조건으로 걸어놓고 그룹을 나누어 살펴보면, 배치된 소방관 수와 부상자 수는 확실한 음의 상관 관계를 보인다. 비로소 소방관을 더 많이 배치할수록 부상자가 적다는 상식적인 결론을 내릴 수 있게 된 거다.
 
-![잠재 변수 개념도](https://miro.medium.com/max/875/1*nO_OK9CJ92sq1frTM6Ywpw.png)
+![잠재 변수 개념도](/assets/img/posts/statistical_paradoxes_in_data_science/1_nO_OK9CJ92sq1frTM6Ywpw.png)
 
 “화재 심각도”는 “소방관 수”와 “부상자 수” 모두에 대해 양의 상관 관계를 갖는 잠재 변수다.
 
@@ -56,7 +56,7 @@ COVID-19 심각도와 흡연 사이에 부적 상관이 발표된 사례([Wenzel
 
 이게 어떻게 가능한지 알아보자.
 
-![심슨의 역설 예시](https://miro.medium.com/max/3000/1*DqeWObKVJODKZZpWDurqrw.png)
+![심슨의 역설 예시](/assets/img/posts/statistical_paradoxes_in_data_science/1_DqeWObKVJODKZZpWDurqrw.png)
 
 - 남자 전체 100 명
     - A학과에 80명 지원하여 68명 합격 (합격률 85%)

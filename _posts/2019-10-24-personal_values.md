@@ -48,7 +48,7 @@ Schwartz의 이론에 따르면 사람들이 중요하게 생각하는 가치에
 
 만약 위 지도에 축을 그려보면 대략 이런 4분면이 나온다.
 
-![The-theoretical-model-of-relations-among-the-10-value-types-and-the-four-higher-order](https://www.researchgate.net/profile/Lusine-Grigoryan/publication/343392113/figure/fig1/AS:920387005198337@1596448770384/The-theoretical-model-of-relations-among-the-10-value-types-and-the-four-higher-order.jpg)
+![Schwartz 가치 이론의 4개 상위 차원](/assets/img/posts/personal_values/schwartz_value_circle_four_higher_order.webp)
 
 - 1사분면: 자기 초월 (이타, 조화)
 - 2사분면: 변화에 대한 개방성 (독립, 재미)
@@ -91,9 +91,8 @@ Schwartz의 이론에 따르면 사람들이 중요하게 생각하는 가치에
 - [The Big Five Personality Factors and Personal Values (2002)](https://www.researchgate.net/publication/247746710_The_Big_Five_Personality_Factors_and_Personal_Values)
 - [Personality, values, and motivation (2009)](https://www.researchgate.net/publication/222513052_Pesonality_values_and_motivation)
 
-![Relationships-between-Big-Five-personality-traits-and-Schwartz-Value-Theory-personal](https://www.researchgate.net/profile/Russell-Guay/publication/222513052/figure/tbl1/AS:669248426868742@1536572667388/Relationships-between-Big-Five-personality-traits-and-Schwartz-Value-Theory-personal.png)
 
-이 표를 보면 몇가지 상식적인 설명이 가능하다.
+위에 링크한 「Personality, values, and motivation (2009)」의 Table 1이 성격 5요인과 가치의 상관을 정리해놓았는데, 이 표를 보면 몇가지 상식적인 설명이 가능하다.
 
 예를 들면 ‘성실한’ 성격일수록 ‘전통’이라는 가치를 존중하며, 경험에 대해 ‘개방적인’ 사람들은 ‘독립’이라는 가치를 중시하는 결과가 나왔다.
 
@@ -127,13 +126,13 @@ MVPI는 총 10개의 가치(인정지향, 권력지향, 쾌락지향, 이타주�
 
 HBR, 하버드 비즈니스 리뷰에 [What’s Your Organization’s Cultural Profile?](https://hbr.org/2018/01/the-culture-factor)라는 아티클이 올라온 적이 있다. 조직문화와 관련한 내용인데, 여기에 이런 프레임이 등장한다.
 
-![The 8 Types of Company Culture](https://hbr.org/resources/images/article_assets/2019/12/W191204_GROYSBERG_THE8STYLES.png)
+![The 8 Types of Company Culture](/assets/img/posts/personal_values/W191204_GROYSBERG_THE8STYLES.png)
 
 위에서 보았던 Schwartz의 가치 이론과 상당히 닮아 있다는 걸 알 수 있다. 결국 문화라는 것도 한 집단이 공유하는 가치라는 개념으로 볼 수 있을 거다.
 
 그래서 사람들이 어떤 가치를 중시하는지에 따라 그 조직의 문화는 아래와 같이 다른 모양새를 띄게 된다.
 
-![Company Culture](https://hbr.org/resources/images/article_assets/2017/12/R1801B_SPOT_ONECOMPANY.png)
+![Company Culture](/assets/img/posts/personal_values/R1801B_SPOT_ONECOMPANY.png)
 
 ## 마무리
 
