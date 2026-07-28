@@ -37,7 +37,7 @@ Schwartz는 자신의 논문 [An Overview of the Schwartz Theory of Basic Value
 
 Schwartz의 이론에 따르면 사람들이 중요하게 생각하는 가치에 대해 질문하고 이 결과를 통계 분석을 통해 2차원으로 나타내면 이러한 지도 모양이 된다고 한다.
 
-![Values-according-to-Schwartzs-theory](https://www.researchgate.net/profile/Dana-Rad/publication/337706825/figure/fig2/AS:831965699780608@1575367488047/Values-according-to-Schwartzs-theory.ppm)
+![Schwartz 가치 이론의 2차원 지도](/assets/img/posts/personal_values/schwartz_value_map.png)
 
 위 그림을 보면 총 10개의 가치 묶음이 있으며, 비슷한 가치들은 가까이 배치되어 있다. 즉, 두 가치 사이의 거리가 멀수록 전혀 상관 없는, 반대편에 있으면 상충되는 가치로 해석할 수 있는 것이다.
 
