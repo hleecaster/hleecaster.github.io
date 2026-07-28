@@ -276,3 +276,15 @@ const circles = svg.selectAll('circle')
 svg.call(zoom);
 ```
 
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: D3.js
+
+1. [D3.js 시작하기 (기초)](/posts/d3js_tutorial_1/)
+2. [D3.js로 차트 그리기](/posts/d3js_tutorial_2/)
+3. **D3.js로 인터랙티브 시각화 구현하기** &nbsp;← 현재 글
+4. [D3.js로 노드 시뮬레이션 구현하기](/posts/d3js_tutorial_4/)
+
+<!-- series-nav:end -->

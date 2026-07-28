@@ -61,3 +61,33 @@ classifier = RandomForestClassifier(n_estimators = 100)
 - 오버피팅을 피하기 위해 임의(random)의 숲을 구성하는 거다. 다수의 나무들로부터 분류를 집계하기 때문에 오버피팅이 나타나는 나무의 영향력을 줄일 수 있다.
 - 모든 의사결정 트리는 학습 데이터 세트에서 임의로 하위 데이터 세트를 추출하여 생성된다. 중복을 허용하기 때문에 단일 데이터가 여러번 선택될 수도 있다. 이 과정을 배깅(bagging)이라고 한다.
 - 나무를 만들 때는 모든 속성(feature)들에서 임의로 일부를 선택하고 그 중 정보 획득량이 가장 높은 것을 기준으로 데이터를 분할한다. 만약 데이터 세트에 n개의 속성이 있는 경우 n제곱근 개수만큼 무작위로 선택하는 것이 일반적이다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 머신러닝 공부
+
+1. [학습세트, 평가세트를 나누는 이유와 방법](/posts/ml_training_validation_test_set/)
+2. [선형회귀(Linear Regression) 쉽게 이해하기](/posts/ml_linear_regression_concepts/)
+3. [선형회귀(Linear Regression) 파이썬 코드 예시](/posts/ml_linear_regression_example/)
+4. [다중선형회귀(Multiple Linear Regression) 파이썬 코드 예시](/posts/ml_multiple_linear_regression_example/)
+5. [두 점 사이의 거리 공식(Distance Formula) 쉽게 이해하기](/posts/ml_distance_formula/)
+6. [정규화(Normalization) 쉽게 이해하기](/posts/ml_normalization/)
+7. [K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기](/posts/ml_knn_concepts/)
+8. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 분류 파이썬 코드 예시](/posts/ml_knn_classifier_example/)
+9. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시](/posts/ml_knn_regression_example/)
+10. [분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)](/posts/ml_accuracy_recall_precision_f1/)
+11. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)
+12. [로지스틱 회귀(Logistic Regression) 쉽게 이해하기](/posts/ml_logistic_regression_concepts/)
+13. [로지스틱 회귀(Logistic Regression) 파이썬 코드 예시](/posts/ml_logistic_regression_example/)
+14. [의사결정 나무(Decision Tree) 쉽게 이해하기](/posts/ml_decision_tree_concepts/)
+15. **랜덤 포레스트(Random Forest) 쉽게 이해하기** &nbsp;← 현재 글
+16. [베이즈 정리 (Bayes' Theorem) 쉽게 이해하기](/posts/bayes_theorem_concepts/)
+17. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기](/posts/ml_naive_bayes_concepts/)
+18. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시](/posts/ml_naive_bayes_example/)
+19. [K-Means 클러스터링 쉽게 이해하기](/posts/ml_kmeans_clustering_concepts/)
+20. [서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기](/posts/ml_svm_concepts/)
+21. [Bag-of-Words(BoW) 쉽게 이해하기](/posts/nlp_bag_of_words_concepts/)
+
+<!-- series-nav:end -->

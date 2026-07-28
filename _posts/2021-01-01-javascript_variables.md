@@ -160,3 +160,20 @@ console.log(typeof b); // Output: number
 const c= true; 
 console.log(typeof c); // Output: boolean
 ```
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 자바스크립트 공부
+
+1. [기초](/posts/javascript_101/)
+2. **변수** &nbsp;← 현재 글
+3. [조건문](/posts/javascript_conditionals/)
+4. [함수](/posts/javascript_functions/)
+5. [스코프(Scope)](/posts/javascript_scope/)
+6. [배열(Array)](/posts/javascript_array/)
+7. [반복문(Loop)](/posts/javascript_loops/)
+8. [반복자(Iterator)](/posts/javascript_iterator/)
+
+<!-- series-nav:end -->

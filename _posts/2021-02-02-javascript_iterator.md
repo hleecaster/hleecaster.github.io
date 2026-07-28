@@ -102,3 +102,20 @@ console.log(lessThanTen); // 3
 ```
 
 이외에도 자바스크립트에서 배열을 다룰 수 있는 수많은 반복자 메서드(이터레이터)들이 존재한다. 더 자세한 내용은 [MDN 공식 문서 – Array](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)를 살펴보자.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 자바스크립트 공부
+
+1. [기초](/posts/javascript_101/)
+2. [변수](/posts/javascript_variables/)
+3. [조건문](/posts/javascript_conditionals/)
+4. [함수](/posts/javascript_functions/)
+5. [스코프(Scope)](/posts/javascript_scope/)
+6. [배열(Array)](/posts/javascript_array/)
+7. [반복문(Loop)](/posts/javascript_loops/)
+8. **반복자(Iterator)** &nbsp;← 현재 글
+
+<!-- series-nav:end -->

@@ -119,7 +119,7 @@ SVM은 ​​데이터 포인트들을 올바르게 분리하면서 마진의 �
 - 위의 그림은 아웃라이어를 허용하지 않고 기준을 까다롭게 세운 모양이다. 이걸 하드 마진(hard margin)이라고 부른다. 그리고 서포트 벡터와 결정 경계 사이의 거리가 매우 좁다. 즉, 마진이 매우 작아진다. 이렇게 개별적인 학습 데이터들을 다 놓치지 않으려고 아웃라이어를 허용하지 않는 기준으로 결정 경계를 정해버리면 오버피팅(overfitting) 문제가 발생할 수 있다.
 - 아래 그림은 아웃라이어들이 마진 안에 어느정도 포함되도록 너그럽게 기준을 잡았다. 이걸 소프트 마진(soft margin)이라고 부른다. 이렇게 너그럽게 잡아 놓으니 서포트 벡터와 결정 경계 사이의 거리가 멀어졌다. 즉, 마진이 커진다. 대신 너무 대충대충 학습하는 꼴이라 언더피팅(underfitting) 문제가 발생할 수 있다.
 
-오버피팅과 언더피팅에 대한 개념은 머신러닝에서 무조건 알아야 하는 개념이다. 아래 포스팅을 참고하자.
+오버피팅과 언더피팅에 대한 개념은 머신러닝에서 무조건 알아야 하는 개념이다. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)을 참고하자.
 
 그리고 scikit-learn에서는 SVM 모델이 오류를 어느정도 허용할 것인지 파라미터 `C`를 통해 지정할 수 있다. (기본 값은 1이다.)
 
@@ -227,4 +227,32 @@ gamma와 c값을 변화하면서 비교한 그림 살펴보자.
 - 커널(kernel)은 원래 가지고 있는 데이터를 더 높은 차원의 데이터로 변환한다. 2차원의 점으로 나타낼 수 있는 데이터를 다항식(polynomial) 커널은 3차원으로, RBF 커널은 점을 무한한 차원으로 변환한다.
 - RBF 커널에는 파라미터 감마(`gamma`)가 있다. 감마가 너무 크면 학습 데이터에 너무 의존해서 오버피팅이 발생할 수 있다.
 
+<!-- series-nav:start -->
 
+---
+
+## 시리즈: 머신러닝 공부
+
+1. [학습세트, 평가세트를 나누는 이유와 방법](/posts/ml_training_validation_test_set/)
+2. [선형회귀(Linear Regression) 쉽게 이해하기](/posts/ml_linear_regression_concepts/)
+3. [선형회귀(Linear Regression) 파이썬 코드 예시](/posts/ml_linear_regression_example/)
+4. [다중선형회귀(Multiple Linear Regression) 파이썬 코드 예시](/posts/ml_multiple_linear_regression_example/)
+5. [두 점 사이의 거리 공식(Distance Formula) 쉽게 이해하기](/posts/ml_distance_formula/)
+6. [정규화(Normalization) 쉽게 이해하기](/posts/ml_normalization/)
+7. [K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기](/posts/ml_knn_concepts/)
+8. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 분류 파이썬 코드 예시](/posts/ml_knn_classifier_example/)
+9. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시](/posts/ml_knn_regression_example/)
+10. [분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)](/posts/ml_accuracy_recall_precision_f1/)
+11. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)
+12. [로지스틱 회귀(Logistic Regression) 쉽게 이해하기](/posts/ml_logistic_regression_concepts/)
+13. [로지스틱 회귀(Logistic Regression) 파이썬 코드 예시](/posts/ml_logistic_regression_example/)
+14. [의사결정 나무(Decision Tree) 쉽게 이해하기](/posts/ml_decision_tree_concepts/)
+15. [랜덤 포레스트(Random Forest) 쉽게 이해하기](/posts/ml_random_forest_concepts/)
+16. [베이즈 정리 (Bayes' Theorem) 쉽게 이해하기](/posts/bayes_theorem_concepts/)
+17. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기](/posts/ml_naive_bayes_concepts/)
+18. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시](/posts/ml_naive_bayes_example/)
+19. [K-Means 클러스터링 쉽게 이해하기](/posts/ml_kmeans_clustering_concepts/)
+20. **서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기** &nbsp;← 현재 글
+21. [Bag-of-Words(BoW) 쉽게 이해하기](/posts/nlp_bag_of_words_concepts/)
+
+<!-- series-nav:end -->

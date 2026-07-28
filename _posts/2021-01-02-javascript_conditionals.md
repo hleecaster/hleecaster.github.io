@@ -243,3 +243,20 @@ switch (rank) {
 이 때 각 코드 뒤에 `break;`라고 명시해야 한다. 이게 없으면 일치하는 대상을 찾은 후로 모든 case에 해당하는 코드도 다 실행하기 때문이다.
 
 맨 끝에 `default:` 를 적었는데, 이건 비교대상을 찾지 못했을 때 실행할 코드다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 자바스크립트 공부
+
+1. [기초](/posts/javascript_101/)
+2. [변수](/posts/javascript_variables/)
+3. **조건문** &nbsp;← 현재 글
+4. [함수](/posts/javascript_functions/)
+5. [스코프(Scope)](/posts/javascript_scope/)
+6. [배열(Array)](/posts/javascript_array/)
+7. [반복문(Loop)](/posts/javascript_loops/)
+8. [반복자(Iterator)](/posts/javascript_iterator/)
+
+<!-- series-nav:end -->

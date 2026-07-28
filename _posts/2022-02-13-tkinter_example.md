@@ -125,3 +125,14 @@ root.mainloop()
     - 에러가 발생할 경우, 혹은 초기화 버튼을 클릭할 경우 messagebox 기능을 통해 알림을 띄우도록 했다.
 
 버튼, 리스트박스, 스크롤바 등의 위젯을 활용했는데, 그 요소들을 레이아웃에 배치할 때 고생을 좀 했다. ([이 글](https://realpython.com/python-gui-tkinter/)이 도움이 많이 되었다.)
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬 GUI - tkinter 사용법
+
+1. [파이썬 GUI - tkinter 사용법 (기초)](/posts/tkinter_introduction/)
+2. **파이썬 GUI - tkinter 사용법 (코드 예시)** &nbsp;← 현재 글
+
+<!-- series-nav:end -->

@@ -6,7 +6,7 @@ tags: [데이터분석, MachineLearning, Python]
 math: true
 ---
 
-머신러닝에서 2진 분류(Binary Classification) 모델로 사용되는 로지스틱 회귀 알고리즘에 대한 개념을 최대한 쉽게 소개한다. (이전에 선형회귀에 대한 개념을 알고 있다면 금방 이해할 수 있는 수준으로 작성했다.)
+머신러닝에서 2진 분류(Binary Classification) 모델로 사용되는 로지스틱 회귀 알고리즘에 대한 개념을 최대한 쉽게 소개한다. (이전에 다룬 [선형회귀에 대한 개념](/posts/ml_linear_regression_concepts/)을 알고 있다면 금방 이해할 수 있는 수준으로 작성했다.)
 
 ## 로지스틱 회귀란 무엇인가
 
@@ -134,3 +134,33 @@ $$ - log(1 - h(z^{(i)})) $$
 - 손실함수(Loss Function)는 머신러닝 모델이 얼마나 잘 예측하는지 확인하는 방법이다. 로지스틱 회귀의 손실함수는 Log Loss이다.
 - 데이터가 클래스에 속할지 말지 결정할 확률 컷오프를 Threshold(임계값)이라 한다. 기본 값은 0.5이지만 데이터의 특성이나 상황에 따라 조정할 수 있다.
 - 파이썬 라이브러리 Scikit-learn을 통해 모델을 생성하고 각 속성(feature)들의 계수를 구할 수 있다. 이 때 각 계수(coefficients)들은 데이터를 분류함에 있어 해당 속성이 얼마나 중요한지 해석하는 데에 사용할 수 있다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 머신러닝 공부
+
+1. [학습세트, 평가세트를 나누는 이유와 방법](/posts/ml_training_validation_test_set/)
+2. [선형회귀(Linear Regression) 쉽게 이해하기](/posts/ml_linear_regression_concepts/)
+3. [선형회귀(Linear Regression) 파이썬 코드 예시](/posts/ml_linear_regression_example/)
+4. [다중선형회귀(Multiple Linear Regression) 파이썬 코드 예시](/posts/ml_multiple_linear_regression_example/)
+5. [두 점 사이의 거리 공식(Distance Formula) 쉽게 이해하기](/posts/ml_distance_formula/)
+6. [정규화(Normalization) 쉽게 이해하기](/posts/ml_normalization/)
+7. [K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기](/posts/ml_knn_concepts/)
+8. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 분류 파이썬 코드 예시](/posts/ml_knn_classifier_example/)
+9. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시](/posts/ml_knn_regression_example/)
+10. [분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)](/posts/ml_accuracy_recall_precision_f1/)
+11. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)
+12. **로지스틱 회귀(Logistic Regression) 쉽게 이해하기** &nbsp;← 현재 글
+13. [로지스틱 회귀(Logistic Regression) 파이썬 코드 예시](/posts/ml_logistic_regression_example/)
+14. [의사결정 나무(Decision Tree) 쉽게 이해하기](/posts/ml_decision_tree_concepts/)
+15. [랜덤 포레스트(Random Forest) 쉽게 이해하기](/posts/ml_random_forest_concepts/)
+16. [베이즈 정리 (Bayes' Theorem) 쉽게 이해하기](/posts/bayes_theorem_concepts/)
+17. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기](/posts/ml_naive_bayes_concepts/)
+18. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시](/posts/ml_naive_bayes_example/)
+19. [K-Means 클러스터링 쉽게 이해하기](/posts/ml_kmeans_clustering_concepts/)
+20. [서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기](/posts/ml_svm_concepts/)
+21. [Bag-of-Words(BoW) 쉽게 이해하기](/posts/nlp_bag_of_words_concepts/)
+
+<!-- series-nav:end -->

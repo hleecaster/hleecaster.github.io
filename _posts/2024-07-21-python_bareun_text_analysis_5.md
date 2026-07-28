@@ -147,3 +147,18 @@ df[["원문", '토픽']].to_excel("./output/토픽모델링 분류결과.xlsx")
 ```
 
 어쨌든 오늘 포스팅은 여기까지.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬 형태소분석기 '바른'을 활용한 텍스트 분석
+
+1. [(1) 어휘 빈도 분석 & 워드 클라우드 시각화](/posts/python_bareun_text_analysis_1/)
+2. [(2) 동시출현 단어 & 네트워크 시각화](/posts/python_bareun_text_analysis_2/)
+3. [(3) 차별어 분석](/posts/python_bareun_text_analysis_3/)
+4. [(4) 문서 군집화](/posts/python_bareun_text_analysis_4/)
+5. **(5) 토픽 모델링** &nbsp;← 현재 글
+6. [(6) 문서 분류](/posts/python_bareun_text_analysis_6/)
+
+<!-- series-nav:end -->

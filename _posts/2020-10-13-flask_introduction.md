@@ -19,7 +19,7 @@ Flask는 홈페이지에서도 “micro” 프레임워크라는 점을 강조�
 
 일단 플라스크로 프로젝트를 할 폴더에 가상환경을 만들고, 플라스크를 설치하자.
 
-Flask 공식 문서](https://flask.palletsprojects.com/en/1.1.x/installation/#python-version)에서도 가상환경을 통한 설치를 안내하고 있다.
+Flask 공식 문서](https://flask.palletsprojects.com/en/stable/installation/#python-version)에서도 가상환경을 통한 설치를 안내하고 있다.
 
 플라스크 설치는 그냥 `pip install Flask`를 치면 끝. 그리고 프로젝트 폴더 안에 app.py라는 스크립트 파일을 만들어 아래 코드를 넣고 파일을 실행해보자.
 
@@ -139,3 +139,15 @@ if __name__ == '__main__':
 실행해서 home화면에 들어가보면 문자열로 반환된 HTML이 렌더링 되어서 화면에 잘 나타나는 걸 알 수 있다. Flask 참 쉽다.
 
 일단 Flask 기초 사용법은 여기까지.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬 Flask 사용법
+
+1. **파이썬 Flask 사용법 1 (기초)** &nbsp;← 현재 글
+2. [파이썬 Flask 사용법 2 (Jinja2 템플릿)](/posts/flask_jinja2/)
+3. [파이썬 Flask 사용법 3 (form)](/posts/flask_form/)
+
+<!-- series-nav:end -->

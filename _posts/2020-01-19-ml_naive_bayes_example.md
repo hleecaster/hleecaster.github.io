@@ -5,7 +5,7 @@ categories: [WORK, Data]
 tags: [데이터분석, MachineLearning, Python]
 ---
 
-이전 포스팅에서 나이브 베이즈(Naive Bayes)를 사용해 텍스트를 어떻게 분류할 수 있는지 개념적으로 살펴보았다.
+[이전 포스팅](/posts/ml_naive_bayes_concepts/)에서 나이브 베이즈(Naive Bayes)를 사용해 텍스트를 어떻게 분류할 수 있는지 개념적으로 살펴보았다.
 
 이번에는 파이썬 머신러닝 라이브러리 scikit-learn에서 실제로 어떻게 구현하고 동작하는지 코드를 알아볼 차례.
 
@@ -98,3 +98,33 @@ print(classifier.predict_proba(new_text_counts))
 - 특정 품사들만 선택해서 사용한다. 형태소 분석을 하면 각 어휘가 어떤 품사를 지니는지(태깅) 알 수 있기 때문에 이걸 바탕으로 일반명사, 고유명사, 형용사, 동사, 일반부사 위주로 사용하면 결과가 더 좋을 수도 있다. 물론 케바케다. 게다가 형태소를 나누는 기준이나 체계도 딱 정해져 있는 건 아니라…
 
 사실 텍스트 분석은 생각보다 어렵다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 머신러닝 공부
+
+1. [학습세트, 평가세트를 나누는 이유와 방법](/posts/ml_training_validation_test_set/)
+2. [선형회귀(Linear Regression) 쉽게 이해하기](/posts/ml_linear_regression_concepts/)
+3. [선형회귀(Linear Regression) 파이썬 코드 예시](/posts/ml_linear_regression_example/)
+4. [다중선형회귀(Multiple Linear Regression) 파이썬 코드 예시](/posts/ml_multiple_linear_regression_example/)
+5. [두 점 사이의 거리 공식(Distance Formula) 쉽게 이해하기](/posts/ml_distance_formula/)
+6. [정규화(Normalization) 쉽게 이해하기](/posts/ml_normalization/)
+7. [K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기](/posts/ml_knn_concepts/)
+8. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 분류 파이썬 코드 예시](/posts/ml_knn_classifier_example/)
+9. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시](/posts/ml_knn_regression_example/)
+10. [분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)](/posts/ml_accuracy_recall_precision_f1/)
+11. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)
+12. [로지스틱 회귀(Logistic Regression) 쉽게 이해하기](/posts/ml_logistic_regression_concepts/)
+13. [로지스틱 회귀(Logistic Regression) 파이썬 코드 예시](/posts/ml_logistic_regression_example/)
+14. [의사결정 나무(Decision Tree) 쉽게 이해하기](/posts/ml_decision_tree_concepts/)
+15. [랜덤 포레스트(Random Forest) 쉽게 이해하기](/posts/ml_random_forest_concepts/)
+16. [베이즈 정리 (Bayes' Theorem) 쉽게 이해하기](/posts/bayes_theorem_concepts/)
+17. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기](/posts/ml_naive_bayes_concepts/)
+18. **나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시** &nbsp;← 현재 글
+19. [K-Means 클러스터링 쉽게 이해하기](/posts/ml_kmeans_clustering_concepts/)
+20. [서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기](/posts/ml_svm_concepts/)
+21. [Bag-of-Words(BoW) 쉽게 이해하기](/posts/nlp_bag_of_words_concepts/)
+
+<!-- series-nav:end -->

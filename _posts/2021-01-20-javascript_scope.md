@@ -89,3 +89,20 @@ console.log(color); // (red가 아닌) blue
 - 로컬 변수들은 블록 실행이 완료된 후 사라지기 때문에 메모리가 절약된다.
 
 블록 스코프를 잘 사용하면 전역 네임스페이스를 오염시키지 않고 여러 변수들을 정의할 수 있기 때문에 굳이 변수가 블록 외부에 존재할 필요가 없는 경우에는 전역 변수를 지정하지 않아야 한다는 결론.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 자바스크립트 공부
+
+1. [기초](/posts/javascript_101/)
+2. [변수](/posts/javascript_variables/)
+3. [조건문](/posts/javascript_conditionals/)
+4. [함수](/posts/javascript_functions/)
+5. **스코프(Scope)** &nbsp;← 현재 글
+6. [배열(Array)](/posts/javascript_array/)
+7. [반복문(Loop)](/posts/javascript_loops/)
+8. [반복자(Iterator)](/posts/javascript_iterator/)
+
+<!-- series-nav:end -->

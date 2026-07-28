@@ -60,3 +60,33 @@ from sklearn.model_selection import KFold
 만약 모델의 성능이 어느정도 만족스럽다면 평가 세트(Test Set)를 넣어볼 수 있다. 이건 실제 데이터다. 어떤 예측/분류가 일어날지 궁금한 값을 만들어 넣어줄 수도 있고, 새롭게 얻은 데이터일 수도 있으며, 애초에 모델을 생성하기 전에 일부러 따로 떼어놓은 데이터일 수도 있다. 어떻게 보면 검증 세트(Validation Set)와 비슷하지만, 모델을 구축하거나 튜닝할 때 포함된 적 없다는 점에서 차이가 있다.
 
 아무튼 이 평가 세트(Test Set)에서 모델이 예측/분류해준 값과 실제 값을 비교해서 정확도(Accuracy), 정밀도(precision), 재현율(recall), F1 점수를 계산해봄으로써 알고리즘이 현실 세계에서 얼마나 잘 수행되는지 이해할 수 있게 되는 거다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 머신러닝 공부
+
+1. **학습세트, 평가세트를 나누는 이유와 방법** &nbsp;← 현재 글
+2. [선형회귀(Linear Regression) 쉽게 이해하기](/posts/ml_linear_regression_concepts/)
+3. [선형회귀(Linear Regression) 파이썬 코드 예시](/posts/ml_linear_regression_example/)
+4. [다중선형회귀(Multiple Linear Regression) 파이썬 코드 예시](/posts/ml_multiple_linear_regression_example/)
+5. [두 점 사이의 거리 공식(Distance Formula) 쉽게 이해하기](/posts/ml_distance_formula/)
+6. [정규화(Normalization) 쉽게 이해하기](/posts/ml_normalization/)
+7. [K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기](/posts/ml_knn_concepts/)
+8. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 분류 파이썬 코드 예시](/posts/ml_knn_classifier_example/)
+9. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시](/posts/ml_knn_regression_example/)
+10. [분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)](/posts/ml_accuracy_recall_precision_f1/)
+11. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)
+12. [로지스틱 회귀(Logistic Regression) 쉽게 이해하기](/posts/ml_logistic_regression_concepts/)
+13. [로지스틱 회귀(Logistic Regression) 파이썬 코드 예시](/posts/ml_logistic_regression_example/)
+14. [의사결정 나무(Decision Tree) 쉽게 이해하기](/posts/ml_decision_tree_concepts/)
+15. [랜덤 포레스트(Random Forest) 쉽게 이해하기](/posts/ml_random_forest_concepts/)
+16. [베이즈 정리 (Bayes' Theorem) 쉽게 이해하기](/posts/bayes_theorem_concepts/)
+17. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기](/posts/ml_naive_bayes_concepts/)
+18. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시](/posts/ml_naive_bayes_example/)
+19. [K-Means 클러스터링 쉽게 이해하기](/posts/ml_kmeans_clustering_concepts/)
+20. [서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기](/posts/ml_svm_concepts/)
+21. [Bag-of-Words(BoW) 쉽게 이해하기](/posts/nlp_bag_of_words_concepts/)
+
+<!-- series-nav:end -->

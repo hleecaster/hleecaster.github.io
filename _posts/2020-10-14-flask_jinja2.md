@@ -5,7 +5,7 @@ categories: [WORK, Python]
 tags: [Python]
 ---
 
-이전 글에서 파이썬 Flask(플라스크) 초간단 사용법을 익혀봤다. 그 글에서는 클라이언트에게 돌려줄 웹 페이지로 단순한 HTML 형식의 문자열을 작성하는 예시를 사용했다. 물론 이렇게 해도 웹페이지가 잘 나타나긴 하지만 만약 제대로 된 웹 사이트, 즉 애플리케이션이라는 걸 만들고자 한다면 모든 페이지마다 HTML 파일을 각각 작성할 게 아니라 일관된 구조와 기능을 가진 템플릿(template)을 활용해야 한다.
+[이전 글](/posts/flask_introduction/)에서 파이썬 Flask(플라스크) 초간단 사용법을 익혀봤다. 그 글에서는 클라이언트에게 돌려줄 웹 페이지로 단순한 HTML 형식의 문자열을 작성하는 예시를 사용했다. 물론 이렇게 해도 웹페이지가 잘 나타나긴 하지만 만약 제대로 된 웹 사이트, 즉 애플리케이션이라는 걸 만들고자 한다면 모든 페이지마다 HTML 파일을 각각 작성할 게 아니라 일관된 구조와 기능을 가진 템플릿(template)을 활용해야 한다.
 
 Flask에서는 [Jinja2](https://jinja.palletsprojects.com)라는 템플릿 엔진을 사용해서 애플리케이션 내 변수와 반복문, 조건문 등을 포함하는 HTML 파일을 렌더링할 수 있다. 그래서 이번 글에서는 Jinja2 사용법과 함께 템플릿 내에서 변수, 조건문/반복문 사용법에 대해 익혀보려 한다.
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 실제로 템플릿에서 이 변수를 사용할 때는 {% raw %}`{{ 변수명 }}`{% endraw %}과 같은 식으로 불러와서 쓰면 된다.
 
-그리고 이 변수를 템플릿 내에서 파이썬 함수처럼 filter 기능으로 처리하는 방법도 있다. {% raw %}`{{ 변수명 | 필터 }}`{% endraw %}와 같은 식으로 써주면 된다. ([Jinja2 공식 문서](https://jinja.palletsprojects.com/en/2.11.x/templates/#builtin-filters) 참고)
+그리고 이 변수를 템플릿 내에서 파이썬 함수처럼 filter 기능으로 처리하는 방법도 있다. {% raw %}`{{ 변수명 | 필터 }}`{% endraw %}와 같은 식으로 써주면 된다. ([Jinja2 공식 문서](https://jinja.palletsprojects.com/en/stable/templates/#builtin-filters) 참고)
 
 ## 템플릿에서 if 조건문 사용하기
 
@@ -250,4 +250,16 @@ student.html
 ```
 {% endraw %}
 
-일단 Flask 템플릿 사용법은 여기까지. 
+일단 Flask 템플릿 사용법은 여기까지.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬 Flask 사용법
+
+1. [파이썬 Flask 사용법 1 (기초)](/posts/flask_introduction/)
+2. **파이썬 Flask 사용법 2 (Jinja2 템플릿)** &nbsp;← 현재 글
+3. [파이썬 Flask 사용법 3 (form)](/posts/flask_form/)
+
+<!-- series-nav:end -->

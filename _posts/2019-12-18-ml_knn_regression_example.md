@@ -114,3 +114,33 @@ print(regressor.predict([
 - K-Nearest Neighbor 알고리즘은 ‘분류’뿐만 아니라 ‘회귀’에도 사용할 수 있다. 분류는 레이블을 돌려주지만, 회귀에서는 수치를 예측해준다.
 - 가중 평균을 사용하면 입력한 데이터를 통해 결과 값을 계산할 때 거리가 가까운 이웃(데이터)로부터 더 많은 영향을 받는다.
 - scikit-learn에서는 `KNeighborsRegressor` 클래스를 통해 이를 구현할 수 있다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 머신러닝 공부
+
+1. [학습세트, 평가세트를 나누는 이유와 방법](/posts/ml_training_validation_test_set/)
+2. [선형회귀(Linear Regression) 쉽게 이해하기](/posts/ml_linear_regression_concepts/)
+3. [선형회귀(Linear Regression) 파이썬 코드 예시](/posts/ml_linear_regression_example/)
+4. [다중선형회귀(Multiple Linear Regression) 파이썬 코드 예시](/posts/ml_multiple_linear_regression_example/)
+5. [두 점 사이의 거리 공식(Distance Formula) 쉽게 이해하기](/posts/ml_distance_formula/)
+6. [정규화(Normalization) 쉽게 이해하기](/posts/ml_normalization/)
+7. [K-최근접 이웃(K-Nearest Neighbor) 쉽게 이해하기](/posts/ml_knn_concepts/)
+8. [K-최근접 이웃(K-Nearest Neighbor)을 활용한 분류 파이썬 코드 예시](/posts/ml_knn_classifier_example/)
+9. **K-최근접 이웃(K-Nearest Neighbor)을 활용한 회귀 파이썬 코드 예시** &nbsp;← 현재 글
+10. [분류 모델의 성능 평가 지표 (Accuracy, Recall, Precision, F1)](/posts/ml_accuracy_recall_precision_f1/)
+11. [오버피팅(Overfitting)의 개념과 해결 방법](/posts/ml_overfitting/)
+12. [로지스틱 회귀(Logistic Regression) 쉽게 이해하기](/posts/ml_logistic_regression_concepts/)
+13. [로지스틱 회귀(Logistic Regression) 파이썬 코드 예시](/posts/ml_logistic_regression_example/)
+14. [의사결정 나무(Decision Tree) 쉽게 이해하기](/posts/ml_decision_tree_concepts/)
+15. [랜덤 포레스트(Random Forest) 쉽게 이해하기](/posts/ml_random_forest_concepts/)
+16. [베이즈 정리 (Bayes' Theorem) 쉽게 이해하기](/posts/bayes_theorem_concepts/)
+17. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 쉽게 이해하기](/posts/ml_naive_bayes_concepts/)
+18. [나이브 베이즈(Naive Bayes)를 활용한 문서 분류 파이썬 코드 예시](/posts/ml_naive_bayes_example/)
+19. [K-Means 클러스터링 쉽게 이해하기](/posts/ml_kmeans_clustering_concepts/)
+20. [서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기](/posts/ml_svm_concepts/)
+21. [Bag-of-Words(BoW) 쉽게 이해하기](/posts/nlp_bag_of_words_concepts/)
+
+<!-- series-nav:end -->

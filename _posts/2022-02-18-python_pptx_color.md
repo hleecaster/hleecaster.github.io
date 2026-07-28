@@ -53,3 +53,17 @@ for slide in prs.slides:
 
 prs.save('./output.pptx')
 ```
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬으로 파워포인트 자동화
+
+1. [텍스트 찾아 바꾸기](/posts/python_pptx_replace_text/)
+2. [차트 데이터 업데이트](/posts/python_pptx_chart_replace_data/)
+3. **개체 배경, 글꼴 색상 바꾸기** &nbsp;← 현재 글
+4. [슬라이드 복제/복사](/posts/python_pptx_duplicate_slide/)
+5. [슬라이드 삭제](/posts/python_pptx_delete_a_slide/)
+
+<!-- series-nav:end -->

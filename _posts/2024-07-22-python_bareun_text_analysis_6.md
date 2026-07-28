@@ -243,4 +243,17 @@ plt.yticks(fontsize=8)  # x축 레이블 90도 회전
 plt.show()
 ```
 
+<!-- series-nav:start -->
 
+---
+
+## 시리즈: 파이썬 형태소분석기 '바른'을 활용한 텍스트 분석
+
+1. [(1) 어휘 빈도 분석 & 워드 클라우드 시각화](/posts/python_bareun_text_analysis_1/)
+2. [(2) 동시출현 단어 & 네트워크 시각화](/posts/python_bareun_text_analysis_2/)
+3. [(3) 차별어 분석](/posts/python_bareun_text_analysis_3/)
+4. [(4) 문서 군집화](/posts/python_bareun_text_analysis_4/)
+5. [(5) 토픽 모델링](/posts/python_bareun_text_analysis_5/)
+6. **(6) 문서 분류** &nbsp;← 현재 글
+
+<!-- series-nav:end -->

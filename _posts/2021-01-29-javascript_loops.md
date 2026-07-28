@@ -148,3 +148,20 @@ while (true) {
 일단 while문 조건으로 true를 써줬기 때문에 무한 반복하는 반복문이다. i라는 변수를 출력하고 1 더하는 작업을 반복.
 
 그런데 만약 중간에 만약 i가 4라면 중단하는 조건을 추가해보았다. 그러면 0,1,2,3,4까지는 제대로 반복하는데, 5차례에서는 if 조건문을 타고 가서 break를 만나고 반복문을 탈출한다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 자바스크립트 공부
+
+1. [기초](/posts/javascript_101/)
+2. [변수](/posts/javascript_variables/)
+3. [조건문](/posts/javascript_conditionals/)
+4. [함수](/posts/javascript_functions/)
+5. [스코프(Scope)](/posts/javascript_scope/)
+6. [배열(Array)](/posts/javascript_array/)
+7. **반복문(Loop)** &nbsp;← 현재 글
+8. [반복자(Iterator)](/posts/javascript_iterator/)
+
+<!-- series-nav:end -->

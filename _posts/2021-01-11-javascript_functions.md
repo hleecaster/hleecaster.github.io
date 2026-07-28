@@ -180,3 +180,20 @@ const square  = num => num * num;
 ```
 
 뭐 이렇게 방법이 많은지… 실제로 코딩을 할 때는 이것저것 다양한 방법을 섞어쓰기보다는 일관된 방법으로 써주는 게 더 중요하긴 할 텐데, 아무튼 이런저런 방식으로 함수를 만들 수 있다는 걸 알아둘 필요는 있으니까 기억하고 넘어가자.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 자바스크립트 공부
+
+1. [기초](/posts/javascript_101/)
+2. [변수](/posts/javascript_variables/)
+3. [조건문](/posts/javascript_conditionals/)
+4. **함수** &nbsp;← 현재 글
+5. [스코프(Scope)](/posts/javascript_scope/)
+6. [배열(Array)](/posts/javascript_array/)
+7. [반복문(Loop)](/posts/javascript_loops/)
+8. [반복자(Iterator)](/posts/javascript_iterator/)
+
+<!-- series-nav:end -->

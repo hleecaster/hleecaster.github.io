@@ -283,3 +283,15 @@ layout.html
 이러면 좀 더 예쁜 화면이 등장한다.
 
 파이썬 Flask에서 form 활용하기. 재밌다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬 Flask 사용법
+
+1. [파이썬 Flask 사용법 1 (기초)](/posts/flask_introduction/)
+2. [파이썬 Flask 사용법 2 (Jinja2 템플릿)](/posts/flask_jinja2/)
+3. **파이썬 Flask 사용법 3 (form)** &nbsp;← 현재 글
+
+<!-- series-nav:end -->

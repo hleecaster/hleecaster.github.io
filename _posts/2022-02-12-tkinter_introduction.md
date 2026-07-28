@@ -364,3 +364,14 @@ root.mainloop()
 일단 tkinter 기초는 여기까지. 
 
 다음에 기회되면 프레임이나 그리드로 레이아웃 짜는 것도 정리해서 올려야겠다.
+
+<!-- series-nav:start -->
+
+---
+
+## 시리즈: 파이썬 GUI - tkinter 사용법
+
+1. **파이썬 GUI - tkinter 사용법 (기초)** &nbsp;← 현재 글
+2. [파이썬 GUI - tkinter 사용법 (코드 예시)](/posts/tkinter_example/)
+
+<!-- series-nav:end -->
