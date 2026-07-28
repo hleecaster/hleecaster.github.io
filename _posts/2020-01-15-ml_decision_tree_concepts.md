@@ -11,7 +11,7 @@ math: true
 
 시험에서 A를 받은 데이터를 초록색 동그라미로 표현했다고 하자.
 
-![decision tree](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/decision-trees/tree_gif.gif)
+![decision tree](/assets/img/posts/ml_decision_tree_concepts/tree_gif.gif)
 
 의사결정 나무는 대체 어떤 사람들이 그 A를 받았는지 나름의 기준이나 체크리스트 같은 걸 만들어준다.
 
@@ -25,9 +25,9 @@ math: true
 
 아래 두 그림을 보면 답이 나온다.
 
-![Gini Impurity 1](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/decision-trees/comparison_1.svg)
+![Gini Impurity 1](/assets/img/posts/ml_decision_tree_concepts/comparison_1.svg)
 
-![Gini Impurity 2](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/decision-trees/comparison_2.svg)
+![Gini Impurity 2](/assets/img/posts/ml_decision_tree_concepts/comparison_2.svg)
 
 일단 위 그림은 데이터 분할이 깔끔하지 않다. 우리의 목표는 아래 그림처럼 불순물(?) 없이 완전 깔끔하게 골라내는 거다.
 
@@ -47,7 +47,7 @@ $$ 1 - ( { {3}\over{4} } )^2 - ( { {1}\over{4} } )^2 = 0.375 $$
 
 지니 불순도를 구할 수 있다면, 이를 통해 어떤 질문에서 얻을 수 있는 정보 획득량(Information Gain)을 계산할 수 있다.
 
-![Information Gain](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/decision-trees/info.svg)
+![Information Gain](/assets/img/posts/ml_decision_tree_concepts/info.svg)
 
 위처럼 불순도 0.5의 데이터 세트를 불순도 각각 0, 0.375, 0을 가진 3개의 데이터 세트로 분할했을 때, 여기서 얻은 정보 획득량은 다음과 같이 계산할 수 있다.
 
@@ -61,7 +61,7 @@ Information Gain = 0.5 – (0 + 0.375 + 0) = 0.125
 
 아래 그림을 보자.
 
-![Weighted Information Gain 1](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/decision-trees/impurity-0.svg)
+![Weighted Information Gain 1](/assets/img/posts/ml_decision_tree_concepts/impurity-0.svg)
 
 두 개의 데이터 세트 모두 불순도는 0이지만, 오른쪽 데이터 세트가 더 의미있는 것처럼 보인다. 그 이유가 뭘까. 데이터 개수가 충분히 많고, 따라서 이 분류가 우연이 아니라고 확신할 수 있기 때문이다.
 
@@ -69,7 +69,7 @@ Information Gain = 0.5 – (0 + 0.375 + 0) = 0.125
 
 계산 법은 간단하다.
 
-![Weighted Information Gain 2](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/decision-trees/weighted_info.svg)
+![Weighted Information Gain 2](/assets/img/posts/ml_decision_tree_concepts/weighted_info.svg)
 
 이렇게 분할하기 전 데이터에 비해 분할 후 생성된 데이터의 크기(비율)에 따라 가중치를 구해놓고 이를 불순도에 곱해서 정보 획득량을 구하면 된다.
 

@@ -50,7 +50,7 @@ K-Nearest Neighbors 알고리즘에서는 주변 다른 이웃들까지 충분�
 
 분류 모델을 생성할 때 일부 데이터는 검증에 활용되도록 떼어놓고 학습 데이터로만 모델을 생성해서 검증 데이터를 넣어 분류 정확도(Accuray) 확인할 수 있는데, 아래 그래프는 한 분류 모델에서 k 값을 변화시키면서 정확도를 확인한 예시다.
 
-![validation accuracy as k changes](https://s3.amazonaws.com/codecademy-content/courses/learn-knn/k.png)
+![validation accuracy as k changes](/assets/img/posts/ml_knn_concepts/k.png)
 
 너무 k가 작으면 과적합이 발생하여 정확도가 상대적으로 낮다. 반면 k가 너무 커져도 언더 피팅이 발생해서 정확도가 떨어지기 시작하는 걸 알 수 있다. 결국 75 언저리에서 가장 높은 정확도를 보여준다.
 

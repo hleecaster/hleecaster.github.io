@@ -17,7 +17,7 @@ math: true
 
 예를 들어 어떤 학생이 공부하는 시간에 따라 시험에 합격할 확률이 달라진다고 해보자. 선형 회귀를 사용하면 아래와 같은 그림으로 나타낼 수 있다.
 
-![Linear Regression](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/logistic-regression/linear_regression.png)
+![Linear Regression](/assets/img/posts/ml_logistic_regression_concepts/linear_regression.png)
 
 공부한 시간이 적으면 시험에 통과 못하고, 공부한 시간이 많으면 시험에 통과한다는 식으로 설명할 수 있다. 그런데 이 회귀선을 자세히 살펴보면 확률이 음과 양의 방향으로 무한대까지 뻗어 간다. 말 그대로 ‘선’이라서. 그래서 공부를 2시간도 안 하면 시험에 통과할 확률이 0이 안 된다. 이건 말이 안 된다.
 
@@ -62,7 +62,7 @@ log_odds = np.dot(features, coefficients) + intercept
 
 로지스틱 회귀에서는 (위에서 잠깐 보여준 것과 같이) 확률을 0에서 1사이로 커브 모양으로 나타내야 하는데, 이걸 가능하게 해주는 게 바로 Sigmoid 함수다.
 
-![Sigmoid Function](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/logistic-regression/sigmoid.png)
+![Sigmoid Function](/assets/img/posts/ml_logistic_regression_concepts/sigmoid.png)
 
 $$ f(x)={\frac {1}{1+e^{-z}}} $$
 
@@ -103,7 +103,7 @@ $$ - log(1 - h(z^{(i)})) $$
 
 결국 분류(레이블)가 `y=1`,`y=0` 일 때 각각의 손실 함수를 그래프로 나타내면 아래와 같다.
 
-![Log Loss](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/logistic-regression/loss-function-graph.png)
+![Log Loss](/assets/img/posts/ml_logistic_regression_concepts/loss-function-graph.png)
 
 정확한 예측은 손실이 거의 없는 반면 잘못된 예측은 거의 무한대에 가까운 큰 손실을 초래하는 꼴이다. (뭐 당연한 거다. 시험 공부 거의 안 한 학생이 시험에 붙을 확률은 0에 가까우니까.)
 
@@ -121,11 +121,11 @@ $$ - log(1 - h(z^{(i)})) $$
 
 만약, 0.5 임계값인 경우에는 이런 꼴이지만
 
-![threshold](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/logistic-regression/Threshold-01.svg)
+![threshold](/assets/img/posts/ml_logistic_regression_concepts/Threshold-01.svg)
 
 0.4의 임계값으로 조정하면 이렇게 된다.
 
-![threshold](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/logistic-regression/Threshold-02.svg)
+![threshold](/assets/img/posts/ml_logistic_regression_concepts/Threshold-02.svg)
 
 ## 요약
 

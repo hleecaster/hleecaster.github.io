@@ -17,11 +17,11 @@ math: true
 
 만약 데이터에 2개 속성(feature)만 있다면 결정 경계는 이렇게 간단한 선 형태가 될 거다.
 
-![decision boundaries](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/two_dimensions.png)
+![decision boundaries](/assets/img/posts/ml_svm_concepts/two_dimensions.png)
 
 그러나 속성이 3개로 늘어난다면 이렇게 3차원으로 그려야 한다.
 
-![decision boundaries](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/three_dimensions.png)
+![decision boundaries](/assets/img/posts/ml_svm_concepts/three_dimensions.png)
 
 그리고 이 때의 결정 경계는 ‘선’이 아닌 ‘평면’이 된다.
 
@@ -33,7 +33,7 @@ math: true
 
 일단 아래 그림들을 보자.
 
-![decision boundaries](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/decision_boundaries.png)
+![decision boundaries](/assets/img/posts/ml_svm_concepts/decision_boundaries.png)
 
 어떤 그래프가 제일 위태로워 보이는가? C를 보면 선이 파란색 부류와 너무 가까워서 아슬아슬해보인다.
 
@@ -49,7 +49,7 @@ math: true
 
 아래 그림을 보면 바로 이해된다.
 
-![margin](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/margin.png)
+![margin](/assets/img/posts/ml_svm_concepts/margin.png)
 
 가운데 실선이 하나 그어져있는데, 이게 바로 ‘결정 경계’가 되겠다. 그리고 그 실선으로부터 검은 테두리가 있는 빨간점 1개, 파란점 2개까지 영역을 두고 점선을 그어놓았다. 점선으로부터 결정 경계까지의 거리가 바로 ‘마진(margin)’이다.
 
@@ -66,7 +66,7 @@ SVM에서 결정 경계를 구하는 건 상당히 복잡한 최적화 문제다
 
 일단 아래 그림과 같이 선을 긋는 연습을 해보자.
 
-![SVC](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/example_dataset.png)
+![SVC](/assets/img/posts/ml_svm_concepts/example_dataset.png)
 
 ```python
 from sklearn.svm import SVC
@@ -111,7 +111,7 @@ SVM은 ​​데이터 포인트들을 올바르게 분리하면서 마진의 �
 
 아래 그림을 보자. 선을 살펴보기에 앞서 왼쪽에 혼자 튀어 있는 파란 점과, 오른쪽에 혼자 튀어 있는 빨간 점이 있다는 걸 봐두자. 누가 봐도 아웃라이어다.
 
-![SVM margin](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/outliers.png)
+![SVM margin](/assets/img/posts/ml_svm_concepts/outliers.png)
 
 이제 두 그림을 좀 더 자세히 비교해보자.
 
@@ -136,7 +136,7 @@ classifier = SVC(C = 0.01)
 
 극단적인 예를 들어… 이런 데이터가 있다고 해보자.
 
-![non-linearly separable data](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/circles.png)
+![non-linearly separable data](/assets/img/posts/ml_svm_concepts/circles.png)
 
 빨간색 점을 파란색 점과 분리하는 직선을 그릴 수가 없다..!
 
@@ -158,7 +158,7 @@ classifier = SVC(kernel = 'linear')
 
 위에서 봤던 이 그림을 다시 보면
 
-![non-linearly separable data](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/circles.png)
+![non-linearly separable data](/assets/img/posts/ml_svm_concepts/circles.png)
 
 아무리 봐도 단순한 선형으로는 도저히 해결이 안 된다.
 
@@ -172,7 +172,7 @@ $$ (1,\ 1) \rightarrow (2\sqrt{2}\ ,\ 1,\ 4) $$
 
 그리고 이렇게 다항식 커널로 계산한 데이터 포인트들을 3차원으로 그려보면 이런 모양이 나타난다.
 
-![2D data projected into 3D](https://s3.amazonaws.com/codecademy-content/programs/machine-learning/svm/projected_with_boundary.png)
+![2D data projected into 3D](/assets/img/posts/ml_svm_concepts/projected_with_boundary.png)
 
 드디어 결정 경계를 그어볼 수 있는 꼴로 바뀐 걸 알 수 있다.
 

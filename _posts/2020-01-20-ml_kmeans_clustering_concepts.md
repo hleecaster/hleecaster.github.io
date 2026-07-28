@@ -89,7 +89,7 @@ plt.ylabel('Inertia')
 plt.show()
 ```
 
-![number-of-clusters](https://content.codecademy.com/programs/machine-learning/k-means/number-of-clusters.svg)
+![number-of-clusters](/assets/img/posts/ml_kmeans_clustering_concepts/number-of-clusters.svg)
 
 k값이 증가하면 intertia 값은 감소하다가 어느정도 수준이 되면 거의 변화를 안 보이게 된다. 그래서 너무 많지 않은 군집의 개수로 분류하면서도 intertia 값이 작은 상태, 그 최적의 값을 찾으면 된다. (이러한 방법을 "elbow" 메소드라고 부른다. 팔꿈치처럼 그래프가 꺾이는 관절 부분을 찾아낸다는 뜻. )
 

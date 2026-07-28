@@ -14,7 +14,7 @@ overfitting은 모델의 파라미터들을 학습 데이터에 너무 가깝게
 
 아래 그림을 보자.
 
-![Image of overfitting](https://content.codecademy.com/programs/machine-learning/overfitting/overfit.svg)
+![Image of overfitting](/assets/img/posts/ml_overfitting/overfit.svg)
 
 각 점들은 학습 데이터, 선은 머신러닝이 생성한 모델이라고 볼 수 있다. 이 모델은 개별 점들을 하나도 놓치고 싶지 않아서, 이 현상을 어떻게든 완벽하게 설명하고 싶어서 요리조리 따라가며 선을 그리고 있다. (이게 바로 오버피팅 된 거다.)
 
@@ -22,7 +22,7 @@ overfitting은 모델의 파라미터들을 학습 데이터에 너무 가깝게
 
 만약 학습 데이터를 통해 전체적인 패턴을 유추하면 아래 그림과 같은 선을 그을 수 있다.
 
-![Image of good fit](https://content.codecademy.com/programs/machine-learning/overfitting/goodfit.svg)
+![Image of good fit](/assets/img/posts/ml_overfitting/goodfit.svg)
 
 딱 봐도 이 선이 좀 더 좋은 모델처럼 보인다.
 

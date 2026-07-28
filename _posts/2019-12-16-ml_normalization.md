@@ -14,7 +14,7 @@ categories: [WORK, Data]
 
 아래 그림을 보면 이해가 쉬울 것 같다.
 
-![Data points on the y-axis range from 0 to 20. Data points on the x-axis range from 0 to 100](https://s3.amazonaws.com/codecademy-content/courses/normalization/unnormalized.png)
+![Data points on the y-axis range from 0 to 20. Data points on the x-axis range from 0 to 100](/assets/img/posts/ml_normalization/unnormalized.png)
 
 우리는 머신러닝 알고리즘이 방 1개만 있는 집과 20개짜리 집이 얼마나 큰 차이가 나는지 인식하기를 기대한다. (상식적으로 그렇지 않은가.)
 
@@ -24,7 +24,7 @@ categories: [WORK, Data]
 
 만약 위 데이터를 MIN-MAX 정규화하면 (정규화 방법은 아래에 이어서 설명하겠다.) 아래와 같이 나타난다.
 
-![Data points on the y-axis range from 0 to 1. Data points on the x-axis range from 0 to 1](https://s3.amazonaws.com/codecademy-content/courses/normalization/normalized.png)
+![Data points on the y-axis range from 0 to 1. Data points on the x-axis range from 0 to 1](/assets/img/posts/ml_normalization/normalized.png)
 
 ## 데이터를 정규화 하는 두 가지 방법
 
@@ -68,7 +68,7 @@ def min_max_normalize(lst):
 
 그림으로 나타내면 아래와 같다.
 
-![Almost all normalized data points have an x value between 0 and 0.4](https://s3.amazonaws.com/codecademy-content/courses/normalization/outlier.png)
+![Almost all normalized data points have an x value between 0 and 0.4](/assets/img/posts/ml_normalization/outlier.png)
 
 위 그림을 보면 y축에서는 정규화가 효과적으로 적용되었으나 x축에서는 여전히 문제가 있다. 이 상태로 데이터의 점들을 비교한다면, y축의 영향이 지배적일 수밖에 없다.
 
@@ -101,7 +101,7 @@ def z_score_normalize(lst):
 
 아래 그림을 보자. 최대-최소 정규화에서 예로 들었던 데이터이지만, 이번엔 Z-점수 정규화를 사용해본 거다.
 
-![All points have a similar range in both the x and y dimensions](https://s3.amazonaws.com/codecademy-content/courses/normalization/z-score.png)
+![All points have a similar range in both the x and y dimensions](/assets/img/posts/ml_normalization/z-score.png)
 
 데이터가 여전히 찌그러져 보이긴 하지만, 그래도 거의 모든 점들이 x축과 y축에서 -2와 2 사이에 있다. 이제 어느정도 비슷한 스케일로 나타낸 셈이다. 여전히 x축에 5가 넘는 녀석 하나가 있어서 정확히 동일하진 않지만, 그래도 최소-최대 정규화에서 나타난 문제는 해결했다고 볼 수 있다.
 
