@@ -12,7 +12,7 @@ categories: [LIFE, Books]
 
 
 
-![A child representative, Tae-Woong Yoon, is rolling an iron hoop in the opening ceremony of the 1988 Summer Olympics in Seoul](https://www.kdevelopedia.org/resources/asset/2015/02/27/IMG/SRC/01201502270136957019485.JPG)
+![A child representative, Tae-Woong Yoon, is rolling an iron hoop in the opening ceremony of the 1988 Summer Olympics in Seoul](/assets/img/posts/lee_o_ryeong_s_words/seoul_1988_hoop_boy.jpg)
 
 
 

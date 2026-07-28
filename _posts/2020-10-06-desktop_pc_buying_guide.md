@@ -31,7 +31,7 @@ CPU는 보통 코어와 쓰레드의 개수, 오버클럭을 지원하는지, �
 
 인텔 CPU의 경우에는 제품명만으로도 어느정도 성능을 예측할 수가 있다. 예를 들면, 제품명 앞에 i3, i5 이런 식으로 숫자가 붙는데 그냥 i3는 일꾼 약 3마리, i5는 일꾼 약 5마리 이런 식으로 생각하면 편하다.
 
-![CPU비유](https://t1.daumcdn.net/thumb/R1280x0.fjpg/?fname=https://t1.daumcdn.net/brunch/service/user/2CiU/image/cP91fHDn1TJUsu4eP6kwQNXy9WM)
+![CPU비유](/assets/img/posts/desktop_pc_buying_guide/cpu_analogy.jpg)
 
 실제로 i3, i5 이런 숫자보다는 CPU 코어 개수가 실제 일꾼의 수와 같다고 보는 게 맞다. 어느정도는 비례하니까 설명을 위해 일단 넘어가자.
 
@@ -182,7 +182,7 @@ PC 부품 중에 가장 중요한 게 파워라는 말을 하기도 한다. 각 
 
 그래서 이번엔 나도 용산에 가서 맞췄다. (조립 PC 맞출 거면 웬만하면 용산 선인상가 21동부터 가보면 된다.)
 
-![선인상가](https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile25.uf.tistory.com%2Fimage%2F9997BC3B5B1A1DB330BA9F)
+![선인상가](/assets/img/posts/desktop_pc_buying_guide/seonin_arcade.webp)
 
 용산 방문의 장점은 네고가 가능하다는 것.
 
