@@ -23,7 +23,7 @@ categories: [LIFE, Books]
 ---
 
 
-![Banksy - Flower Thrower](https://upload.wikimedia.org/wikipedia/commons/c/cb/West_bank.png)
+![Banksy - Flower Thrower](/assets/img/posts/slaughterhouse_five/banksy_flower_thrower.jpg)
 
 ⬆️ [Banksy](https://en.wikipedia.org/wiki/Banksy)
 
