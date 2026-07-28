@@ -34,7 +34,7 @@ tags: [Python, 업무자동화]
 from flask import Flask, request, Response
 import threading
 from queue import Queue
-from auto import auto	# 자동화 함수
+from auto import auto    # 자동화 함수
 
 app = Flask(__name__)
 webhook_queue = Queue()
@@ -51,11 +51,11 @@ def webhook():
     if request.method == 'GET':
         response = request.args.to_dict()
     elif request.method == 'POST':
-        if request.is_json is True:	# response-Type: json
+        if request.is_json is True:    # response-Type: json
             response = request.get_json()
-        else:	# response-Type: x-www-form-urlencoded
+        else:    # response-Type: x-www-form-urlencoded
             response = request.form.to_dict()
-			
+            
     # 큐에 웹훅으로 받은 데이터 추가
     webhook_queue.put(response)
     
@@ -65,7 +65,7 @@ def webhook():
 def process_webhooks():
     while True:
         response = webhook_queue.get()
-        auto(response)	# 자동화 함수
+        auto(response)    # 자동화 함수
         webhook_queue.task_done()
 
 if __name__ == '__main__':

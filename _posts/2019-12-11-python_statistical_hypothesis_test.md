@@ -148,9 +148,9 @@ pval = binom_test(525, n=1000, p=0.5)
 # 4th | 20 | 20
 
 data = [[30, 10],
-		[35, 5],
-		[28, 12],
-		[20, 20]]
+        [35, 5],
+        [28, 12],
+        [20, 20]]
 
 from scipy.stats import chi2_contingency
 

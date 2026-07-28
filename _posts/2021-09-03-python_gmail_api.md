@@ -16,10 +16,10 @@ tags: [Python, 업무자동화]
 그 다음 "API 및 서비스" 하위 메뉴 "사용자 인증 정보"로 들어가서 인증 정보를 만들어야 한다. 인증정보 만드는 방법은 현재 총 세 가지가 있는데,
 
 1. API 키
-2. Outh 클라이언트 ID
+2. OAuth 클라이언트 ID
 3. 서비스 계정
 
-나는 여기서 Outh 클라이언트 ID를 생성했다. 본인한테 맞는 인증방법을 사용하면 된다. ID를 생성하려고 하면 애플리케이션 종류를 선택하는데, 나 혼자 테스트 용도로 사용하는 거라 ‘데스크톱 앱’을 골랐다.
+나는 여기서 OAuth 클라이언트 ID를 생성했다. 본인한테 맞는 인증방법을 사용하면 된다. ID를 생성하려고 하면 애플리케이션 종류를 선택하는데, 나 혼자 테스트 용도로 사용하는 거라 ‘데스크톱 앱’을 골랐다.
 
 클라이언트 ID를 생성하고 나면 JSON 파일을 하나 다운 받을 수 있다. 이걸 내 파이썬 스크립트가 담길 폴더 안에 `credentials.json`라고 잘 저장해두자.
 
@@ -52,55 +52,55 @@ import base64
 
 """ 1. gmail 사용자 인증 """
 def gmail_authenticate():
-	SCOPES = ['https://mail.google.com/']
-	creds = None
-	if Path('token.json').is_file():
-		creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-	if not creds or not creds.valid:
-		if creds and creds.expired and creds.refresh_token:
-			creds.refresh(Request())
-		else:
-			flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
-			creds = flow.run_local_server(port=0)
-		with open('token.json', 'w') as token:
-			token.write(creds.to_json())
-	return build('gmail', 'v1', credentials=creds)
+    SCOPES = ['https://mail.google.com/']
+    creds = None
+    if Path('token.json').is_file():
+        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
+            creds = flow.run_local_server(port=0)
+        with open('token.json', 'w') as token:
+            token.write(creds.to_json())
+    return build('gmail', 'v1', credentials=creds)
 
 
 """2. 메시지 생성"""
 def create_message(받는사람이메일, 제목, 본문, 첨부파일리스트=None):
-	message = EmailMessage()
-	message["From"] = 보내는사람이메일
-	message["To"] = 받는사람이메일.split(",")
-	message["Subject"] = 제목
-	message.set_content(본문)
-	# message.set_content(본문, subtype='html') # html 형식으로 보내려면 subtype 지정
-	
-	# 파일 첨부 (하위 디렉토리 files 내에 첨부파일 준비)
-	if 첨부파일리스트:
-		for 파일명 in 첨부파일리스트:
-			파일명 = Path(파일명).name
-			with open("files/"+파일명, "rb") as f:
-				message.add_attachment(f.read(), maintype="application", subtype="octet-stream", filename=파일명)
-		
-	return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode('utf8')}
+    message = EmailMessage()
+    message["From"] = 보내는사람이메일
+    message["To"] = 받는사람이메일.split(",")
+    message["Subject"] = 제목
+    message.set_content(본문)
+    # message.set_content(본문, subtype='html') # html 형식으로 보내려면 subtype 지정
+    
+    # 파일 첨부 (하위 디렉토리 files 내에 첨부파일 준비)
+    if 첨부파일리스트:
+        for 파일명 in 첨부파일리스트:
+            파일명 = Path(파일명).name
+            with open("files/"+파일명, "rb") as f:
+                message.add_attachment(f.read(), maintype="application", subtype="octet-stream", filename=파일명)
+        
+    return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode('utf8')}
 
 
 """3. 메시지 발송"""
 def send_message(service, user_id, message):
-	try:
-		message = service.users().messages().send(userId=user_id, body=message).execute()
-		# print(message['id'])
-		return message
-	except errors.HttpError as error:
-		print(error)
+    try:
+        message = service.users().messages().send(userId=user_id, body=message).execute()
+        # print(message['id'])
+        return message
+    except errors.HttpError as error:
+        print(error)
 
 
 """main"""
 def main():
-	service = gmail_authenticate()
-	message = create_message("받는사람이메일", "제목", "본문")
-	send_message(service, "me", message)
+    service = gmail_authenticate()
+    message = create_message("받는사람이메일", "제목", "본문")
+    send_message(service, "me", message)
 ```
 
 

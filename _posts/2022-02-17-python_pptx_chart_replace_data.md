@@ -23,25 +23,25 @@ prs = Presentation("./template.pptx")
 
 # 전체 슬라이드에 있는 개체들의 이름을 확인해서
 for slide in prs.slides:
-	for shape in slide.shapes:
-		
-		# 개체 이름이 "막대형차트"일 경우 데이터 업데이트
-		if shape.name == "막대형차트":
-	        chart_data = CategoryChartData()
-	        chart_data.categories = ["항목1", "항목2", "항목3"]
-	        chart_data.add_series("계열1", (100, 200, 300))
-	        chart_data.add_series("계열2", (150, 220, 275))
-	        shape.chart.replace_data(chart_data)
-		
-		# 개체 이름이 "분산형차트"일 경우 데이터 업데이트
-		if shape.name == "분산형차트":
-	        chart_data = XyChartData()
-	        series = chart_data.add_series("계열 1")
-	        series.add_data_point(1, 2)
-	        series.add_data_point(2, 4)
-	        series.add_data_point(3, 6)
-	        series.add_data_point(4, 8)
-	        shape.chart.replace_data(chart_data)
+    for shape in slide.shapes:
+        
+        # 개체 이름이 "막대형차트"일 경우 데이터 업데이트
+        if shape.name == "막대형차트":
+            chart_data = CategoryChartData()
+            chart_data.categories = ["항목1", "항목2", "항목3"]
+            chart_data.add_series("계열1", (100, 200, 300))
+            chart_data.add_series("계열2", (150, 220, 275))
+            shape.chart.replace_data(chart_data)
+        
+        # 개체 이름이 "분산형차트"일 경우 데이터 업데이트
+        if shape.name == "분산형차트":
+            chart_data = XyChartData()
+            series = chart_data.add_series("계열 1")
+            series.add_data_point(1, 2)
+            series.add_data_point(2, 4)
+            series.add_data_point(3, 6)
+            series.add_data_point(4, 8)
+            shape.chart.replace_data(chart_data)
         
 prs.save('./output.pptx')
 ```

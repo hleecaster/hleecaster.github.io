@@ -76,7 +76,7 @@ print (model.inertia_)
 그래서 군집의 개수, 즉 k 값을 바꿔가면서 inertia를 그래프로 확인해볼 수 있는데,
 
 ```python
-num_clusters = list(range(1, 9))	# K는 1 ~ 8사이의 정수입니다
+num_clusters = list(range(1, 9))    # K는 1 ~ 8사이의 정수입니다
 inertias = []
 
 for i in num_clusters:

@@ -35,39 +35,39 @@ SLACK_BOT_TOKEN = "xoxb-????????????-?????????????-????????????????????????"
 headers = {
     'Authorization': f'Bearer {SLACK_BOT_TOKEN}',
     'Content-type': 'application/json',
-	}
+    }
 
 
 """메시지 발송하기"""
 def post_message(채널이름, 텍스트):
     url = "https://slack.com/api/chat.postMessage"
     payload = {
-	    "channel": 채널이름, 
-	    "text": 텍스트
-		}
-	requests.post(url, headers=headers, json=payload)
+        "channel": 채널이름, 
+        "text": 텍스트
+        }
+    requests.post(url, headers=headers, json=payload)
 
-	
+    
 """특정 채널 타임스탬프(ts) 메시지에 댓글 달기"""
 def reply_message(채널이름, 타임스탬프, 텍스트):
-	url = "https://slack.com/api/chat.postMessage"
-	payload = {
-		"channel": 채널이름,
-		"thread_ts": 타임스탬프,
-		"text" : 텍스트
-	}
-    requests.post(url, headers=headers, json=payload)
+    url = "https://slack.com/api/chat.postMessage"
+    payload = {
+        "channel": 채널이름,
+        "thread_ts": 타임스탬프,
+        "text" : 텍스트
+    }
+    requests.post(url, headers=headers, json=payload)
 
   
 """채널에서 특정 메시지의 타임스탬프(ts) 찾아 이모지로 반응하기"""
 def reply_message_by_emoji(채널ID, 타임스탬프, 이모지):
-	url = "https://slack.com/api/reactions.add"
-	payload = {
-	    "channel": 채널ID,   # NOT 채널명
-	    "timestamp": 타임스탬프,
-	    "name" : 이모지
-        }
-    requests.post(url, headers=headers, json=payload)
+    url = "https://slack.com/api/reactions.add"
+    payload = {
+        "channel": 채널ID,   # NOT 채널명
+        "timestamp": 타임스탬프,
+        "name" : 이모지
+        }
+    requests.post(url, headers=headers, json=payload)
 
 
 """특정 채널 최근 N개 메시지 중 조건을 만족하는 메시지의 타임스탬프(ts) 찾기"""
@@ -75,12 +75,12 @@ def reply_message_by_emoji(채널ID, 타임스탬프, 이모지):
 def search_message(채널ID, 검색개수=100, 검색어리스트):
     headers = {
         'Authorization': f'Bearer {SLACK_BOT_TOKEN}',
-        'Content-type': 'application/x-www-form-urlencoded',	# 이것만 이렇게
+        'Content-type': 'application/x-www-form-urlencoded',    # 이것만 이렇게
         }
         
     payload = {
-        "channel": 채널ID,	# NOT 채널명
-        "limit" : 검색개수,	# 최근 100개
+        "channel": 채널ID,    # NOT 채널명
+        "limit" : 검색개수,    # 최근 100개
         }
         
     url = f"https://slack.com/api/conversations.history?channel={payload['channel']}&limit={payload['limit']}"

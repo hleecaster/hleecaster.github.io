@@ -135,10 +135,10 @@ sns.heatmap(efa_result, cmap="Blues", annot=True, fmt='.2f')
 ```python
 def CronbachAlpha(itemscores):
     itemscores = np.asarray(itemscores)
-	itemvars = itemscores.var(axis=0, ddof=1)
-	tscores = itemscores.sum(axis=1)
-	nitems = itemscores.shape[1]
-	return (nitems / (nitems-1)) * (1 - (itemvars.sum() / tscores.var(ddof=1)))
+    itemvars = itemscores.var(axis=0, ddof=1)
+    tscores = itemscores.sum(axis=1)
+    nitems = itemscores.shape[1]
+    return (nitems / (nitems-1)) * (1 - (itemvars.sum() / tscores.var(ddof=1)))
 ```
 
 이 함수는 각 문항들의 점수를 세트(리스트의 리스트 혹은 다차원 배열)로 넣어줘야 하는 거라… 아까 준비해놓았던 문항 번호 리스트 items를 가지고 준비해보자.
@@ -148,7 +148,7 @@ factors = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 factors_items_dict = {}
 
 for factor in factors:
-	factors_items_dict[factor] = [x for x in items if x[0] == factor]
+    factors_items_dict[factor] = [x for x in items if x[0] == factor]
 ```
 
 일단 factors_items_dict라는 딕셔너리에다가 a부터 h까지 요인에 해당하는 문항을 담았다. 이런 모양새다.
@@ -168,9 +168,9 @@ for factor in factors:
 
 ```python
 for key, value in factors_items_dict.items():
-	print(key)
-	print(CronbachAlpha(df[value]))
-	print()
+    print(key)
+    print(CronbachAlpha(df[value]))
+    print()
 ```
 
 ```

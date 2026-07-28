@@ -18,35 +18,35 @@ prs = Presentation("./template.pptx")
 찾아바꾸기딕셔너리 = {"찾을내용" : "바꿀내용"}
 
 for 찾을내용, 바꿀내용 in sorted(찾아바꾸기딕셔너리.items(), reverse=True):
-	if type(바꿀내용) is str:
-		
-		# 모든 슬라이드 개체를 확인하면서 텍스트 찾아바꾸기
-		for slide in prs.slides:
-		    for shape in slide.shapes:
-			    
-				# 텍스트 상자에서
-				if shape.has_text_frame:
-					for paragraph in shape.text_frame.paragraphs:
-						for run in paragraph.runs:
-							if 찾을내용 in run.text:
-								run.text = run.text.replace(찾을내용, 바꿀내용)
-								
-				# 그룹화된 텍스트상자에서
-				if shape.shape_type == MSO_SHAPE_TYPE.GROUP:
-					for shp in shape.shapes:
-						if shp.has_text_frame:
-							for paragraph in shp.text_frame.paragraphs:
-								for run in paragraph.runs:
-									if 찾을내용 in run.text:
-										run.text = run.text.replace(찾을내용, 바꿀내용)
-				# 표에서
-				if shape.has_table:
-					for row in shape.table.rows:
-						for cell in row.cells:
-							for paragraph in cell.text_frame.paragraphs:
-								for run in paragraph.runs:
-									if 찾을내용 in run.text:
-										run.text = run.text.replace(찾을내용, 바꿀내용)
+    if type(바꿀내용) is str:
+        
+        # 모든 슬라이드 개체를 확인하면서 텍스트 찾아바꾸기
+        for slide in prs.slides:
+            for shape in slide.shapes:
+                
+                # 텍스트 상자에서
+                if shape.has_text_frame:
+                    for paragraph in shape.text_frame.paragraphs:
+                        for run in paragraph.runs:
+                            if 찾을내용 in run.text:
+                                run.text = run.text.replace(찾을내용, 바꿀내용)
+                                
+                # 그룹화된 텍스트상자에서
+                if shape.shape_type == MSO_SHAPE_TYPE.GROUP:
+                    for shp in shape.shapes:
+                        if shp.has_text_frame:
+                            for paragraph in shp.text_frame.paragraphs:
+                                for run in paragraph.runs:
+                                    if 찾을내용 in run.text:
+                                        run.text = run.text.replace(찾을내용, 바꿀내용)
+                # 표에서
+                if shape.has_table:
+                    for row in shape.table.rows:
+                        for cell in row.cells:
+                            for paragraph in cell.text_frame.paragraphs:
+                                for run in paragraph.runs:
+                                    if 찾을내용 in run.text:
+                                        run.text = run.text.replace(찾을내용, 바꿀내용)
 
 prs.save('./output.pptx')
 ```

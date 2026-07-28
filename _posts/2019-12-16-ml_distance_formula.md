@@ -54,8 +54,8 @@ $$ d(p,q)={\sqrt {(p_{1}-q_{1})^{2}+(p_{2}-q_{2})^{2}+ \cdots +(p_{n}-q_{n})^{2}
 def euclidean_distance(pt1, pt2):
   distance = 0
   for i in range(len(pt1)):
-    distance += (pt1[i] - pt2[i])  2
-  return distance  0.5
+    distance += (pt1[i] - pt2[i]) ** 2
+  return distance ** 0.5
 
 # print(euclidean_distance([5, 4, 3], [1, 7, 9]))
 ```

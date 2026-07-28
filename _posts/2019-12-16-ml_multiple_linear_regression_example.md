@@ -165,13 +165,13 @@ $$ R^{2}=1-{SS_{\rm {res}} \over SS_{\rm {tot}}} $$
 일단 분자는 잔차의 제곱들의 합 RSS(residual sum of square), 즉 직선이 미처 Y에 대해 설명하지 못한 변화량을 의미한다.
 
 ```python
-((y - y_predict)  2).sum()
+((y - y_predict) ** 2).sum()
 ```
 
 분모에 있는 v는 TSS(total sum of squares), y값의 총 변화량으로 이해하면 된다.
 
 ```python
-((y - y.mean())  2).sum()
+((y - y.mean()) ** 2).sum()
 ```
 
 결국 결정계수 R²는 전체에서 직선이 미처 설명하지 못한 부분의 비율을 뺀 거다.

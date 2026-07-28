@@ -37,19 +37,19 @@ white = RGBColor(255, 255, 255)
 
 # 전체 슬라이드에 있는 개체들의 이름을 확인해서
 for slide in prs.slides:
-	for shape in slide.shapes:
-		
-		# 개체 이름이 "텍스트상자"인 텍스트 상자 색칠하기
-		if shape.name == "텍스트상자":
-			color(shape, bg_color=green, font_color=white)
-		
-		# 개체 이름이 "표1"인 경우,
-		# 각 셀(행/열) 확인해서 "-" 문자열이 있을 경우 색칠하기   
-		if shape.name == "표1":
-			for col in range(len(shape.table.columns)):
-				for row in range(len(shape.table.rows)):
-					if "-" in shape.table.cell(row, col).text:
-						color(shape.table.cell(row, col), bg_color=None, font_color=red)
+    for shape in slide.shapes:
+        
+        # 개체 이름이 "텍스트상자"인 텍스트 상자 색칠하기
+        if shape.name == "텍스트상자":
+            color(shape, bg_color=green, font_color=white)
+        
+        # 개체 이름이 "표1"인 경우,
+        # 각 셀(행/열) 확인해서 "-" 문자열이 있을 경우 색칠하기   
+        if shape.name == "표1":
+            for col in range(len(shape.table.columns)):
+                for row in range(len(shape.table.rows)):
+                    if "-" in shape.table.cell(row, col).text:
+                        color(shape.table.cell(row, col), bg_color=None, font_color=red)
 
 prs.save('./output.pptx')
 ```

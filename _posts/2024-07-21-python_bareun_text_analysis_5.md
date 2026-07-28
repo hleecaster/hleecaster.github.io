@@ -46,12 +46,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 # 벡터화
 vectorizer = TfidfVectorizer(tokenizer=str.split, 
-							 binary=True, 
-							 use_idf=True, 
-							 norm=None, 
-							 ngram_range=(1,1), 
-							 max_features=1000)
-							 
+                             binary=True, 
+                             use_idf=True, 
+                             norm=None, 
+                             ngram_range=(1,1), 
+                             max_features=1000)
+                             
 문서단어행렬 = vectorizer.fit_transform(df["문서"])
 ```
 
@@ -64,12 +64,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 '''벡터화'''
 vectorizer = TfidfVectorizer(tokenizer=str.split, 
-							 binary=True, 
-							 use_idf=True, 
-							 norm=None, 
-							 ngram_range=(1,2), 
-							 max_features=3000)
-							 
+                             binary=True, 
+                             use_idf=True, 
+                             norm=None, 
+                             ngram_range=(1,2), 
+                             max_features=3000)
+                             
 문서단어행렬 = vectorizer.fit_transform(df["문서"])
 ```
 
