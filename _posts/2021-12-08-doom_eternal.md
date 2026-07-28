@@ -8,7 +8,7 @@ categories: [LIFE, Game]
 
 내가 기억하는 둠은 이런 모습이다.
 
-![DOOM](https://cdn.akamai.steamstatic.com/steam/apps/2280/ss_c8f0c20768412066cd1e182705b14d26acc4beb0.1920x1080.jpg?t=1663861909)
+![DOOM](/assets/img/posts/doom_eternal/ss_c8f0c20768412066cd1e182705b14d26acc4beb0.1920x1080.jpg)
 
 뭔가 좀 조악하긴 하지만, 당시 3D로 FPS 플레이를 한다는 게 신선했고, HP가 줄어들면 얼굴에서 피 흘리는 표현도 기억에 많이 남는다. 당시 둠이 얼마나 유명했었냐면, 빌 게이츠가 윈도우95에서 둠이 잘 돌아간다며 홍보하는 영상까지 찍었을 정도.
 

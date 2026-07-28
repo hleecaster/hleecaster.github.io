@@ -56,7 +56,7 @@ log-odds를 어떻게 구하는지 알려면 일단 odds부터 계산해야 하
 log_odds = np.dot(features, coefficients) + intercept
 ```
 
- ![np.dot](https://i.stack.imgur.com/B8MP2.png)
+ ![np.dot](/assets/img/posts/ml_logistic_regression_concepts/B8MP2.png)
 
 ## Sigmoid Function
 

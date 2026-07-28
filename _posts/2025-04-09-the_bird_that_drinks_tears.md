@@ -15,7 +15,7 @@ categories: [LIFE, Books]
 [『눈물을 마시는 새』비주얼 컨셉 트레일러- '나가살육자'](https://youtu.be/tXCO6wSrZRw)
 
 
-![눈물을 마시는 새](https://kraftonmontreal.com/wp-content/uploads/2023/02/26-w.jpg)
+![눈물을 마시는 새](/assets/img/posts/the_bird_that_drinks_tears/26-w.jpg)
 
 
 책 곳곳에 삶을 관통하는 명문장이 많았지만  

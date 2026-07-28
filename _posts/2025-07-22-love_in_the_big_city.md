@@ -14,7 +14,7 @@ categories: [LIFE, Books]
 --- 
 
 
-![대도시의 사랑법](https://kr.object.ncloudstorage.com/changbi/old/uploads/2019/06/20190628_055533.jpg)
+![대도시의 사랑법](/assets/img/posts/love_in_the_big_city/20190628_055533.jpg)
 Illustration by [HIROSHI NAGAI](https://en.wikipedia.org/wiki/Hiroshi_Nagai)
 
 

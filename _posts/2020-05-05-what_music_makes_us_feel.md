@@ -26,7 +26,7 @@ categories: [WORK, Psychology]
 12. scary/fearful
 13. triumphant/heroic
 
-![What music makes us feel](https://www.pnas.org/cms/10.1073/pnas.1910704117/asset/b5da321e-a919-4d8c-aed1-0f4e34df963e/assets/graphic/pnas.1910704117fig03.jpeg)
+![What music makes us feel](/assets/img/posts/what_music_makes_us_feel/pnas_fig3_music_emotion_map.jpg)
 
 더 재밌는 건 이렇게 분석한 데이터를 누구나 확인할 수 있도록 인터랙티브 맵 형태로 웹페이지를 통해 제공하고 있다는 거다.
 

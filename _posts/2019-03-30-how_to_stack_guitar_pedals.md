@@ -23,7 +23,7 @@ categories: [LIFE, Etc.]
 
 예를 들어 딜레이와 리버브만 센드/리턴으로 빼면 이렇게 된다.
 
-![기타 이펙터 연결 순서](https://www.strymon.net/wp-content/uploads/2016/03/signalchain3_effectsloops.jpg)
+![기타 이펙터 연결 순서](/assets/img/posts/how_to_stack_guitar_pedals/signalchain3_effectsloops.jpg)
 
 잘 모르겠으면 무조건 위에서 인용한 포스트를 읽자. 영어를 잘 모르더라도 이미지로 깔끔하게 정리가 되어 있으니 이해가 쏙쏙 된다.
 

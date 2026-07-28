@@ -58,15 +58,15 @@ xG 외에도  패킹(packing) ,  임팩트(impect)  개념도 주목을 받�
 
 아무튼 인상 깊어서 대표적인 사례 몇 가지만 가져와봤다.
 
-![축구 데이터 시각화 예시](https://pbs.twimg.com/media/ENa77p2VUAAvw-7?format=jpg&name=large)
+![축구 데이터 시각화 예시](/assets/img/posts/football_statistics_visualization/ENa77p2VUAAvw-7.jpg)
 
 홀란드 도르트문트 이적 후 스탯. 90분당 xG가 거의 1개다. 미쳤다.
 
-![축구 데이터 시각화 예시](https://pbs.twimg.com/media/EVKqYjFUcAESQBI?format=jpg&name=large)
+![축구 데이터 시각화 예시](/assets/img/posts/football_statistics_visualization/EVKqYjFUcAESQBI.jpg)
 
 오른발/왼발 사용 비율을 시각화 한 게 재밌다. 데브라이너 히트맵 보면 하프 스페이스가 눈에 딱 띈다.
 
-![축구 데이터 시각화 예시](https://pbs.twimg.com/media/EVpywH3UEAAJAMK?format=jpg&name=large)
+![축구 데이터 시각화 예시](/assets/img/posts/football_statistics_visualization/EVpywH3UEAAJAMK.jpg)
 
 스페인 라리가 클럽들의 스타일을 라리가 로고를 가지고 표현한 것도 재밌다.
 

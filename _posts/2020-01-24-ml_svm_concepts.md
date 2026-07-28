@@ -209,7 +209,7 @@ classifier = SVC(kernel = "rbf", C = 2, gamma = 0.5)
 
 gamma와 c값을 변화하면서 비교한 그림 살펴보자. 
 
-![RBF SVM parameters](https://scikit-learn.org/stable/_images/sphx_glr_plot_rbf_parameters_001.png)
+![RBF SVM parameters](/assets/img/posts/ml_svm_concepts/sphx_glr_plot_rbf_parameters_001.png)
 
 
 ## 요약

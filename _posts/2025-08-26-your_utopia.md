@@ -14,7 +14,7 @@ categories: [LIFE, Books]
 --- 
 
 
-![너의 유토피아](https://pbs.twimg.com/media/GjKFUMgb0AA6UFE?format=jpg&name=4096x4096)
+![너의 유토피아](/assets/img/posts/your_utopia/GjKFUMgb0AA6UFE.jpg)
 Illustration by 람한
 
 
