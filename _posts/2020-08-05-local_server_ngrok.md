@@ -72,7 +72,7 @@ at this terminal prompt to expose port 80.
 
 `ngrok`은 기본 `Session` 유지 시간이 8시간이라서, 이후에는 다시 `ngrok`을 실행해야 한다. 그런데 무료 사용의 경우 `ngrok` 종료 후 다시 실행하면 접속 URL이 변경되는 문제가 있다.
 
-만약 고정된 URL을 사용하고 싶다면 일단 [여기](https://dashboard.ngrok.com/signup) 들어가서 가입을 하자. 그리고 로그인 후에 [여기](https://dashboard.ngrok.com/auth/your-authtoken)에서 내 Authtoken을 복사해놓고 그걸 커맨드라인에 이렇게 써주어 실행하면 된다.
+만약 고정된 URL을 사용하고 싶다면 일단 [여기](https://dashboard.ngrok.com/signup) 들어가서 가입을 하자. 그리고 로그인 후에 [여기](https://dashboard.ngrok.com/get-started/your-authtoken)에서 내 Authtoken을 복사해놓고 그걸 커맨드라인에 이렇게 써주어 실행하면 된다.
 
 ```
 ngrok.exe authtoken "복사한토큰"

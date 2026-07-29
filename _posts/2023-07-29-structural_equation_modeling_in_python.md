@@ -6,7 +6,7 @@ categories: [WORK, Data]
 
 통계 돌릴 때 SPSS 안 쓴지 몇 년이 지났다. 최근에 파이썬으로 구조방정식 돌릴 방법을 찾다가 쉽게 사용법을 소개하는 괜찮은 글이 있어서 이 기회에 블로그에 남겨놓고자 한다.
 
-아래 내용은 [Towards Data Science](https://towardsdatascience.com)에 기고된 [Structural Equation Modeling](https://towardsdatascience.com/structural-equation-modeling-dca298798f4d) 글의 번역이다.
+아래 내용은 [Towards Data Science](https://towardsdatascience.com)에 기고된 「Structural Equation Modeling」 글의 번역이다. (원문은 현재 삭제된 상태다.)
 
 - 구조방정식이란
 - 구조방정식은 언제 사용해야 할까

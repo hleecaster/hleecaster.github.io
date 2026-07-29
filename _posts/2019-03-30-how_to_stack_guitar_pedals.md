@@ -98,7 +98,7 @@ Big Muff 계열의 퍼즈를 앞에, TS계열의 오버드라이브를 뒤에 �
 
 이 조합이 짱이라고 한다. 제일 시끄럽기 때문에…(응?)
 
-여담이지만 JHS Pedals 웹사이트에 가면 [Loud is More Good](https://www.jhspedals.com/products/merch/loudismoregood/)라고 프린팅 된 티셔츠를 팔기도 한다. 일종의 캐치프레이즈 같은 걸로 밀고 있는 모양이다.
+여담이지만 JHS Pedals 웹사이트에 가면 Loud is More Good이라고 프린팅 된 티셔츠를 팔기도 한다. 일종의 캐치프레이즈 같은 걸로 밀고 있는 모양이다.
 
 옥타브는 내 개인적인 취향이 아니긴 하지만 어쨌든 이 조합의 사운드는 실험적이고 좋다. 퍼즈 사운드를 좋아하는 사람이라면 꽤 끌릴 거다.
 

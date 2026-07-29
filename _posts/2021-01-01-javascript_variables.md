@@ -31,7 +31,7 @@ console.log(myName);
 
 - 변수명은 숫자로 시작할 수 없다.
 - 변수명은 대문자와 소문자를 구분한다. (예를 들어 `myName`과 `myname`은 다른 변수다.)
-- 변수명은 키워드와 같을 수 없다. (자바스크립트에서 사용하는 키워드 목록은 이 [문서](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Lexical_grammar)를 참고하자.)
+- 변수명은 키워드와 같을 수 없다. (자바스크립트에서 사용하는 키워드 목록은 이 [문서](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords)를 참고하자.)
 
 아무튼 `var`로 변수를 생성하면 뭐 이런저런 이유로 단점이 좀 있다. 그래서 2015년에 JavaScript ES6 버전을 통해 이런저런 업데이트가 있었는데, 그 중 하나가 바로 변수를 선언하기 위한 새로운 키워드 `let`이나 `const`이다. (ES6 이전에는 변수를 선언할 때 `var`만 사용할 수 있었다.)
 

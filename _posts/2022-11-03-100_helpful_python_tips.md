@@ -4,7 +4,7 @@ date: 2022-11-03
 categories: [WORK, Python]
 ---
 
-[100 Helpful Python Tips You Can Learn Before Finishing Your Morning Coffee](https://towardsdatascience.com/100-helpful-python-tips-you-can-learn-before-finishing-your-morning-coffee-eb9c39e68958)의 번역 글. (모닝 커피 마시는 동안 배울 수 있는 100개의 파이썬 팁…?)
+Towards Data Science에 실렸던 「100 Helpful Python Tips You Can Learn Before Finishing Your Morning Coffee」의 번역 글. (모닝 커피 마시는 동안 배울 수 있는 100개의 파이썬 팁…?) 원문은 현재 삭제된 상태다.
 
 이해를 돕기 위해 일부 내용은 수정/보완했고, 내가 옮겨 적으면서 기억하려고 남기는 글이기에, 개인적으로 유용한 것에는 ⭐ 표시를 붙였다.
 
