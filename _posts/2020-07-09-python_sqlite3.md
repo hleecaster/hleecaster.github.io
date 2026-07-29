@@ -253,7 +253,7 @@ with conn:
 
 이래놓고 sql 파일을 열어보면 신기하게 아래와 같이 생겼다.
 
-```
+```sql
 BEGIN TRANSACTION;
 CREATE TABLE table1(id integer PRIMARY KEY, name text, birthday text);
 INSERT INTO "table1" VALUES(1,'LEE','1987-00-00');

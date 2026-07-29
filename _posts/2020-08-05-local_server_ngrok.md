@@ -74,7 +74,7 @@ at this terminal prompt to expose port 80.
 
 만약 고정된 URL을 사용하고 싶다면 일단 [여기](https://dashboard.ngrok.com/signup) 들어가서 가입을 하자. 그리고 로그인 후에 [여기](https://dashboard.ngrok.com/get-started/your-authtoken)에서 내 Authtoken을 복사해놓고 그걸 커맨드라인에 이렇게 써주어 실행하면 된다.
 
-```
+```bash
 ngrok.exe authtoken "복사한토큰"
 ```
 

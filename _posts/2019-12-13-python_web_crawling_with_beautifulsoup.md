@@ -57,7 +57,7 @@ HTML 문서를 잘 보면 `<`, `>` 기호를 활용해서 다양한 태그를 �
 print(soup.p)
 ```
 
-```
+```html
 <p>당근마켓 앱에서 따뜻한 거래를 직접 경험해보세요!</p>
 ```
 
@@ -75,7 +75,7 @@ print(soup.p.string)
 print(soup.h1)
 ```
 
-```
+```html
 <h1 id="fixed-bar-logo-title">
 <a href="https://www.daangn.com/">
 <span class="sr-only">당근마켓</span>
@@ -90,7 +90,7 @@ for child in soup.ul.children:
     print(child)
 ```
 
-```
+```html
 <li class="footer-list-item"><a href="http://policy.daangn.com/terms.html" target="_blank">이용약관</a></li>
 <li class="footer-list-item"><a href="http://policy.daangn.com/privacy.html" target="_blank">개인정보 취급방침</a></li>
 <li class="footer-list-item"><a href="https://policy.daangn.com/location.html" target="_blank">위치기반서비스 이용약관</a></li>
@@ -130,7 +130,7 @@ print(soup.find_all("h2"))
 
 그러면 결과 값을 리스트로 돌려준다. 이런 식으로
 
-```
+```html
 [<h2 class="card-title">컴퓨터.에어컨.프린터.냉장고.책상.의자.서랍장</h2>,
  <h2 class="card-title">20키로 쌀</h2>,
  <h2 class="card-title">서랍장 내놓습니다</h2>,
@@ -188,7 +188,7 @@ soup.find_all(attrs={'class':'card-title'})
 soup.find_all(attrs={'class':'footer-list', 'id':'footer-address-list'})
 ```
 
-```
+```html
 [<ul class="footer-list" id="footer-address-list">
 <li class="footer-list-item">사업자 등록번호 : 375-87-00088</li>
 <li class="footer-list-item"><address>서울특별시 강남구 테헤란로4길 14 미림타워 14층</address></li>

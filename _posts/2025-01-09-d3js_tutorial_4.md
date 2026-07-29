@@ -42,7 +42,7 @@ force simulation은 alpha라는 값을 사용하여 시뮬레이션의 진행 �
 
 아래는 드래그 이벤트에서 이 속성들을 활용하는 예시이다.
 
-```javaScript
+```javascript
 function drag(simulation) {
     function dragstarted(event) {
         if (!event.active) simulation.alphaTarget(0.3).restart(); // 드래그 시작 시 alphaTarget을 0.3으로 설정하고 시뮬레이션 재시작

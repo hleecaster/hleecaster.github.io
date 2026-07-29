@@ -27,7 +27,7 @@ categories: [WORK, Python]
 
 이제 필요한 파이썬 라이브러리를 설치해두자.
 
-```
+```bash
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 

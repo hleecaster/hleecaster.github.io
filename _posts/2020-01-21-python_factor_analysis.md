@@ -18,7 +18,7 @@ categories: [WORK, Data]
 
 설치 방법은 늘상 그렇듯.
 
-```
+```bash
 pip install factor-analyzer
 ```
 

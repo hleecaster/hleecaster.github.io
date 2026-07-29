@@ -26,7 +26,7 @@ categories: [WORK, Python]
 
 예를 들어 바탕화면에 “my_project”라는 폴더를 만들어 작업을 한다면, 그 폴더 안에서 `python -m venv 가상환경이름`이라고 쳐주면 된다.
 
-```
+```console
 C:\Users\USERNAME\Desktop\my_project>python -m venv 가상환경이름
 ```
 
@@ -38,7 +38,7 @@ C:\Users\USERNAME\Desktop\my_project>python -m venv 가상환경이름
 
 추가 팁! 애초에 가상환경을 만들 때 내가 시스템 기본 파이썬을 사용하면서 설치했던 전역 패키지들을 깔고 시작하는 방법도 있다. 명령어 칠 때 뒤에 `--system-site-packages`라고 붙여주면 된다.
 
-```
+```console
 C:\Users\USERNAME\Desktop\my_project>python -m venv 가상환경이름 --system-site-packages
 ```
 
@@ -46,7 +46,7 @@ C:\Users\USERNAME\Desktop\my_project>python -m venv 가상환경이름 --system-
 
 프로젝트 폴더 안에서 `가상환경이름\Scripts\activate.bat` 이라고 쳐주면 가상환경이 활성화된다.
 
-```
+```console
 C:\Users\USERNAME\Desktop\my_project>가상환경이름\Scripts\activate.bat
 ```
 
@@ -54,7 +54,7 @@ C:\Users\USERNAME\Desktop\my_project>가상환경이름\Scripts\activate.bat
 
 그러면 cmd 라인 맨 왼쪽에 `(가상환경이름)`이 붙어 있는 걸 볼 수 있는데, 활성화 되었다는 뜻이다. 실제로 파이썬 인터프리터가 이 폴더 안에 있는 걸로 인식이 된 건지 확인을 해보려면 `where python`이라고 쳐보자.
 
-```
+```console
 (venv) C:\Users\USERNAME\Desktop\my_project>where python
 ```
 
@@ -71,7 +71,7 @@ C:\Users\USERNAME\Desktop\my_project>가상환경이름\Scripts\activate.bat
 
 가상환경 내에서 패키지를 설치하려면, 가상환경을 활성화 한 상태에서 그냥 평소처럼 `pip install`로 패키지 설치를 하면 된다. (당연히 삭제는 `pip uninstall`로 하면 되고.)
 
-```
+```console
 (venv) C:\Users\USERNAME\Desktop\my_project>pip install 패키지이름
 ```
 
@@ -87,7 +87,7 @@ C:\Users\USERNAME\Desktop\my_project>가상환경이름\Scripts\activate.bat
 
 어쨌든 가상환경 활성화 상태에서 `pip freeze`라고 치면 그동안 설치된 패키지 이름 뒤에 버전이 붙어서 쫙 뜬다. 그래서 만약 이걸 써먹기 위해 requirements.txt파일로 정리하고 싶다면 아래와 같이 해주면 된다.
 
-```
+```console
 (venv) C:\Users\USERNAME\Desktop\my_project>pip freeze > requirements.txt
 ```
 
@@ -95,7 +95,7 @@ C:\Users\USERNAME\Desktop\my_project>가상환경이름\Scripts\activate.bat
 
 만약 다른 가상환경에 이 패키지들을 한 방에 설치하려면 이 텍스트 파일을 새로운 프로젝트 폴더 안에 가져와서 `pip install -r requirements.txt` 라고 써주면 된다.
 
-```
+```console
 (venv) C:\Users\USERNAME\Desktop\my_new_project>pip install -r requirements.txt
 ```
 

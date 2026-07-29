@@ -17,14 +17,14 @@ categories: [WORK, Python]
 
 야후 파이낸스 데이터를 가져오기 위한 [yfinance](https://github.com/ranaroussi/yfinance), 예측 모델링 및 시각화를 위한 [prophet](https://github.com/facebook/prophet), 이렇게 두 개면 된다. pip로 바로 설치.
 
-```
+```bash
 pip install yfinance
 pip install prophet
 ```
 
 그런데 이 상태에서 Prophet을 불러오면 “Importing plotly failed. Interactive plots will not work.” 라는 에러 메시지가 뜰 수 있다. Prophets는 [Plotly](https://plotly.com/python/) 기반으로 데이터를 시각화하기 때문에 이것도 미리 설치하자.
 
-```
+```bash
 pip install plotly
 ```
 

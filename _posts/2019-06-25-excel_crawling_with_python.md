@@ -67,7 +67,7 @@ print(file_list)
 
 [openpyxl](https://openpyxl.readthedocs.io/en/stable/)은 엑셀 파일을 손쉽게 다룰 수 있는 파이썬 라이브러리다. 가장 널리 쓰이는 라이브러리이며, 다른 엑셀 관련 라이브러리보다 가볍고 편리해서 좋다. 자세한 내용은 홈페이지를 참조하자. 설치는 아래와 같은 pip 명령어로 쉽게 진행할 수 있다.
 
-```
+```bash
 pip install openpyxl
 ```
 

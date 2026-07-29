@@ -14,7 +14,7 @@ Towards Data Science에 실렸던 「100 Helpful Python Tips You Can Learn Befor
 
 for문이 중간에 break 등으로 끊기지 않고 끝까지 수행 되었을 때 수행하는 코드를 담으면 된다. else는 for와 같은 수준으로 들여쓰기 해야 한다.
 
-```
+```python
 numbers = [2, 4, 1, 8, 6]
 
 for number in numbers:
@@ -31,7 +31,7 @@ for-else는 반복문이 중간에 break 되었는지 판별해야 하는 경우
 
 ## 2. 변수명을 나열하여 리스트에서 요소들을 각각 가져오기
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 one, two, three, four, five = my_list
 ```
@@ -40,7 +40,7 @@ one, two, three, four, five = my_list
 
 `heapq`는 파이썬 내장 모듈이다.
 
-```
+```python
 import heapq
 
 scores = [51, 33, 64, 87, 91, 75, 15, 49, 33, 82]
@@ -51,7 +51,7 @@ print(heapq.nsmallest(5, scores))  # [15, 33, 33, 49, 51]
 
 이걸 응용하면 딕셔너리에서도 key나 value를 기준으로 가장 큰, 가장 작은 값을 가져올 수 있다.
 
-```
+```python
 scores = {"a": 51, "b": 33, "c": 64, "d": 87, "e": 91, "f": 75, "g": 15, "h": 49, "i": 33, "j": 82}
 
 # sort by keys
@@ -67,7 +67,7 @@ print(heapq.nsmallest(3, scores.items(), key=lambda item: item[1]))  # [('g', 15
 
 `*`를 사용하여 리스트의 모든 요소를 추출할 수 있다.
 
-```
+```python
 my_list = [1, 2, 3, 4]
 print(my_list)  # [1, 2, 3, 4]
 
@@ -76,7 +76,7 @@ print(*my_list)  # 1 2 3 4
 
 이 방법은 리스트의 모든 요소를 메서드 인수로 전달하려는 상황에서 유용하다.
 
-```
+```python
 def sum_of_elements(*arg):
     total = 0
     for i in arg:
@@ -95,7 +95,7 @@ print(result)  # 10
 
 `_`와 `*`를 사용한다.
 
-```
+```python
 _, *elements_in_the_middle, _ = [1, 2, 3, 4, 5, 6, 7, 8]
 print(elements_in_the_middle)  # [2, 3, 4, 5, 6, 7]
 
@@ -105,7 +105,7 @@ print(elements_in_the_middle)  # [3, 4, 5, 6]
 
 ## 6. 한 줄에서 변수 여러개 할당
 
-```
+```python
 one, two, three, four = 1, 2, 3, 4
 ```
 
@@ -113,7 +113,7 @@ one, two, three, four = 1, 2, 3, 4
 
 리스트 컴프리헨션은 반복문을 한 줄로 처리할 수 있는 우아한 문법이다.
 
-```
+```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 even_numbers = [number for number in numbers if number % 2 == 0]
@@ -123,7 +123,7 @@ print(even_numbers)  # [2, 4, 6, 8]
 
 리스트 컴프리헨션은 딕셔너리에서도 활용할 수 있다.
 
-```
+```python
 dictionary = {'first_element': 1, 'second_element': 2,
               'third_element': 3, 'fourth_element': 4}
 odd_value_elements = {key: num for (key, num) in
@@ -137,7 +137,7 @@ print(odd_value_elements)  # {'first_element': 1, 'third_element': 3}
 
 An `Enum`(https://docs.python.org/ko/3/library/enum.html#enum.Enum) is a set of symbolic names bound to unique values. They are similar to global variables, but they offer a more useful `repr()`(https://docs.python.org/ko/3/library/functions.html#repr), grouping, type-safety, and a few other features.
 
-```
+```python
 from enum import Enum
 
 class Status(Enum):
@@ -152,7 +152,7 @@ print(Status.COMPLETED.value)  # 2
 
 ## 9. 연산자 `*` 활용하여 문자열 반복하기
 
-```
+```python
 string = "Abc"
 
 print(string * 5)  # AbcAbcAbcAbcAbc
@@ -162,7 +162,7 @@ print(string * 5)  # AbcAbcAbcAbcAbc
 
 파이썬에서는 _1 < x and x < 10_ 과 같은 비교를 한 줄로 처리할 수 있다.
 
-```
+```python
 x = 3
 print(1 < x < 10)   # True
 ```
@@ -171,7 +171,7 @@ print(1 < x < 10)   # True
 
 파이썬 3.9부터 사용 가능한 문법.
 
-```
+```python
 first_dictionary = {'name': 'Fatos', 'location': 'Munich'}
 second_dictionary = {'name': 'Fatos', 'surname': 'Morina', 'location': 'Bavaria, Munich'}
 
@@ -182,7 +182,7 @@ print(result)
 
 ## 12. 튜플에서 특정 요소의 인덱스 찾기
 
-```
+```python
 books = ('Atomic habits', 'Ego is the enemy', 'Outliers', 'Mastery')
 
 print(books.index('Mastery'))   # 3
@@ -194,7 +194,7 @@ print(books.index('Mastery'))   # 3
 
 물론 복잡한 정규식을 쓸 수도 있겠지만, `ast` 모듈에서 `literal_eval` 메서드를 사용하면 편하게 처리할 수 있다.
 
-```
+```python
 import ast
 
 def string_to_list(string):
@@ -209,7 +209,7 @@ print(my_list)  # [[1, 2, 3], [4, 5, 6]]
 
 아래와 같이 subtract라는 함수를 만들어서 사용하는 데, 함수 안에 넣어줄 인수의 순서가 바뀌면 괜히 실수가 날 수 있다.
 
-```
+```python
 def subtract(a, b):
     return a - b
 
@@ -219,7 +219,7 @@ print((subtract(3, 1)))  # 2
 
 아래와 같이 매개변수 이름을 정확히 적어서 실수를 줄이자.
 
-```
+```python
 def subtract(a, b):
     return a - b
 
@@ -230,7 +230,7 @@ print((subtract(b=3, a=1)))  # -2
 
 ## 15. print 한 줄로 처리하기
 
-```
+```python
 print(1, 2, 3, "a", "z", "this is here", "here is something else")
 ```
 
@@ -238,7 +238,7 @@ print(1, 2, 3, "a", "z", "this is here", "here is something else")
 
 `end` 파라미터를 사용하면 된다.
 
-```
+```python
 print("Hello", end="")
 print("World")  # HelloWorld
 print("Hello", end=" ")
@@ -251,27 +251,27 @@ print('words',   'with', 'commas', 'in', 'between', sep=', ')
 
 `sep` 파라미터를 사용하면 더 예쁘게 출력할 수 있다.
 
-```
+```python
 print("29", "01", "2022", sep="/")  # 29/01/2022
 print("name", "domain.com", sep="@")  # name@domain.com
 ```
 
 ## 18. 파이썬 변수명 맨 앞에 숫자는 올 수 없음
 
-```
+```python
 four_letters = “abcd” # this works
 4_letters = “abcd” # this doesn’t work
 ```
 
 ## 19. 파이썬 변수명 맨 앞에 연산자가 올 수 없음
 
-```
+```python
 +variable = “abcd”  # this doesn’t work
 ```
 
 ## 20. 숫자 맨 앞 자리는 0이 될 수 없음 ⭐
 
-```
+```python
 number = 0110 # this doesn't work
 ```
 
@@ -279,7 +279,7 @@ number = 0110 # this doesn't work
 
 ## 21. 언더스코어 “_”는 변수명 어디에도 사용할 수 있음
 
-```
+```python
 a______b = "abcd"  # this works
 _a_b_c_d = "abcd"  # this also works
 ```
@@ -288,7 +288,7 @@ _a_b_c_d = "abcd"  # this also works
 
 숫자 사이에 언더스코어 `_` 1개가 들어오는 건 무시된다. (자리수 구분, 가독성을 위해 자유롭게 사용할 수 있다는 뜻)
 
-```
+```python
 print(1_000_000_000)  # 1000000000
 print(1_234_567)  # 1234567
 
@@ -299,7 +299,7 @@ print(a + b)  # 1003000
 
 ## 23. 리스트 순서 뒤집기
 
-```
+```python
 my_list = ['a', 'b', 'c', 'd']
 
 my_list.reverse()
@@ -309,7 +309,7 @@ print(my_list)  # ['d', 'c', 'b', 'a']
 
 ## 24. 문자열 건너뛰어 슬라이싱
 
-```
+```python
 my_string = "This is just a sentence"
 print(my_string[0:5])  # This
 
@@ -321,7 +321,7 @@ print(my_string[0:10:3])  # Tssu
 
 ## 25. 문자열 순서 뒤집어서 슬라이싱
 
-```
+```python
 my_string = "This is just a sentence"
 print(my_string[10:0:-1])  # suj si sih
 
@@ -333,7 +333,7 @@ print(my_string[10:0:-3])  # s  h
 
 ## 26. 슬라이싱 할 때 시작/끝 인덱스는 생략 가능
 
-```
+```python
 my_string = "This is just a sentence"
 print(my_string[4:])  # is just a sentence
 
@@ -342,7 +342,7 @@ print(my_string[:3])  # Thi
 
 ## 27. 나누기 후 소수점 이하 버리기
 
-```
+```python
 print(3/2)  # 1.5
 print(3//2)  # 1
 ```
@@ -351,7 +351,7 @@ print(3//2)  # 1
 
 `==`는 이 두 개체가 가진 값이 일치하는지 비교하는 반면, `is`는 두 변수가 메모리의 동일한 객체를 가리키는지 확인한다.
 
-```
+```python
 first_list = [1, 2, 3]
 second_list = [1, 2, 3]
 
@@ -370,7 +370,7 @@ print(third_list is first_list)
 
 실제로 변수의 id를 확인해보면 first_list와 third_list는 동일한 ID를 갖고 있지만, second_list의 id는 다르다는 걸 확인할 수 있다.
 
-```
+```python
 print(id(first_list))
 print(id(second_list))
 print(id(third_list))
@@ -378,7 +378,7 @@ print(id(third_list))
 
 ## 29. 딕셔너리 쉽게 병합하기 ⭐
 
-```
+```python
 dictionary_one = {"a": 1, "b": 2}
 dictionary_two = {"c": 3, "d": 4}
 
@@ -391,7 +391,7 @@ print(merged)  # {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
 문자열에 부등호를 사용하면, 해당 문자열을 ascii 숫자로 변환해서 맨 앞의 문자부터 비교한다.
 
-```
+```python
 first = "abc"
 second = "def"
 print(first < second)  # True
@@ -401,7 +401,7 @@ print(first < second)  # False
 
 아스키코드표를 따르면, 혹은 `ord`함수를 이용하면 이렇게 몇 번째 유니코드 정수 값을 구할 수 있다. (39번 참고)
 
-```
+```python
 print(ord('a'))  # 97
 print(ord('z'))  # 122
 ```
@@ -410,14 +410,14 @@ print(ord('z'))  # 122
 
 인덱싱 하지 않고 `startswith`로 처리하는 방법.
 
-```
+```python
 my_string = "abcdef"
 print(my_string.startswith("b"))  # False
 ```
 
 ## 32. id()를 사용하여 변수의 고유 ID 찾기
 
-```
+```python
 print(id(1))  # 4325776624
 print(id(2))  # 4325776656
 print(id("string"))  # 4327978288
@@ -429,7 +429,7 @@ print(id("string"))  # 4327978288
 
 그래서 만약 해당 변수에 다른 값을 할당하는 경우 원래의 객체는 여전히 메모리에 있지만 이를 가리키는 변수는 손실된다.
 
-```
+```python
 number = 1
 print(id(number))  # 4325215472
 print(id(1))  # 4325215472
@@ -443,7 +443,7 @@ print(id(1))  # 4325215472
 
 바로 위에서 언급한 내용이지만 너무나 중요한 내용이기 때문에 다시 한 번 강조한다…?
 
-```
+```python
 name = "Fatos"
 print(id(name))  # 4422282544
 name = "fatos"
@@ -459,7 +459,7 @@ print(id(my_tuple))  # 4498867584
 
 이는 바인딩된 객체를 잃지 않고도 해당 변수를 변경할 수 있음을 의미한다.
 
-```
+```python
 cities = ["Munich", "Zurich", "London"]
 print(id(cities))  # 4482699712
 cities.append("Berlin")
@@ -475,7 +475,7 @@ print(id(my_set))  # 4352726176
 
 `frozenset`을 사용하면 immutable하도록 바꿀 수 있다.
 
-```
+```python
 my_set = frozenset(['a', 'b', 'c', 'd'])
 my_set.add("a")    # AttributeError: 'frozenset' object has no attribute 'add'
 ```
@@ -484,7 +484,7 @@ my_set.add("a")    # AttributeError: 'frozenset' object has no attribute 'add'
 
 그러나 `elif`는 `if` 없이는 단독으로 쓰일 수 없다.
 
-```
+```python
 def check_number(number):
     if number > 0:
         return "Positive"
@@ -503,7 +503,7 @@ print(check_number(1))  # Positive
 
 구성하는 문자가 순서 상관 없이 일치하는지 확인하는 방법.
 
-```
+```python
 def check_if_anagram(first_word, second_word):
     first_word = first_word.lower()
     second_word = second_word.lower()
@@ -517,7 +517,7 @@ print(check_if_anagram("Know", "Now"))  # False
 
 `ord`는 해당 문자에 해당하는 유니코드 정수를 반환한다.
 
-```
+```python
 print(ord("A"))  # 65
 print(ord("B"))  # 66
 print(ord("C"))  # 66
@@ -526,7 +526,7 @@ print(ord("a"))  # 97
 
 ## 40. 딕셔너리 key만 가져오기
 
-```
+```python
 dictionary = {"a": 1, "b": 2, "c": 3}
 
 keys = dictionary.keys()
@@ -536,7 +536,7 @@ print(list(keys))  # ['a', 'b', 'c']
 
 ## 41. 딕셔너리 value만 가져오기
 
-```
+```python
 dictionary = {"a": 1, "b": 2, "c": 3}
 
 values = dictionary.values()
@@ -548,7 +548,7 @@ print(list(values))  # [1, 2, 3]
 
 리스트 컴프리헨션을 사용하면 간단히 처리할 수 있다.
 
-```
+```python
 dictionary = {"a": 1, "b": 2, "c": 3}
 
 reversed_dictionary = {j: i for i, j in dictionary.items()}
@@ -558,7 +558,7 @@ print(reversed)  # {1: 'a', 2: 'b', 3: 'c'}
 
 ## 43. boolean 값을 숫자 1 또는 0으로 변환하기
 
-```
+```python
 print(int(True))  # 0
 print(int(False))  # 0
 
@@ -570,7 +570,7 @@ print(float(False))  # 0.0
 
 True는 1, False는 0이니까…
 
-```
+```python
 x = 10
 y = 12
 result = (x - False)/(y * True)
@@ -579,7 +579,7 @@ print(result)  # 0.8333333333333334
 
 ## 45. 모든 자료형은 boolean으로 표현 가능
 
-```
+```python
 print(bool(3))  # True
 print(bool(.0))  # False
 
@@ -595,13 +595,13 @@ print(bool(" "))  # True
 
 복소수 변환은 `complex()` 함수를 사용한다.
 
-```
+```python
 print(complex(10, 2))  # (10+2j)
 ```
 
 이 외에도 `bin()` , `oct()`, `hex()` 함수를 사용하면 숫자를 각각 2진수, 8진수, 16진수 형태의 문자열로 변환할 수 있다.
 
-```
+```python
 print(bin(11))  # 0b1011
 print(oct(11))  # 0o13
 print(hex(11))  # 0xb
@@ -617,7 +617,7 @@ print(hex(11))  # 0xb
 
 리스트에 append()를 사용하면 맨 마지막에 해당 값를 추가한다. 만약 원하는 위치에 요소를 추가하고 싶다면 insert()를 사용하면 된다. (인덱스, 삽입할 요소 순으로 작성)
 
-```
+```python
 my_list = [3, 4, 5]
 
 my_list.append(6)
@@ -631,7 +631,7 @@ lambda 함수는 한 줄로만 작성해야 한다.
 
 여러 줄로 작성하면 SyntaxError 에러가 날 거다.
 
-```
+```python
 comparison = lambda x: if x > 3:
                     print("x > 3")
                 else:
@@ -642,7 +642,7 @@ comparison = lambda x: if x > 3:
 
 lambda 함수에 if 조건문을 이런 식으로 작성하면 SyntaxError 에러가 난다. (람다 자체의 문제가 아니라 조건문의 특성이다.)
 
-```
+```python
 comparison = lambda x: "x > 3" if x > 3
 ```
 
@@ -650,7 +650,7 @@ comparison = lambda x: "x > 3" if x > 3
 
 `filter()`는 lambda 함수와 조합하여 사용할 수 있다.
 
-```
+```python
 my_list = [1, 2, 3, 4]
 
 odd = filter(lambda x: x % 2 == 1, my_list)
@@ -661,7 +661,7 @@ print(my_list)  # [1, 2, 3, 4]
 
 ## 51. `map()`을 사용하여 새로운 객체 돌려받기
 
-```
+```python
 my_list = [1, 2, 3, 4]
 
 squared = map(lambda x: x  2, my_list)
@@ -672,7 +672,7 @@ print(my_list)  # [1, 2, 3, 4]
 
 ## 52. `range()`에서 사용할 수 있는 매개변수 `step`
 
-```
+```python
 for number in range(1, 10, 3):
     print(number, end=" ")
 # 1 4 7
@@ -682,7 +682,7 @@ for number in range(1, 10, 3):
 
 그래서 0부터 시작할 거면 0을 그냥 생략하면 된다.
 
-```
+```python
 def range_with_zero(number):
     for i in range(0, number):
         print(i, end=' ')
@@ -699,7 +699,7 @@ range_with_no_zero(3)  # 0 1 2
 
 길이가 0보다 크면 기본적으로 True이므로 0과 비교할 필요가 없다.
 
-```
+```python
 def get_element_with_comparison(my_list):
     if len(my_list) > 0:
         return my_list[0]
@@ -719,7 +719,7 @@ print(first_result == second_result)  # True
 
 그러나 가장 마지막에 작성된 함수가 우선하기 때문에 마지막 항목만 호출된다.
 
-```
+```python
 def get_address():
     return "First address"
 
@@ -734,7 +734,7 @@ print(get_address())  # Third address
 
 ## 56. scope 밖에서 해당 속성에 접근하기
 
-```
+```python
 class Engineer:
     def __init__(self, name):
         self.name = name
@@ -746,7 +746,7 @@ print(dain._Engineer__starting_salary)  # 62000
 
 ## 57. 특정 개체의 메모리 사용량 확인하기
 
-```
+```python
 import sys
 
 print(sys.getsizeof("bitcoin"))  # 56
@@ -756,7 +756,7 @@ print(sys.getsizeof("bitcoin"))  # 56
 
 `*`을 사용한다.
 
-```
+```python
 def get_sum(*arguments):
     result = 0
     for i in arguments:
@@ -772,7 +772,7 @@ print(get_sum(1, 2, 3, 4, 5, 6, 7))  # 28
 
 `super()`를 사용하여 부모클래스 이니셜라이저 호출하기
 
-```
+```python
 class Parent:
     def __init__(self, city, address):
         self.city = city
@@ -789,7 +789,7 @@ print(child.university)  # ETH Zürich
 
 부모클래스의 이름을 사용하여 이니셜라이저 호출하기
 
-```
+```python
 class Parent:
     def __init__(self, city, address):
         self.city = city
@@ -810,7 +810,7 @@ print(child.university)  # ETH Zürich
 
 `+`는 `__add__()`함수를 통해 재정의 할 수 있다.
 
-```
+```python
 class Expenses:
     def __init__(self, rent, groceries):
         self.rent = rent
@@ -833,7 +833,7 @@ print(total_expenses.groceries)  # 500
 
 부등호 `<`는 `__lt__()`를 재정의 하면 된다.
 
-```
+```python
 class Game:
     def __init__(self, score):
         self.score = score
@@ -849,7 +849,7 @@ print(first < second)  # True
 
 `==`는 `__eq__()`를 재정의하면 된다.
 
-```
+```python
 class Journey:
     def __init__(self, location, destination, duration):
         self.location = location
@@ -884,7 +884,7 @@ print(first == second)
 
 클래스 내에서 `__repr__()`를 조작하면 print를 통해 출력했을 때 어떻게 표현할지 직접 정의할 수 있다.
 
-```
+```python
 class Rectangle:
     def __init__(self, a, b):
         self.a = a
@@ -900,7 +900,7 @@ print(Rectangle(3, 4))  # 'Rectangle with area=12'
 
 문자열에 대해 `swapcase()`를 사용하면 대문자/소문자를 바꿔준다.
 
-```
+```python
 string = "This is just a sentence."
 result = string.swapcase()
 print(result)  # tHIS IS JUST A SENTENCE.
@@ -910,7 +910,7 @@ print(result)  # tHIS IS JUST A SENTENCE.
 
 문자열에 대해 `isspace()`를 사용하면 모든 문자가 공백문자인지 확인한다.
 
-```
+```python
 string = "     "
 result = string.isspace()
 print(result)  # True
@@ -924,7 +924,7 @@ print(result)  # False
 
 문자열에 대해 `isalnum()`을 사용하면 모든 문자가 알파벳과 숫자로만 이루어져있는지 확인한다.
 
-```
+```python
 name = "Password"
 print(name.isalnum())  # True, because all characters are alphabets
 
@@ -942,7 +942,7 @@ print(name.isalnum())  # True, because all characters are numbers
 
 문자열에 대해 `isalpha()`를 사용하면 모든 문자가 알파벳으로만 이루어져있는지 확인한다.
 
-```
+```python
 string = "Name"
 print(string.isalpha())  # True
 
@@ -957,7 +957,7 @@ print(string.isalpha())  # False, because it contains numbers
 
 문자열에 대해 `strip([chars])`, `lstrip([chars])`, `rstrip([chars])`과 같은 함수를 사용할 때 인자로 문자열을 넣어주면 해당 문자를 처음과 끝에서 찾아 제거한다. 그냥 strip은 양쪽에서, l은 왼쪽, r은 오른쪽에서 찾아 제거.
 
-```
+```python
 string = "This is a sentence with       "
 print(string.rstrip())  # "This is a sentence with"
 
@@ -972,7 +972,7 @@ print(string.lstrip("f"))  # First
 
 문자열에 `isdigit()`을 사용하면 해당 문자열이 숫자 형식인지 확인한다.
 
-```
+```python
 string = "seven"
 print(string.isdigit())  # False
 
@@ -992,7 +992,7 @@ print(string.isdigit())  # False
 
 중국어뿐만 아니라 제곱근, 분수, 거듭제곱 등의 특수문자가 있더라도 `isnumeric()` 함수는 True를 반환한다.
 
-```
+```python
 # 42673 in Arabic numerals
 string = "四二六七三"
 
@@ -1004,7 +1004,7 @@ print(string.isnumeric())  # True
 
 문자열에 `istitle()`을 사용하면 영어에서 제목을 표현할 때처럼 모든 단어 첫 글자가 문자열인지 확인한다.
 
-```
+```python
 string = "This is a sentence"
 print(string.istitle())  # False
 
@@ -1020,7 +1020,7 @@ print(string.istitle())  # False. It's titlelized version is "Python"
 
 ## 71. 튜플에 음수 인덱스 사용 가능
 
-```
+```python
 numbers = (1, 2, 3, 4)
 
 print(numbers[-1])  # 4
@@ -1029,7 +1029,7 @@ print(numbers[-4])  # 1
 
 ## 72. 튜플 내부에 리스트와 튜플 둘 다 담는 것도 가능
 
-```
+```python
 mixed_tuple = (("a"*10, 3, 4), ['first', 'second', 'third'])
 
 print(mixed_tuple[1])  # ['first', 'second', 'third']
@@ -1040,7 +1040,7 @@ print(mixed_tuple[0])  # ('aaaaaaaaaa', 3, 4)
 
 리스트에 `count()`를 사용하면 빠르게 해당 요소가 몇 개 있는지 확인할 수 있다.
 
-```
+```python
 names = ["Besim", "Albert", "Besim", "Fisnik", "Meriton"]
 
 print(names.count("Besim"))  # 2
@@ -1050,7 +1050,7 @@ print(names.count("Besim"))  # 2
 
 인덱싱을 하는 것과 다르다.
 
-```
+```python
 my_list = [1, 2, 3, 4, 5, 6]
 slicing = slice(-3, None)
 
@@ -1070,7 +1070,7 @@ print(string[slice_object])   # Science
 
 튜플에 `count()`를 사용하면 빠르게 해당 요소가 몇 개 있는지 확인할 수 있다. (73번과 같은 내용인데 굳이…?)
 
-```
+```python
 my_tuple = ('a', 1, 'f', 'a', 5, 'a')
 
 print(my_tuple.count('a'))  # 3
@@ -1080,21 +1080,21 @@ print(my_tuple.count('a'))  # 3
 
 튜플에 `index()`를 사용하면 빠르게 해당 요소가 몇 번째에 위치했는지 인덱스를 확인할 수 있다.
 
-```
+```python
 my_tuple = ('a', 1, 'f', 'a', 5, 'a')
 print(my_tuple.index('f'))  #  2
 ```
 
 ## 77. 튜플에서 특정 간격으로 건너뛰어 요소 추출하기
 
-```
+```python
 my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 print(my_tuple[::3])  # (1, 4, 7, 10)
 ```
 
 ## 78. 튜플에서 특정 인덱스부터 끝까지 요소 추출하기
 
-```
+```python
 my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 print(my_tuple[3:])  # (4, 5, 6, 7, 8, 9, 10)
 ```
@@ -1103,7 +1103,7 @@ print(my_tuple[3:])  # (4, 5, 6, 7, 8, 9, 10)
 
 `clear()`를 사용하면 된다.
 
-```
+```python
 my_list = [1, 2, 3, 4]
 my_list.clear()
 print(my_list)  # []
@@ -1121,7 +1121,7 @@ print(my_dict)  # {}
 
 `union()`을 사용하면 된다.
 
-```
+```python
 first_set = {1, 4, 5, 6}
 second_set = {1, 2, 3, 7}
 
@@ -1130,7 +1130,7 @@ print(first_set.union(second_set))  # {1, 2, 3, 4, 5, 6, 7}
 
 아니면 두 번째 집합의 요소를 첫 번째 집합에 삽입하는 `update()`를 사용할 수도 있다.
 
-```
+```python
 first_set = {1, 4, 5, 6}
 second_set = {1, 2, 3, 7}
 
@@ -1140,7 +1140,7 @@ print(first_set)  # {1, 2, 3, 4, 5, 6, 7}
 
 ## 81. print문 안에 if 조건문 사용하기 ⭐
 
-```
+```python
 def is_positive(number):
     print("Positive" if number > 0 else "Negative")  # Positive
 
@@ -1152,7 +1152,7 @@ is_positive(4)  # Positive
 
 리스트 안에 검사할 조건을 다 넣어두고, `all()`을 사용하는 방식. 처음 알았다.
 
-```
+```python
 math_points = 51
 biology_points = 78
 physics_points = 56
@@ -1177,7 +1177,7 @@ else:
 
 리스트 안에 검사할 조건을 다 넣어두고, `any()`를 사용하는 방식. 이것도 처음 알았다.
 
-```
+```python
 math_points = 41
 biology_points = 58
 physics_points = 36
@@ -1200,7 +1200,7 @@ else:
 
 ## 84. 비어있지 않은 모든 문자열은 True
 
-```
+```python
 print(bool("Non empty"))  # True
 print(bool(" "))  # True
 print(bool(""))  # False
@@ -1208,7 +1208,7 @@ print(bool(""))  # False
 
 ## 85. 비어있지 않은 모든 리스트, 튜플, 딕셔너리는 True
 
-```
+```python
 print(bool([]))  # False
 print(bool(set([])))  # False
 print(bool({}))  # False
@@ -1217,7 +1217,7 @@ print(bool({"a": 1}))  # True
 
 ## 86. None, False, 0은 False
 
-```
+```python
 print(bool(False))  # False
 print(bool(None))  # False
 print(bool(0))  # False
@@ -1226,7 +1226,7 @@ print(bool("False"))  # True
 
 ## 87. 함수 내에서는 전역 변수의 값을 변경할 수 없음
 
-```
+```python
 string = "string"
 
 def do_nothing():
@@ -1239,7 +1239,7 @@ print(string)  # string
 
 만약 함수 내에서 전역 변수에 접근하고 싶다면 `global`을 사용해야 한다.
 
-```
+```python
 string = "string"
 
 def do_nothing():
@@ -1255,7 +1255,7 @@ print(string)  # inside a method
 
 `Counter()`는 정말 유용하다.
 
-```
+```python
 from collections import Counter
 
 result = Counter("Banana")
@@ -1271,7 +1271,7 @@ print(result)  # Counter({1: 5, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1})
 
 `Counter()`를 사용해서 확인할 수 있다.
 
-```
+```python
 from collections import Counter
 
 def check_if_anagram(first_string, second_string):
@@ -1287,7 +1287,7 @@ print(check_if_anagram('Know', 'Now'))  # False
 
 `sorted()`를 사용해서 확인하는 방법도 있다.
 
-```
+```python
 def check_if_anagram(first_word, second_word):
     first_word = first_word.lower()
     second_word = second_word.lower()
@@ -1300,7 +1300,7 @@ print(check_if_anagram("Know", "Now"))  # False
 
 ## 90. `itertools`의 `count`를 사용해 리스트에서 요소 개수 카운트 하기
 
-```
+```python
 from itertools import count
 
 my_vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
@@ -1319,7 +1319,7 @@ for i in string:
 
 기본적으로 `collections.Counter()`는 빈도에 따라 정렬해주진 않지만, `most_common()`을 사용해주면 쉽게 해결된다.
 
-```
+```python
 from collections import Counter
 
 result = Counter([1, 2, 3, 2, 2, 2, 2])
@@ -1331,7 +1331,7 @@ print(result.most_common())  # [(2, 5), (1, 1), (3, 1)]
 
 `max()`와 `set()`을 조합하는 방법
 
-```
+```python
 my_list = ['1', 1, 0, 'a', 'b', 2, 'a', 'c', 'a']
 
 print(max(set(my_list), key=my_list.count))  # a
@@ -1346,7 +1346,7 @@ print(max(set(my_list), key=my_list.count))  # a
 
 이게 `copy()`의 예시
 
-```
+```python
 first_list = [[1, 2, 3], ['a', 'b', 'c']]
 second_list = first_list.copy()
 first_list[0][2] = 831
@@ -1357,7 +1357,7 @@ print(second_list)  # [[1, 2, 831], ['a', 'b', 'c']]
 
 이게 `deepcopy()`의 예시
 
-```
+```python
 import copy
 
 first_list = [[1, 2, 3], ['a', 'b', 'c']]
@@ -1372,14 +1372,14 @@ print(second_list)  # [[1, 2, 3], ['a', 'b', 'c']]
 
 딕셔너리에서 존재하지 않는 키에 접근하면 KeyError 오류가 발생한다.
 
-```
+```python
 my_dictonary = {"name": "Name", "surname": "Surname"}
 print(my_dictonary["age"])  # KeyError: 'age'
 ```
 
 `collections`의 `defaultdict()`를 사용하면 딕셔너리 키 에러 문제를 방지할 수 있다.
 
-```
+```python
 from collections import defaultdict
 
 my_dictonary = defaultdict(str)
@@ -1391,7 +1391,7 @@ print(my_dictonary["age"])
 
 ## 95. 직접 나만의 반복자(iterator)를 만들기
 
-```
+```python
 class OddNumbers:
     def __iter__(self):
         self.a = 1
@@ -1415,14 +1415,14 @@ print(next(iterator))  # 5
 
 `set()`을 활용한다.
 
-```
+```python
 my_set = set([1, 2, 1, 2, 3, 4, 5])
 print(list(my_set))  # [1, 2, 3, 4, 5]
 ```
 
 ## 97. 모듈 위치 확인/출력하기
 
-```
+```python
 import torch
 
 print(torch)  # <module 'torch' from '/Users/...'
@@ -1430,7 +1430,7 @@ print(torch)  # <module 'torch' from '/Users/...'
 
 ## 98. “not in”을 사용해 리스트에 있는지 확인하기
 
-```
+```python
 odd_numbers = [1, 3, 5, 7, 9]
 even_numbers = []
 
@@ -1445,7 +1445,7 @@ print(even_numbers)  # [0, 2, 4, 6, 8]
 
 `sort()`는 원본 목록을 정렬하는 반면, `sorted()`는 새로운 정렬된 목록을 반환해준다.
 
-```
+```python
 groceries = ['milk', 'bread', 'tea']
 
 new_groceries = sorted(groceries)
@@ -1468,7 +1468,7 @@ print(groceries)
 
 파이썬 내장 모듈 `uuid`가 있다.
 
-```
+```python
 import uuid
 
 # Generate a UUID from a host ID, sequence number, and the current time
