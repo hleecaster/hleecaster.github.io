@@ -1,6 +1,6 @@
 ---
 title: 『우리가 빛의 속도로 갈 수 없다면』
-date: 2025-07-07
+date: 2025-07-10
 categories: [LIFE, Books]
 ---
 
